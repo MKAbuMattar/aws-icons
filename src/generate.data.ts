@@ -26,6 +26,7 @@ import { RecursiveDirectory, recursiveDirectory } from 'recursive-directory';
 
   type ImportIcon = {
     CDN: CDN;
+    NPM: NPM;
   };
 
   const data: Data[] = [];
@@ -36,6 +37,7 @@ import { RecursiveDirectory, recursiveDirectory } from 'recursive-directory';
 
   let obj: Data;
   let cdn: CDN;
+  let npm: NPM;
 
   let jsdelivr = '';
   let unpkg = '';
@@ -69,8 +71,13 @@ import { RecursiveDirectory, recursiveDirectory } from 'recursive-directory';
       unpkg,
     };
 
+    npm = {
+      npm: `aws-icons/icons/${icon}`,
+    };
+
     importIcon = {
       CDN: cdn,
+      NPM: npm,
     };
 
     if (fullpath.includes('Architecture-Service-Icons')) {

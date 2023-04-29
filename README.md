@@ -68,12 +68,12 @@ pnpm add aws-icons
 ### React
 
 ```tsx
-import AmazonEC2 from 'aws-icons/icons/AmazonEC2.svg';
+import ArchitectureAmazonEC2 from 'aws-icons/icons/ArchitectureAmazonEC2.svg';
 
 const App = () => {
   return (
     <div>
-      <img src={AmazonEC2} alt="Amazon EC2" />
+      <img src={ArchitectureAmazonEC2} alt="Architecture Amazon EC2" />
     </div>
   );
 };
@@ -84,12 +84,12 @@ export default App;
 ### React/Next.js
 
 ```tsx
-import AmazonEC2 from 'aws-icons/icons/AmazonEC2.svg';
+import ArchitectureAmazonEC2 from 'aws-icons/icons/ArchitectureAmazonEC2.svg';
 
 const App = () => {
   return (
     <div>
-      <img src={AmazonEC2SVG.src} alt="Amazon EC2" />
+      <img src={ArchitectureAmazonEC2SVG.src} alt="Architecture Amazon EC2" />
     </div>
   );
 };
@@ -101,11 +101,11 @@ export default App;
 
 ```vue
 <script setup>
-import AmazonEC2 from 'aws-icons/icons/AmazonEC2.svg';
+import ArchitectureAmazonEC2 from 'aws-icons/icons/ArchitectureAmazonEC2.svg';
 </script>
 
 <template>
-  <AmazonEC2 />
+  <ArchitectureAmazonEC2 />
 </template>
 ```
 
@@ -113,11 +113,11 @@ import AmazonEC2 from 'aws-icons/icons/AmazonEC2.svg';
 
 ```svelte
 <script>
-  import AmazonEC2 from 'aws-icons/icons/AmazonEC2.svg';
+  import ArchitectureAmazonEC2 from 'aws-icons/icons/ArchitectureAmazonEC2.svg';
 </script>
 
 <main>
-  <img src={AmazonEC2} alt="Amazon EC2" />
+  <img src={ArchitectureAmazonEC2} alt="Architecture Amazon EC2" />
 </main>
 ```
 
@@ -126,12 +126,12 @@ import AmazonEC2 from 'aws-icons/icons/AmazonEC2.svg';
 ```tsx
 import type { Component } from 'solid-js';
 
-import AmazonEC2 from 'aws-icons/icons/AmazonEC2.svg';
+import ArchitectureAmazonEC2 from 'aws-icons/icons/ArchitectureAmazonEC2.svg';
 
 const App: Component = () => {
   return (
     <div>
-      <img src={AmazonEC2} alt="Amazon EC2" />
+      <img src={ArchitectureAmazonEC2} alt="Architecture Amazon EC2" />
     </div>
   );
 };
@@ -151,7 +151,7 @@ export default App;
 
   <body>
     <img
-      src="https://unpkg.com/aws-icons@latest/icons/AmazonEC2.svg"
+      src="https://unpkg.com/aws-icons@latest/icons/ArchitectureAmazonEC2.svg"
       alt="Amazon EC2"
       type="image/svg+xml"
     />

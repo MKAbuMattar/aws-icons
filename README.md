@@ -58,7 +58,7 @@ pnpm add aws-icons
 
 <!-- jsdelivr -->
 <img
-  src="https://cdn.jsdelivr.net/gh/mkabumattar/aws-icons@latest/icons/ICON_SVG_NAME.svg"
+  src="https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/ICON_SVG_NAME.svg"
   alt="AWS Icons"
 />
 ```

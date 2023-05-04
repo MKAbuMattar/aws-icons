@@ -73,7 +73,7 @@ import { RecursiveDirectory, recursiveDirectory } from 'recursive-directory';
 
     icon = `${prefix}${filename}`;
 
-    jsdelivr = `https://cdn.jsdelivr.net/gh/mkabumattar/aws-icons@latest/icons/${icon}`;
+    jsdelivr = `https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/${icon}`;
     unpkg = `https://unpkg.com/aws-icons@latest/icons/${icon}`;
 
     cdn = {

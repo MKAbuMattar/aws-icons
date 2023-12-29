@@ -1,4 +1,5 @@
-module.exports = {
+/** @type {import('svgo').Config} */
+const svgoConfig = {
   plugins: [
     {
       name: 'preset-default',
@@ -13,3 +14,5 @@ module.exports = {
     'removeDimensions',
   ],
 };
+
+module.exports = svgoConfig;

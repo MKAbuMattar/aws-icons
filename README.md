@@ -52,13 +52,13 @@ pnpm add aws-icons
 ```html
 <!-- unpkg -->
 <img
-  src="https://unpkg.com/aws-icons@latest/icons/ICON_SVG_NAME.svg"
+  src="https://unpkg.com/aws-icons@latest/icons/CATEGORY/ICON_SVG_NAME.svg"
   alt="AWS Icons"
 />
 
 <!-- jsdelivr -->
 <img
-  src="https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/ICON_SVG_NAME.svg"
+  src="https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/CATEGORY/ICON_SVG_NAME.svg"
   alt="AWS Icons"
 />
 ```
@@ -68,12 +68,12 @@ pnpm add aws-icons
 ### React
 
 ```tsx
-import ArchitectureAmazonEC2 from 'aws-icons/icons/ArchitectureAmazonEC2.svg';
+import AmazonEC2 from 'aws-icons/icons/architecture-service/AmazonEC2.svg';
 
 const App = () => {
   return (
     <div>
-      <img src={ArchitectureAmazonEC2} alt="Architecture Amazon EC2" />
+      <img src={AmazonEC2} alt="Architecture Amazon EC2" />
     </div>
   );
 };
@@ -81,15 +81,15 @@ const App = () => {
 export default App;
 ```
 
-### React/Next.js
+### Next.js
 
 ```tsx
-import ArchitectureAmazonEC2 from 'aws-icons/icons/ArchitectureAmazonEC2.svg';
+import AmazonEC2 from 'aws-icons/icons/architecture-service/AmazonEC2.svg';
 
 const App = () => {
   return (
     <div>
-      <img src={ArchitectureAmazonEC2SVG.src} alt="Architecture Amazon EC2" />
+      <img src={AmazonEC2SVG.src} alt="Architecture Amazon EC2" />
     </div>
   );
 };
@@ -101,11 +101,11 @@ export default App;
 
 ```vue
 <script setup>
-import ArchitectureAmazonEC2 from 'aws-icons/icons/ArchitectureAmazonEC2.svg';
+import AmazonEC2 from 'aws-icons/icons/architecture-service/AmazonEC2.svg';
 </script>
 
 <template>
-  <ArchitectureAmazonEC2 />
+  <AmazonEC2 />
 </template>
 ```
 
@@ -113,11 +113,11 @@ import ArchitectureAmazonEC2 from 'aws-icons/icons/ArchitectureAmazonEC2.svg';
 
 ```svelte
 <script>
-  import ArchitectureAmazonEC2 from 'aws-icons/icons/ArchitectureAmazonEC2.svg';
+  import AmazonEC2 from 'aws-icons/icons/architecture-service/AmazonEC2.svg';
 </script>
 
 <main>
-  <img src={ArchitectureAmazonEC2} alt="Architecture Amazon EC2" />
+  <img src={AmazonEC2} alt="Architecture Amazon EC2" />
 </main>
 ```
 
@@ -126,12 +126,12 @@ import ArchitectureAmazonEC2 from 'aws-icons/icons/ArchitectureAmazonEC2.svg';
 ```tsx
 import type { Component } from 'solid-js';
 
-import ArchitectureAmazonEC2 from 'aws-icons/icons/ArchitectureAmazonEC2.svg';
+import AmazonEC2 from 'aws-icons/icons/architecture-service/AmazonEC2.svg';
 
 const App: Component = () => {
   return (
     <div>
-      <img src={ArchitectureAmazonEC2} alt="Architecture Amazon EC2" />
+      <img src={AmazonEC2} alt="Architecture Amazon EC2" />
     </div>
   );
 };
@@ -142,7 +142,7 @@ export default App;
 ### HTML
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 
 <html lang="en">
   <head>
@@ -151,7 +151,7 @@ export default App;
 
   <body>
     <img
-      src="https://unpkg.com/aws-icons@latest/icons/ArchitectureAmazonEC2.svg"
+      src="https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonEC2.svg"
       alt="Amazon EC2"
       type="image/svg+xml"
     />

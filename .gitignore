@@ -1,5 +1,7 @@
 node_modules
 
+.tmp
+
 aws-icons
 build
 icons

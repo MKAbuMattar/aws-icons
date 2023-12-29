@@ -1,5 +1,5 @@
 /** @type {import("eslint").Linter.Config} */
-module.exports = {
+const eslintConfig = {
   env: {
     browser: false,
     es2021: true,
@@ -45,3 +45,5 @@ module.exports = {
     semi: ['error', 'always'],
   },
 };
+
+module.exports = eslintConfig;

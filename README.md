@@ -9,7 +9,7 @@
 
   <br/>
 
-  <p>AWS Icons, a Icons library for AWS icons based on the official AWS icon set (SVG), Build from <a href="https://aws.amazon.com/architecture/icons/">AWS Architecture Icons</a></p>
+  <p>AWS Icons, a Icons library for AWS icons based on the official AWS icon set (SVG), Build from <a href="https://aws.amazon.com/architecture/icons/"><span>AWS Architecture Icons | Version Q1 2024</span></a></p>
 </div>
 
 <div align="center">
@@ -99,7 +99,7 @@ export default App;
 
 ### Vue.js
 
-```vue
+```jsx
 <script setup>
 import AmazonEC2 from 'aws-icons/icons/architecture-service/AmazonEC2.svg';
 </script>
@@ -111,7 +111,7 @@ import AmazonEC2 from 'aws-icons/icons/architecture-service/AmazonEC2.svg';
 
 ### Svelte
 
-```svelte
+```jsx
 <script>
   import AmazonEC2 from 'aws-icons/icons/architecture-service/AmazonEC2.svg';
 </script>

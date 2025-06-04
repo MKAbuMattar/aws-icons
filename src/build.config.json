@@ -239,6 +239,20 @@
       "categorys": ["Architecture Service", "Analytics"]
     },
     {
+      "name": "Amazon Data Firehose",
+      "icon": "architecture-service/AmazonDataFirehose.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonDataFirehose.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonDataFirehose.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonDataFirehose.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Analytics"]
+    },
+    {
       "name": "Amazon Data Zone",
       "icon": "architecture-service/AmazonDataZone.svg",
       "importIcon": {
@@ -290,20 +304,6 @@
         },
         "NPM": {
           "npm": "aws-icons/icons/architecture-service/AmazonKinesis.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Analytics"]
-    },
-    {
-      "name": "Amazon Kinesis Data Firehose",
-      "icon": "architecture-service/AmazonKinesisDataFirehose.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonKinesisDataFirehose.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonKinesisDataFirehose.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonKinesisDataFirehose.svg"
         }
       },
       "categorys": ["Architecture Service", "Analytics"]
@@ -407,6 +407,20 @@
       "categorys": ["Architecture Service", "Analytics"]
     },
     {
+      "name": "Amazon Sage Maker",
+      "icon": "architecture-service/AmazonSageMaker.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonSageMaker.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonSageMaker.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonSageMaker.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Analytics"]
+    },
+    {
       "name": "AWS Clean Rooms",
       "icon": "architecture-service/AWSCleanRooms.svg",
       "importIcon": {
@@ -430,20 +444,6 @@
         },
         "NPM": {
           "npm": "aws-icons/icons/architecture-service/AWSDataExchange.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Analytics"]
-    },
-    {
-      "name": "AWS Data Pipeline",
-      "icon": "architecture-service/AWSDataPipeline.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSDataPipeline.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSDataPipeline.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSDataPipeline.svg"
         }
       },
       "categorys": ["Architecture Service", "Analytics"]
@@ -491,20 +491,6 @@
       "categorys": ["Architecture Service", "Analytics"]
     },
     {
-      "name": "AWS Glue Elastic Views",
-      "icon": "architecture-service/AWSGlueElasticViews.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSGlueElasticViews.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSGlueElasticViews.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSGlueElasticViews.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Analytics"]
-    },
-    {
       "name": "AWS Lake Formation",
       "icon": "architecture-service/AWSLakeFormation.svg",
       "importIcon": {
@@ -517,20 +503,6 @@
         }
       },
       "categorys": ["Architecture Service", "Analytics"]
-    },
-    {
-      "name": "Amazon API Gateway",
-      "icon": "architecture-service/AmazonAPIGateway.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonAPIGateway.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonAPIGateway.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonAPIGateway.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "App Integration"]
     },
     {
       "name": "Amazon App Flow",
@@ -645,20 +617,6 @@
       "categorys": ["Architecture Service", "App Integration"]
     },
     {
-      "name": "AWS Console Mobile Application",
-      "icon": "architecture-service/AWSConsoleMobileApplication.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSConsoleMobileApplication.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSConsoleMobileApplication.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSConsoleMobileApplication.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "App Integration"]
-    },
-    {
       "name": "AWS Express Workflows",
       "icon": "architecture-service/AWSExpressWorkflows.svg",
       "importIcon": {
@@ -685,6 +643,594 @@
         }
       },
       "categorys": ["Architecture Service", "App Integration"]
+    },
+    {
+      "name": "Amazon Augmented AI A2I",
+      "icon": "architecture-service/AmazonAugmentedAIA2I.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonAugmentedAIA2I.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonAugmentedAIA2I.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonAugmentedAIA2I.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Bedrock",
+      "icon": "architecture-service/AmazonBedrock.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonBedrock.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonBedrock.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonBedrock.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Code Guru",
+      "icon": "architecture-service/AmazonCodeGuru.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonCodeGuru.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonCodeGuru.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonCodeGuru.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Code Whisperer",
+      "icon": "architecture-service/AmazonCodeWhisperer.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonCodeWhisperer.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonCodeWhisperer.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonCodeWhisperer.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Comprehend",
+      "icon": "architecture-service/AmazonComprehend.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonComprehend.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonComprehend.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonComprehend.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Comprehend Medical",
+      "icon": "architecture-service/AmazonComprehendMedical.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonComprehendMedical.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonComprehendMedical.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonComprehendMedical.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Dev Ops Guru",
+      "icon": "architecture-service/AmazonDevOpsGuru.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonDevOpsGuru.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonDevOpsGuru.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonDevOpsGuru.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Elastic Inference",
+      "icon": "architecture-service/AmazonElasticInference.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonElasticInference.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonElasticInference.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonElasticInference.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Forecast",
+      "icon": "architecture-service/AmazonForecast.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonForecast.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonForecast.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonForecast.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Fraud Detector",
+      "icon": "architecture-service/AmazonFraudDetector.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonFraudDetector.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonFraudDetector.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonFraudDetector.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Kendra",
+      "icon": "architecture-service/AmazonKendra.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonKendra.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonKendra.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonKendra.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Lex",
+      "icon": "architecture-service/AmazonLex.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonLex.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonLex.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonLex.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Lookoutfor Equipment",
+      "icon": "architecture-service/AmazonLookoutforEquipment.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonLookoutforEquipment.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonLookoutforEquipment.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonLookoutforEquipment.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Lookoutfor Metrics",
+      "icon": "architecture-service/AmazonLookoutforMetrics.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonLookoutforMetrics.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonLookoutforMetrics.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonLookoutforMetrics.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Lookoutfor Vision",
+      "icon": "architecture-service/AmazonLookoutforVision.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonLookoutforVision.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonLookoutforVision.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonLookoutforVision.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Monitron",
+      "icon": "architecture-service/AmazonMonitron.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonMonitron.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonMonitron.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonMonitron.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Nova",
+      "icon": "architecture-service/AmazonNova.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonNova.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonNova.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonNova.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Personalize",
+      "icon": "architecture-service/AmazonPersonalize.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonPersonalize.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonPersonalize.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonPersonalize.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Polly",
+      "icon": "architecture-service/AmazonPolly.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonPolly.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonPolly.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonPolly.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Q",
+      "icon": "architecture-service/AmazonQ.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonQ.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonQ.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonQ.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Rekognition",
+      "icon": "architecture-service/AmazonRekognition.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonRekognition.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonRekognition.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonRekognition.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Sage Maker AI",
+      "icon": "architecture-service/AmazonSageMakerAI.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonSageMakerAI.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonSageMakerAI.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonSageMakerAI.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Sage Maker Ground Truth",
+      "icon": "architecture-service/AmazonSageMakerGroundTruth.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonSageMakerGroundTruth.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonSageMakerGroundTruth.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonSageMakerGroundTruth.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Sage Maker Studio Lab",
+      "icon": "architecture-service/AmazonSageMakerStudioLab.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonSageMakerStudioLab.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonSageMakerStudioLab.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonSageMakerStudioLab.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Textract",
+      "icon": "architecture-service/AmazonTextract.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonTextract.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonTextract.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonTextract.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Transcribe",
+      "icon": "architecture-service/AmazonTranscribe.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonTranscribe.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonTranscribe.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonTranscribe.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Translate",
+      "icon": "architecture-service/AmazonTranslate.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonTranslate.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonTranslate.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonTranslate.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Apache MX Neton AWS",
+      "icon": "architecture-service/ApacheMXNetonAWS.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/ApacheMXNetonAWS.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/ApacheMXNetonAWS.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/ApacheMXNetonAWS.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "AWS App Studio",
+      "icon": "architecture-service/AWSAppStudio.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSAppStudio.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSAppStudio.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSAppStudio.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "AWS Deep Composer",
+      "icon": "architecture-service/AWSDeepComposer.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSDeepComposer.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSDeepComposer.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSDeepComposer.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "AWS Deep Learning AM Is",
+      "icon": "architecture-service/AWSDeepLearningAMIs.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSDeepLearningAMIs.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSDeepLearningAMIs.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSDeepLearningAMIs.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "AWS Deep Learning Containers",
+      "icon": "architecture-service/AWSDeepLearningContainers.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSDeepLearningContainers.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSDeepLearningContainers.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSDeepLearningContainers.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "AWS Deep Lens",
+      "icon": "architecture-service/AWSDeepLens.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSDeepLens.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSDeepLens.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSDeepLens.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "AWS Deep Racer",
+      "icon": "architecture-service/AWSDeepRacer.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSDeepRacer.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSDeepRacer.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSDeepRacer.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "AWS Health Imaging",
+      "icon": "architecture-service/AWSHealthImaging.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSHealthImaging.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSHealthImaging.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSHealthImaging.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "AWS Health Lake",
+      "icon": "architecture-service/AWSHealthLake.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSHealthLake.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSHealthLake.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSHealthLake.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "AWS Health Omics",
+      "icon": "architecture-service/AWSHealthOmics.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSHealthOmics.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSHealthOmics.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSHealthOmics.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "AWS Health Scribe",
+      "icon": "architecture-service/AWSHealthScribe.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSHealthScribe.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSHealthScribe.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSHealthScribe.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "AWS Neuron",
+      "icon": "architecture-service/AWSNeuron.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSNeuron.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSNeuron.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSNeuron.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "AWS Panorama",
+      "icon": "architecture-service/AWSPanorama.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSPanorama.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSPanorama.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSPanorama.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Py Torchon AWS",
+      "icon": "architecture-service/PyTorchonAWS.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/PyTorchonAWS.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/PyTorchonAWS.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/PyTorchonAWS.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
+    },
+    {
+      "name": "Tensor Flowon AWS",
+      "icon": "architecture-service/TensorFlowonAWS.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/TensorFlowonAWS.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/TensorFlowonAWS.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/TensorFlowonAWS.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Artificial Intelligence"]
     },
     {
       "name": "Amazon Managed Blockchain",
@@ -766,20 +1312,6 @@
         },
         "NPM": {
           "npm": "aws-icons/icons/architecture-service/AmazonConnect.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Business Applications"]
-    },
-    {
-      "name": "Amazon Honeycode",
-      "icon": "architecture-service/AmazonHoneycode.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonHoneycode.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonHoneycode.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonHoneycode.svg"
         }
       },
       "categorys": ["Architecture Service", "Business Applications"]
@@ -883,6 +1415,20 @@
       "categorys": ["Architecture Service", "Business Applications"]
     },
     {
+      "name": "AWS End User Messaging",
+      "icon": "architecture-service/AWSEndUserMessaging.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSEndUserMessaging.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSEndUserMessaging.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSEndUserMessaging.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Business Applications"]
+    },
+    {
       "name": "AWS Supply Chain",
       "icon": "architecture-service/AWSSupplyChain.svg",
       "importIcon": {
@@ -909,20 +1455,6 @@
         }
       },
       "categorys": ["Architecture Service", "Business Applications"]
-    },
-    {
-      "name": "AWS Application Cost Profiler",
-      "icon": "architecture-service/AWSApplicationCostProfiler.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSApplicationCostProfiler.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSApplicationCostProfiler.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSApplicationCostProfiler.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Cloud Financial Management"]
     },
     {
       "name": "AWS Billing Conductor",
@@ -1009,6 +1541,20 @@
       "categorys": ["Architecture Service", "Cloud Financial Management"]
     },
     {
+      "name": "Amazon DCV",
+      "icon": "architecture-service/AmazonDCV.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonDCV.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonDCV.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonDCV.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Compute"]
+    },
+    {
       "name": "Amazon EC2",
       "icon": "architecture-service/AmazonEC2.svg",
       "importIcon": {
@@ -1046,20 +1592,6 @@
         },
         "NPM": {
           "npm": "aws-icons/icons/architecture-service/AmazonEC2ImageBuilder.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Compute"]
-    },
-    {
-      "name": "Amazon Genomics CLI",
-      "icon": "architecture-service/AmazonGenomicsCLI.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonGenomicsCLI.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonGenomicsCLI.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonGenomicsCLI.svg"
         }
       },
       "categorys": ["Architecture Service", "Compute"]
@@ -1247,6 +1779,20 @@
       "categorys": ["Architecture Service", "Compute"]
     },
     {
+      "name": "AWS Parallel Computing Service",
+      "icon": "architecture-service/AWSParallelComputingService.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSParallelComputingService.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSParallelComputingService.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSParallelComputingService.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Compute"]
+    },
+    {
       "name": "AWS Serverless Application Repository",
       "icon": "architecture-service/AWSServerlessApplicationRepository.svg",
       "importIcon": {
@@ -1270,90 +1816,6 @@
         },
         "NPM": {
           "npm": "aws-icons/icons/architecture-service/AWSSimSpaceWeaver.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Compute"]
-    },
-    {
-      "name": "AWS Thinkbox Deadline",
-      "icon": "architecture-service/AWSThinkboxDeadline.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSThinkboxDeadline.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSThinkboxDeadline.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSThinkboxDeadline.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Compute"]
-    },
-    {
-      "name": "AWS Thinkbox Frost",
-      "icon": "architecture-service/AWSThinkboxFrost.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSThinkboxFrost.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSThinkboxFrost.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSThinkboxFrost.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Compute"]
-    },
-    {
-      "name": "AWS Thinkbox Krakatoa",
-      "icon": "architecture-service/AWSThinkboxKrakatoa.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSThinkboxKrakatoa.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSThinkboxKrakatoa.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSThinkboxKrakatoa.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Compute"]
-    },
-    {
-      "name": "AWS Thinkbox Sequoia",
-      "icon": "architecture-service/AWSThinkboxSequoia.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSThinkboxSequoia.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSThinkboxSequoia.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSThinkboxSequoia.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Compute"]
-    },
-    {
-      "name": "AWS Thinkbox Stoke",
-      "icon": "architecture-service/AWSThinkboxStoke.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSThinkboxStoke.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSThinkboxStoke.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSThinkboxStoke.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Compute"]
-    },
-    {
-      "name": "AWS Thinkbox XMesh",
-      "icon": "architecture-service/AWSThinkboxXMesh.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSThinkboxXMesh.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSThinkboxXMesh.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSThinkboxXMesh.svg"
         }
       },
       "categorys": ["Architecture Service", "Compute"]
@@ -1401,20 +1863,6 @@
       "categorys": ["Architecture Service", "Compute"]
     },
     {
-      "name": "NICEDCV",
-      "icon": "architecture-service/NICEDCV.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/NICEDCV.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/NICEDCV.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/NICEDCV.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Compute"]
-    },
-    {
       "name": "NICE Engin Frame",
       "icon": "architecture-service/NICEEnginFrame.svg",
       "importIcon": {
@@ -1424,20 +1872,6 @@
         },
         "NPM": {
           "npm": "aws-icons/icons/architecture-service/NICEEnginFrame.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Compute"]
-    },
-    {
-      "name": "VMware Cloudon AWS",
-      "icon": "architecture-service/VMwareCloudonAWS.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/VMwareCloudonAWS.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/VMwareCloudonAWS.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/VMwareCloudonAWS.svg"
         }
       },
       "categorys": ["Architecture Service", "Compute"]
@@ -1751,15 +2185,15 @@
       "categorys": ["Architecture Service", "Database"]
     },
     {
-      "name": "Amazon Memory DBfor Redis",
-      "icon": "architecture-service/AmazonMemoryDBforRedis.svg",
+      "name": "Amazon Memory DB",
+      "icon": "architecture-service/AmazonMemoryDB.svg",
       "importIcon": {
         "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonMemoryDBforRedis.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonMemoryDBforRedis.svg"
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonMemoryDB.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonMemoryDB.svg"
         },
         "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonMemoryDBforRedis.svg"
+          "npm": "aws-icons/icons/architecture-service/AmazonMemoryDB.svg"
         }
       },
       "categorys": ["Architecture Service", "Database"]
@@ -1793,20 +2227,6 @@
       "categorys": ["Architecture Service", "Database"]
     },
     {
-      "name": "Amazon RD Son VMware",
-      "icon": "architecture-service/AmazonRDSonVMware.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonRDSonVMware.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonRDSonVMware.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonRDSonVMware.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Database"]
-    },
-    {
       "name": "Amazon Timestream",
       "icon": "architecture-service/AmazonTimestream.svg",
       "importIcon": {
@@ -1835,6 +2255,20 @@
       "categorys": ["Architecture Service", "Database", "DMS"]
     },
     {
+      "name": "Oracle Databaseat AWS",
+      "icon": "architecture-service/OracleDatabaseatAWS.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/OracleDatabaseatAWS.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/OracleDatabaseatAWS.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/OracleDatabaseatAWS.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Database"]
+    },
+    {
       "name": "Amazon Code Catalyst",
       "icon": "architecture-service/AmazonCodeCatalyst.svg",
       "importIcon": {
@@ -1858,20 +2292,6 @@
         },
         "NPM": {
           "npm": "aws-icons/icons/architecture-service/AmazonCorretto.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Developer Tools"]
-    },
-    {
-      "name": "AWS Application Composer",
-      "icon": "architecture-service/AWSApplicationComposer.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSApplicationComposer.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSApplicationComposer.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSApplicationComposer.svg"
         }
       },
       "categorys": ["Architecture Service", "Developer Tools"]
@@ -2003,20 +2423,6 @@
       "categorys": ["Architecture Service", "Developer Tools"]
     },
     {
-      "name": "AWS Code Star",
-      "icon": "architecture-service/AWSCodeStar.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSCodeStar.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSCodeStar.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSCodeStar.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Developer Tools"]
-    },
-    {
       "name": "AWS Command Line Interface",
       "icon": "architecture-service/AWSCommandLineInterface.svg",
       "importIcon": {
@@ -2026,6 +2432,34 @@
         },
         "NPM": {
           "npm": "aws-icons/icons/architecture-service/AWSCommandLineInterface.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Developer Tools"]
+    },
+    {
+      "name": "AWS Fault Injection Service",
+      "icon": "architecture-service/AWSFaultInjectionService.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSFaultInjectionService.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSFaultInjectionService.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSFaultInjectionService.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Developer Tools"]
+    },
+    {
+      "name": "AWS Infrastructure Composer",
+      "icon": "architecture-service/AWSInfrastructureComposer.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSInfrastructureComposer.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSInfrastructureComposer.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSInfrastructureComposer.svg"
         }
       },
       "categorys": ["Architecture Service", "Developer Tools"]
@@ -2059,29 +2493,15 @@
       "categorys": ["Architecture Service", "Developer Tools"]
     },
     {
-      "name": "Amazon App Stream",
-      "icon": "architecture-service/AmazonAppStream.svg",
+      "name": "Amazon App Stream2",
+      "icon": "architecture-service/AmazonAppStream2.svg",
       "importIcon": {
         "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonAppStream.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonAppStream.svg"
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonAppStream2.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonAppStream2.svg"
         },
         "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonAppStream.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "End User Computing"]
-    },
-    {
-      "name": "Amazon Work Link",
-      "icon": "architecture-service/AmazonWorkLink.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonWorkLink.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonWorkLink.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonWorkLink.svg"
+          "npm": "aws-icons/icons/architecture-service/AmazonAppStream2.svg"
         }
       },
       "categorys": ["Architecture Service", "End User Computing"]
@@ -2096,20 +2516,6 @@
         },
         "NPM": {
           "npm": "aws-icons/icons/architecture-service/AmazonWorkSpacesFamily.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "End User Computing"]
-    },
-    {
-      "name": "Amazon Work Spaces Thin Client",
-      "icon": "architecture-service/AmazonWorkSpacesThinClient.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonWorkSpacesThinClient.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonWorkSpacesThinClient.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonWorkSpacesThinClient.svg"
         }
       },
       "categorys": ["Architecture Service", "End User Computing"]
@@ -2171,34 +2577,6 @@
       "categorys": ["Architecture Service", "Games"]
     },
     {
-      "name": "Amazon Game Sparks",
-      "icon": "architecture-service/AmazonGameSparks.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonGameSparks.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonGameSparks.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonGameSparks.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Games"]
-    },
-    {
-      "name": "AWS Game Kit",
-      "icon": "architecture-service/AWSGameKit.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSGameKit.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSGameKit.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSGameKit.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Games"]
-    },
-    {
       "name": "Open3DEngine",
       "icon": "architecture-service/Open3DEngine.svg",
       "importIcon": {
@@ -2239,20 +2617,6 @@
         }
       },
       "categorys": ["Architecture Service", "General Icons"]
-    },
-    {
-      "name": "AWS IoT 1Click",
-      "icon": "architecture-service/AWSIoT1Click.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSIoT1Click.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSIoT1Click.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSIoT1Click.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Internet of Things", "IoT"]
     },
     {
       "name": "AWS IoT Analytics",
@@ -2381,20 +2745,6 @@
       "categorys": ["Architecture Service", "Internet of Things", "IoT"]
     },
     {
-      "name": "AWS IoT Robo Runner",
-      "icon": "architecture-service/AWSIoTRoboRunner.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSIoTRoboRunner.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSIoTRoboRunner.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSIoTRoboRunner.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Internet of Things", "IoT"]
-    },
-    {
       "name": "AWS IoT Site Wise",
       "icon": "architecture-service/AWSIoTSiteWise.svg",
       "importIcon": {
@@ -2404,20 +2754,6 @@
         },
         "NPM": {
           "npm": "aws-icons/icons/architecture-service/AWSIoTSiteWise.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Internet of Things", "IoT"]
-    },
-    {
-      "name": "AWS IoT Things Graph",
-      "icon": "architecture-service/AWSIoTThingsGraph.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSIoTThingsGraph.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSIoTThingsGraph.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSIoTThingsGraph.svg"
         }
       },
       "categorys": ["Architecture Service", "Internet of Things", "IoT"]
@@ -2449,566 +2785,6 @@
         }
       },
       "categorys": ["Architecture Service", "Internet of Things", "IoT"]
-    },
-    {
-      "name": "Amazon Augmented AI A2I",
-      "icon": "architecture-service/AmazonAugmentedAIA2I.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonAugmentedAIA2I.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonAugmentedAIA2I.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonAugmentedAIA2I.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Bedrock",
-      "icon": "architecture-service/AmazonBedrock.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonBedrock.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonBedrock.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonBedrock.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Code Guru",
-      "icon": "architecture-service/AmazonCodeGuru.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonCodeGuru.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonCodeGuru.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonCodeGuru.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Code Whisperer",
-      "icon": "architecture-service/AmazonCodeWhisperer.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonCodeWhisperer.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonCodeWhisperer.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonCodeWhisperer.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Comprehend",
-      "icon": "architecture-service/AmazonComprehend.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonComprehend.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonComprehend.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonComprehend.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Comprehend Medical",
-      "icon": "architecture-service/AmazonComprehendMedical.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonComprehendMedical.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonComprehendMedical.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonComprehendMedical.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Dev Ops Guru",
-      "icon": "architecture-service/AmazonDevOpsGuru.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonDevOpsGuru.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonDevOpsGuru.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonDevOpsGuru.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Elastic Inference",
-      "icon": "architecture-service/AmazonElasticInference.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonElasticInference.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonElasticInference.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonElasticInference.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Forecast",
-      "icon": "architecture-service/AmazonForecast.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonForecast.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonForecast.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonForecast.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Fraud Detector",
-      "icon": "architecture-service/AmazonFraudDetector.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonFraudDetector.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonFraudDetector.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonFraudDetector.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Kendra",
-      "icon": "architecture-service/AmazonKendra.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonKendra.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonKendra.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonKendra.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Lex",
-      "icon": "architecture-service/AmazonLex.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonLex.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonLex.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonLex.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Lookoutfor Equipment",
-      "icon": "architecture-service/AmazonLookoutforEquipment.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonLookoutforEquipment.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonLookoutforEquipment.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonLookoutforEquipment.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Lookoutfor Metrics",
-      "icon": "architecture-service/AmazonLookoutforMetrics.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonLookoutforMetrics.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonLookoutforMetrics.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonLookoutforMetrics.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Lookoutfor Vision",
-      "icon": "architecture-service/AmazonLookoutforVision.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonLookoutforVision.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonLookoutforVision.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonLookoutforVision.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Monitron",
-      "icon": "architecture-service/AmazonMonitron.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonMonitron.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonMonitron.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonMonitron.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Personalize",
-      "icon": "architecture-service/AmazonPersonalize.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonPersonalize.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonPersonalize.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonPersonalize.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Polly",
-      "icon": "architecture-service/AmazonPolly.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonPolly.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonPolly.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonPolly.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Q",
-      "icon": "architecture-service/AmazonQ.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonQ.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonQ.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonQ.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Rekognition",
-      "icon": "architecture-service/AmazonRekognition.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonRekognition.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonRekognition.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonRekognition.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Sage Maker",
-      "icon": "architecture-service/AmazonSageMaker.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonSageMaker.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonSageMaker.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonSageMaker.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Sage Maker Ground Truth",
-      "icon": "architecture-service/AmazonSageMakerGroundTruth.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonSageMakerGroundTruth.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonSageMakerGroundTruth.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonSageMakerGroundTruth.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Sage Maker Studio Lab",
-      "icon": "architecture-service/AmazonSageMakerStudioLab.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonSageMakerStudioLab.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonSageMakerStudioLab.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonSageMakerStudioLab.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Textract",
-      "icon": "architecture-service/AmazonTextract.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonTextract.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonTextract.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonTextract.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Transcribe",
-      "icon": "architecture-service/AmazonTranscribe.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonTranscribe.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonTranscribe.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonTranscribe.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Translate",
-      "icon": "architecture-service/AmazonTranslate.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonTranslate.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonTranslate.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonTranslate.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Apache MX Neton AWS",
-      "icon": "architecture-service/ApacheMXNetonAWS.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/ApacheMXNetonAWS.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/ApacheMXNetonAWS.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/ApacheMXNetonAWS.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "AWS Deep Composer",
-      "icon": "architecture-service/AWSDeepComposer.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSDeepComposer.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSDeepComposer.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSDeepComposer.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "AWS Deep Learning AM Is",
-      "icon": "architecture-service/AWSDeepLearningAMIs.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSDeepLearningAMIs.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSDeepLearningAMIs.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSDeepLearningAMIs.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "AWS Deep Learning Containers",
-      "icon": "architecture-service/AWSDeepLearningContainers.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSDeepLearningContainers.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSDeepLearningContainers.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSDeepLearningContainers.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "AWS Deep Lens",
-      "icon": "architecture-service/AWSDeepLens.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSDeepLens.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSDeepLens.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSDeepLens.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "AWS Deep Racer",
-      "icon": "architecture-service/AWSDeepRacer.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSDeepRacer.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSDeepRacer.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSDeepRacer.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "AWS Health Imaging",
-      "icon": "architecture-service/AWSHealthImaging.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSHealthImaging.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSHealthImaging.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSHealthImaging.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "AWS Health Lake",
-      "icon": "architecture-service/AWSHealthLake.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSHealthLake.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSHealthLake.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSHealthLake.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "AWS Health Omics",
-      "icon": "architecture-service/AWSHealthOmics.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSHealthOmics.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSHealthOmics.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSHealthOmics.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "AWS Health Scribe",
-      "icon": "architecture-service/AWSHealthScribe.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSHealthScribe.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSHealthScribe.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSHealthScribe.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "AWS Neuron",
-      "icon": "architecture-service/AWSNeuron.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSNeuron.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSNeuron.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSNeuron.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "AWS Panorama",
-      "icon": "architecture-service/AWSPanorama.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSPanorama.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSPanorama.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSPanorama.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Tensor Flowon AWS",
-      "icon": "architecture-service/TensorFlowonAWS.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/TensorFlowonAWS.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/TensorFlowonAWS.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/TensorFlowonAWS.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
-    },
-    {
-      "name": "Torch Serve",
-      "icon": "architecture-service/TorchServe.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/TorchServe.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/TorchServe.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/TorchServe.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Machine Learning"]
     },
     {
       "name": "Amazon Cloud Watch",
@@ -3151,6 +2927,20 @@
       "categorys": ["Architecture Service", "Management Governance"]
     },
     {
+      "name": "AWS Compute Optimizer",
+      "icon": "architecture-service/AWSComputeOptimizer.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSComputeOptimizer.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSComputeOptimizer.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSComputeOptimizer.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Management Governance"]
+    },
+    {
       "name": "AWS Config",
       "icon": "architecture-service/AWSConfig.svg",
       "importIcon": {
@@ -3160,6 +2950,20 @@
         },
         "NPM": {
           "npm": "aws-icons/icons/architecture-service/AWSConfig.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Management Governance"]
+    },
+    {
+      "name": "AWS Console Mobile Application",
+      "icon": "architecture-service/AWSConsoleMobileApplication.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSConsoleMobileApplication.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSConsoleMobileApplication.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSConsoleMobileApplication.svg"
         }
       },
       "categorys": ["Architecture Service", "Management Governance"]
@@ -3188,20 +2992,6 @@
         },
         "NPM": {
           "npm": "aws-icons/icons/architecture-service/AWSDistroforOpenTelemetry.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Management Governance"]
-    },
-    {
-      "name": "AWS Fault Injection Simulator",
-      "icon": "architecture-service/AWSFaultInjectionSimulator.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSFaultInjectionSimulator.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSFaultInjectionSimulator.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSFaultInjectionSimulator.svg"
         }
       },
       "categorys": ["Architecture Service", "Management Governance"]
@@ -3258,20 +3048,6 @@
         },
         "NPM": {
           "npm": "aws-icons/icons/architecture-service/AWSManagementConsole.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Management Governance"]
-    },
-    {
-      "name": "AWS Ops Works",
-      "icon": "architecture-service/AWSOpsWorks.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSOpsWorks.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSOpsWorks.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSOpsWorks.svg"
         }
       },
       "categorys": ["Architecture Service", "Management Governance"]
@@ -3403,6 +3179,20 @@
       "categorys": ["Architecture Service", "Management Governance"]
     },
     {
+      "name": "AWS User Notifications",
+      "icon": "architecture-service/AWSUserNotifications.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSUserNotifications.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSUserNotifications.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSUserNotifications.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Management Governance"]
+    },
+    {
       "name": "AWS Well Architected Tool",
       "icon": "architecture-service/AWSWellArchitectedTool.svg",
       "importIcon": {
@@ -3459,15 +3249,15 @@
       "categorys": ["Architecture Service", "Media Services"]
     },
     {
-      "name": "Amazon Nimble Studio",
-      "icon": "architecture-service/AmazonNimbleStudio.svg",
+      "name": "AWS Deadline Cloud",
+      "icon": "architecture-service/AWSDeadlineCloud.svg",
       "importIcon": {
         "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonNimbleStudio.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonNimbleStudio.svg"
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSDeadlineCloud.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSDeadlineCloud.svg"
         },
         "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AmazonNimbleStudio.svg"
+          "npm": "aws-icons/icons/architecture-service/AWSDeadlineCloud.svg"
         }
       },
       "categorys": ["Architecture Service", "Media Services"]
@@ -3641,6 +3431,104 @@
       "categorys": ["Architecture Service", "Media Services"]
     },
     {
+      "name": "AWS Thinkbox Deadline",
+      "icon": "architecture-service/AWSThinkboxDeadline.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSThinkboxDeadline.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSThinkboxDeadline.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSThinkboxDeadline.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Media Services"]
+    },
+    {
+      "name": "AWS Thinkbox Frost",
+      "icon": "architecture-service/AWSThinkboxFrost.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSThinkboxFrost.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSThinkboxFrost.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSThinkboxFrost.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Media Services"]
+    },
+    {
+      "name": "AWS Thinkbox Krakatoa",
+      "icon": "architecture-service/AWSThinkboxKrakatoa.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSThinkboxKrakatoa.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSThinkboxKrakatoa.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSThinkboxKrakatoa.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Media Services"]
+    },
+    {
+      "name": "AWS Thinkbox Sequoia",
+      "icon": "architecture-service/AWSThinkboxSequoia.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSThinkboxSequoia.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSThinkboxSequoia.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSThinkboxSequoia.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Media Services"]
+    },
+    {
+      "name": "AWS Thinkbox Stoke",
+      "icon": "architecture-service/AWSThinkboxStoke.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSThinkboxStoke.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSThinkboxStoke.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSThinkboxStoke.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Media Services"]
+    },
+    {
+      "name": "AWS Thinkbox XMesh",
+      "icon": "architecture-service/AWSThinkboxXMesh.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSThinkboxXMesh.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSThinkboxXMesh.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSThinkboxXMesh.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Media Services"]
+    },
+    {
+      "name": "Amazon Elastic VMware Service",
+      "icon": "architecture-service/AmazonElasticVMwareService.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonElasticVMwareService.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonElasticVMwareService.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonElasticVMwareService.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Migration Modernization"]
+    },
+    {
       "name": "AWS Application Discovery Service",
       "icon": "architecture-service/AWSApplicationDiscoveryService.svg",
       "importIcon": {
@@ -3652,7 +3540,7 @@
           "npm": "aws-icons/icons/architecture-service/AWSApplicationDiscoveryService.svg"
         }
       },
-      "categorys": ["Architecture Service", "Migration Transfer"]
+      "categorys": ["Architecture Service", "Migration Modernization"]
     },
     {
       "name": "AWS Application Migration Service",
@@ -3666,7 +3554,7 @@
           "npm": "aws-icons/icons/architecture-service/AWSApplicationMigrationService.svg"
         }
       },
-      "categorys": ["Architecture Service", "Migration Transfer"]
+      "categorys": ["Architecture Service", "Migration Modernization"]
     },
     {
       "name": "AWS Data Sync",
@@ -3680,7 +3568,21 @@
           "npm": "aws-icons/icons/architecture-service/AWSDataSync.svg"
         }
       },
-      "categorys": ["Architecture Service", "Migration Transfer"]
+      "categorys": ["Architecture Service", "Migration Modernization"]
+    },
+    {
+      "name": "AWS Data Transfer Terminal",
+      "icon": "architecture-service/AWSDataTransferTerminal.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSDataTransferTerminal.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSDataTransferTerminal.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSDataTransferTerminal.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Migration Modernization"]
     },
     {
       "name": "AWS Mainframe Modernization",
@@ -3694,7 +3596,7 @@
           "npm": "aws-icons/icons/architecture-service/AWSMainframeModernization.svg"
         }
       },
-      "categorys": ["Architecture Service", "Migration Transfer"]
+      "categorys": ["Architecture Service", "Migration Modernization"]
     },
     {
       "name": "AWS Migration Evaluator",
@@ -3708,7 +3610,7 @@
           "npm": "aws-icons/icons/architecture-service/AWSMigrationEvaluator.svg"
         }
       },
-      "categorys": ["Architecture Service", "Migration Transfer"]
+      "categorys": ["Architecture Service", "Migration Modernization"]
     },
     {
       "name": "AWS Migration Hub",
@@ -3722,7 +3624,7 @@
           "npm": "aws-icons/icons/architecture-service/AWSMigrationHub.svg"
         }
       },
-      "categorys": ["Architecture Service", "Migration Transfer"]
+      "categorys": ["Architecture Service", "Migration Modernization"]
     },
     {
       "name": "AWS Transfer Family",
@@ -3736,7 +3638,35 @@
           "npm": "aws-icons/icons/architecture-service/AWSTransferFamily.svg"
         }
       },
-      "categorys": ["Architecture Service", "Migration Transfer"]
+      "categorys": ["Architecture Service", "Migration Modernization"]
+    },
+    {
+      "name": "Amazon API Gateway",
+      "icon": "architecture-service/AmazonAPIGateway.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonAPIGateway.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonAPIGateway.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonAPIGateway.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Networking Content Delivery"]
+    },
+    {
+      "name": "Amazon Application Recovery Controller",
+      "icon": "architecture-service/AmazonApplicationRecoveryController.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AmazonApplicationRecoveryController.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AmazonApplicationRecoveryController.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AmazonApplicationRecoveryController.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Networking Content Delivery"]
     },
     {
       "name": "Amazon Cloud Front",
@@ -4327,6 +4257,20 @@
       "categorys": ["Architecture Service", "Security Identity Compliance"]
     },
     {
+      "name": "AWS Security Incident Response",
+      "icon": "architecture-service/AWSSecurityIncidentResponse.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSSecurityIncidentResponse.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSSecurityIncidentResponse.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/architecture-service/AWSSecurityIncidentResponse.svg"
+        }
+      },
+      "categorys": ["Architecture Service", "Security Identity Compliance"]
+    },
+    {
       "name": "AWS Shield",
       "icon": "architecture-service/AWSShield.svg",
       "importIcon": {
@@ -4579,34 +4523,6 @@
       "categorys": ["Architecture Service", "Storage"]
     },
     {
-      "name": "AWS Snowcone",
-      "icon": "architecture-service/AWSSnowcone.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSSnowcone.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSSnowcone.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSSnowcone.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Storage"]
-    },
-    {
-      "name": "AWS Snowmobile",
-      "icon": "architecture-service/AWSSnowmobile.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/architecture-service/AWSSnowmobile.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/architecture-service/AWSSnowmobile.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/architecture-service/AWSSnowmobile.svg"
-        }
-      },
-      "categorys": ["Architecture Service", "Storage"]
-    },
-    {
       "name": "AWS Storage Gateway",
       "icon": "architecture-service/AWSStorageGateway.svg",
       "importIcon": {
@@ -4633,6 +4549,76 @@
         }
       },
       "categorys": ["Category", "Analytics"]
+    },
+    {
+      "name": "Application Integration",
+      "icon": "category/ApplicationIntegration.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/category/ApplicationIntegration.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/category/ApplicationIntegration.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/category/ApplicationIntegration.svg"
+        }
+      },
+      "categorys": ["Category", "Application Integration"]
+    },
+    {
+      "name": "Artificial Intelligence",
+      "icon": "category/ArtificialIntelligence.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/category/ArtificialIntelligence.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/category/ArtificialIntelligence.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/category/ArtificialIntelligence.svg"
+        }
+      },
+      "categorys": ["Category", "Artificial Intelligence"]
+    },
+    {
+      "name": "Blockchain",
+      "icon": "category/Blockchain.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/category/Blockchain.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/category/Blockchain.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/category/Blockchain.svg"
+        }
+      },
+      "categorys": ["Category", "Blockchain"]
+    },
+    {
+      "name": "Business Applications",
+      "icon": "category/BusinessApplications.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/category/BusinessApplications.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/category/BusinessApplications.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/category/BusinessApplications.svg"
+        }
+      },
+      "categorys": ["Category", "Business Applications"]
+    },
+    {
+      "name": "Cloud Financial Management",
+      "icon": "category/CloudFinancialManagement.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/category/CloudFinancialManagement.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/category/CloudFinancialManagement.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/category/CloudFinancialManagement.svg"
+        }
+      },
+      "categorys": ["Category", "Cloud Financial Management"]
     },
     {
       "name": "Compute",
@@ -4663,6 +4649,132 @@
       "categorys": ["Category", "Contact Center"]
     },
     {
+      "name": "Containers",
+      "icon": "category/Containers.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/category/Containers.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/category/Containers.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/category/Containers.svg"
+        }
+      },
+      "categorys": ["Category", "Containers"]
+    },
+    {
+      "name": "Customer Enablement",
+      "icon": "category/CustomerEnablement.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/category/CustomerEnablement.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/category/CustomerEnablement.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/category/CustomerEnablement.svg"
+        }
+      },
+      "categorys": ["Category", "Customer Enablement"]
+    },
+    {
+      "name": "Database",
+      "icon": "category/Database.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/category/Database.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/category/Database.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/category/Database.svg"
+        }
+      },
+      "categorys": ["Category", "Database"]
+    },
+    {
+      "name": "Developer Tools",
+      "icon": "category/DeveloperTools.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/category/DeveloperTools.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/category/DeveloperTools.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/category/DeveloperTools.svg"
+        }
+      },
+      "categorys": ["Category", "Developer Tools"]
+    },
+    {
+      "name": "End User Computing",
+      "icon": "category/EndUserComputing.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/category/EndUserComputing.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/category/EndUserComputing.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/category/EndUserComputing.svg"
+        }
+      },
+      "categorys": ["Category", "End User Computing"]
+    },
+    {
+      "name": "Front End Web Mobile",
+      "icon": "category/FrontEndWebMobile.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/category/FrontEndWebMobile.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/category/FrontEndWebMobile.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/category/FrontEndWebMobile.svg"
+        }
+      },
+      "categorys": ["Category", "Front End Web Mobile"]
+    },
+    {
+      "name": "Games",
+      "icon": "category/Games.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/category/Games.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/category/Games.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/category/Games.svg"
+        }
+      },
+      "categorys": ["Category", "Games"]
+    },
+    {
+      "name": "Internetof Things",
+      "icon": "category/InternetofThings.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/category/InternetofThings.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/category/InternetofThings.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/category/InternetofThings.svg"
+        }
+      },
+      "categorys": ["Category", "Internetof Things"]
+    },
+    {
+      "name": "Management Governance",
+      "icon": "category/ManagementGovernance.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/category/ManagementGovernance.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/category/ManagementGovernance.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/category/ManagementGovernance.svg"
+        }
+      },
+      "categorys": ["Category", "Management Governance"]
+    },
+    {
       "name": "Media Services",
       "icon": "category/MediaServices.svg",
       "importIcon": {
@@ -4675,6 +4787,34 @@
         }
       },
       "categorys": ["Category", "Media Services"]
+    },
+    {
+      "name": "Migration Modernization",
+      "icon": "category/MigrationModernization.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/category/MigrationModernization.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/category/MigrationModernization.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/category/MigrationModernization.svg"
+        }
+      },
+      "categorys": ["Category", "Migration Modernization"]
+    },
+    {
+      "name": "Networking Content Delivery",
+      "icon": "category/NetworkingContentDelivery.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/category/NetworkingContentDelivery.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/category/NetworkingContentDelivery.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/category/NetworkingContentDelivery.svg"
+        }
+      },
+      "categorys": ["Category", "Networking Content Delivery"]
     },
     {
       "name": "Quantum Technologies",
@@ -4705,6 +4845,20 @@
       "categorys": ["Category", "Robotics"]
     },
     {
+      "name": "Satellite",
+      "icon": "category/Satellite.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/category/Satellite.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/category/Satellite.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/category/Satellite.svg"
+        }
+      },
+      "categorys": ["Category", "Satellite"]
+    },
+    {
       "name": "Security Identity Compliance",
       "icon": "category/SecurityIdentityCompliance.svg",
       "importIcon": {
@@ -4717,6 +4871,20 @@
         }
       },
       "categorys": ["Category", "Security Identity Compliance"]
+    },
+    {
+      "name": "Serverless",
+      "icon": "category/Serverless.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/category/Serverless.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/category/Serverless.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/category/Serverless.svg"
+        }
+      },
+      "categorys": ["Category", "Serverless"]
     },
     {
       "name": "Storage",
@@ -5181,20 +5349,6 @@
       "categorys": ["Resource", "Analytics"]
     },
     {
-      "name": "Amazon API Gateway Endpoint",
-      "icon": "resource/AmazonAPIGatewayEndpoint.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonAPIGatewayEndpoint.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonAPIGatewayEndpoint.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/resource/AmazonAPIGatewayEndpoint.svg"
-        }
-      },
-      "categorys": ["Resource", "Application Integration"]
-    },
-    {
       "name": "Amazon Event Bridge Custom Event Bus",
       "icon": "resource/AmazonEventBridgeCustomEventBus.svg",
       "importIcon": {
@@ -5403,6 +5557,146 @@
         }
       },
       "categorys": ["Resource", "Application Integration"]
+    },
+    {
+      "name": "Amazon Dev Ops Guru Insights",
+      "icon": "resource/AmazonDevOpsGuruInsights.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonDevOpsGuruInsights.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonDevOpsGuruInsights.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/resource/AmazonDevOpsGuruInsights.svg"
+        }
+      },
+      "categorys": ["Resource", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Rekognition Image",
+      "icon": "resource/AmazonRekognitionImage.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonRekognitionImage.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonRekognitionImage.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/resource/AmazonRekognitionImage.svg"
+        }
+      },
+      "categorys": ["Resource", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Rekognition Video",
+      "icon": "resource/AmazonRekognitionVideo.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonRekognitionVideo.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonRekognitionVideo.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/resource/AmazonRekognitionVideo.svg"
+        }
+      },
+      "categorys": ["Resource", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Sage Maker Canvas",
+      "icon": "resource/AmazonSageMakerCanvas.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonSageMakerCanvas.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonSageMakerCanvas.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/resource/AmazonSageMakerCanvas.svg"
+        }
+      },
+      "categorys": ["Resource", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Sage Maker Geospatial ML",
+      "icon": "resource/AmazonSageMakerGeospatialML.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonSageMakerGeospatialML.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonSageMakerGeospatialML.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/resource/AmazonSageMakerGeospatialML.svg"
+        }
+      },
+      "categorys": ["Resource", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Sage Maker Model",
+      "icon": "resource/AmazonSageMakerModel.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonSageMakerModel.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonSageMakerModel.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/resource/AmazonSageMakerModel.svg"
+        }
+      },
+      "categorys": ["Resource", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Sage Maker Notebook",
+      "icon": "resource/AmazonSageMakerNotebook.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonSageMakerNotebook.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonSageMakerNotebook.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/resource/AmazonSageMakerNotebook.svg"
+        }
+      },
+      "categorys": ["Resource", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Sage Maker Shadow Testing",
+      "icon": "resource/AmazonSageMakerShadowTesting.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonSageMakerShadowTesting.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonSageMakerShadowTesting.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/resource/AmazonSageMakerShadowTesting.svg"
+        }
+      },
+      "categorys": ["Resource", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Sage Maker Train",
+      "icon": "resource/AmazonSageMakerTrain.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonSageMakerTrain.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonSageMakerTrain.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/resource/AmazonSageMakerTrain.svg"
+        }
+      },
+      "categorys": ["Resource", "Artificial Intelligence"]
+    },
+    {
+      "name": "Amazon Textract Analyze Lending",
+      "icon": "resource/AmazonTextractAnalyzeLending.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonTextractAnalyzeLending.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonTextractAnalyzeLending.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/resource/AmazonTextractAnalyzeLending.svg"
+        }
+      },
+      "categorys": ["Resource", "Artificial Intelligence"]
     },
     {
       "name": "Amazon Managed Blockchain Blockchain",
@@ -6189,6 +6483,20 @@
       "categorys": ["Resource", "Database"]
     },
     {
+      "name": "Amazon Elasti Cache Elasti Cachefor Valkey",
+      "icon": "resource/AmazonElastiCacheElastiCacheforValkey.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonElastiCacheElastiCacheforValkey.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonElastiCacheElastiCacheforValkey.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/resource/AmazonElastiCacheElastiCacheforValkey.svg"
+        }
+      },
+      "categorys": ["Resource", "Database"]
+    },
+    {
       "name": "Amazon RDS Blue Green Deployments",
       "icon": "resource/AmazonRDSBlueGreenDeployments.svg",
       "importIcon": {
@@ -6343,15 +6651,15 @@
       "categorys": ["Resource", "End User Computing"]
     },
     {
-      "name": "Amazon Work Spaces Family Amazon Work Spaces Web",
-      "icon": "resource/AmazonWorkSpacesFamilyAmazonWorkSpacesWeb.svg",
+      "name": "Amazon Work Spaces Family Amazon Work Spaces Secure Browser",
+      "icon": "resource/AmazonWorkSpacesFamilyAmazonWorkSpacesSecureBrowser.svg",
       "importIcon": {
         "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonWorkSpacesFamilyAmazonWorkSpacesWeb.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonWorkSpacesFamilyAmazonWorkSpacesWeb.svg"
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonWorkSpacesFamilyAmazonWorkSpacesSecureBrowser.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonWorkSpacesFamilyAmazonWorkSpacesSecureBrowser.svg"
         },
         "NPM": {
-          "npm": "aws-icons/icons/resource/AmazonWorkSpacesFamilyAmazonWorkSpacesWeb.svg"
+          "npm": "aws-icons/icons/resource/AmazonWorkSpacesFamilyAmazonWorkSpacesSecureBrowser.svg"
         }
       },
       "categorys": ["Resource", "End User Computing"]
@@ -8219,146 +8527,6 @@
       "categorys": ["Resource", "IoT"]
     },
     {
-      "name": "Amazon Dev Ops Guru Insights",
-      "icon": "resource/AmazonDevOpsGuruInsights.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonDevOpsGuruInsights.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonDevOpsGuruInsights.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/resource/AmazonDevOpsGuruInsights.svg"
-        }
-      },
-      "categorys": ["Resource", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Rekognition Image",
-      "icon": "resource/AmazonRekognitionImage.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonRekognitionImage.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonRekognitionImage.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/resource/AmazonRekognitionImage.svg"
-        }
-      },
-      "categorys": ["Resource", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Rekognition Video",
-      "icon": "resource/AmazonRekognitionVideo.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonRekognitionVideo.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonRekognitionVideo.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/resource/AmazonRekognitionVideo.svg"
-        }
-      },
-      "categorys": ["Resource", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Sage Maker Canvas",
-      "icon": "resource/AmazonSageMakerCanvas.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonSageMakerCanvas.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonSageMakerCanvas.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/resource/AmazonSageMakerCanvas.svg"
-        }
-      },
-      "categorys": ["Resource", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Sage Maker Geospatial ML",
-      "icon": "resource/AmazonSageMakerGeospatialML.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonSageMakerGeospatialML.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonSageMakerGeospatialML.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/resource/AmazonSageMakerGeospatialML.svg"
-        }
-      },
-      "categorys": ["Resource", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Sage Maker Model",
-      "icon": "resource/AmazonSageMakerModel.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonSageMakerModel.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonSageMakerModel.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/resource/AmazonSageMakerModel.svg"
-        }
-      },
-      "categorys": ["Resource", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Sage Maker Notebook",
-      "icon": "resource/AmazonSageMakerNotebook.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonSageMakerNotebook.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonSageMakerNotebook.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/resource/AmazonSageMakerNotebook.svg"
-        }
-      },
-      "categorys": ["Resource", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Sage Maker Shadow Testing",
-      "icon": "resource/AmazonSageMakerShadowTesting.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonSageMakerShadowTesting.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonSageMakerShadowTesting.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/resource/AmazonSageMakerShadowTesting.svg"
-        }
-      },
-      "categorys": ["Resource", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Sage Maker Train",
-      "icon": "resource/AmazonSageMakerTrain.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonSageMakerTrain.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonSageMakerTrain.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/resource/AmazonSageMakerTrain.svg"
-        }
-      },
-      "categorys": ["Resource", "Machine Learning"]
-    },
-    {
-      "name": "Amazon Textract Analyze Lending",
-      "icon": "resource/AmazonTextractAnalyzeLending.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonTextractAnalyzeLending.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonTextractAnalyzeLending.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/resource/AmazonTextractAnalyzeLending.svg"
-        }
-      },
-      "categorys": ["Resource", "Machine Learning"]
-    },
-    {
       "name": "Amazon Cloud Watch Alarm",
       "icon": "resource/AmazonCloudWatchAlarm.svg",
       "importIcon": {
@@ -8592,118 +8760,6 @@
         },
         "NPM": {
           "npm": "aws-icons/icons/resource/AWSLicenseManagerLicenseBlending.svg"
-        }
-      },
-      "categorys": ["Resource", "Management Governance"]
-    },
-    {
-      "name": "AWS Ops Works Apps",
-      "icon": "resource/AWSOpsWorksApps.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AWSOpsWorksApps.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AWSOpsWorksApps.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/resource/AWSOpsWorksApps.svg"
-        }
-      },
-      "categorys": ["Resource", "Management Governance"]
-    },
-    {
-      "name": "AWS Ops Works Deployments",
-      "icon": "resource/AWSOpsWorksDeployments.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AWSOpsWorksDeployments.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AWSOpsWorksDeployments.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/resource/AWSOpsWorksDeployments.svg"
-        }
-      },
-      "categorys": ["Resource", "Management Governance"]
-    },
-    {
-      "name": "AWS Ops Works Instances",
-      "icon": "resource/AWSOpsWorksInstances.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AWSOpsWorksInstances.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AWSOpsWorksInstances.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/resource/AWSOpsWorksInstances.svg"
-        }
-      },
-      "categorys": ["Resource", "Management Governance"]
-    },
-    {
-      "name": "AWS Ops Works Layers",
-      "icon": "resource/AWSOpsWorksLayers.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AWSOpsWorksLayers.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AWSOpsWorksLayers.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/resource/AWSOpsWorksLayers.svg"
-        }
-      },
-      "categorys": ["Resource", "Management Governance"]
-    },
-    {
-      "name": "AWS Ops Works Monitoring",
-      "icon": "resource/AWSOpsWorksMonitoring.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AWSOpsWorksMonitoring.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AWSOpsWorksMonitoring.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/resource/AWSOpsWorksMonitoring.svg"
-        }
-      },
-      "categorys": ["Resource", "Management Governance"]
-    },
-    {
-      "name": "AWS Ops Works Permissions",
-      "icon": "resource/AWSOpsWorksPermissions.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AWSOpsWorksPermissions.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AWSOpsWorksPermissions.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/resource/AWSOpsWorksPermissions.svg"
-        }
-      },
-      "categorys": ["Resource", "Management Governance"]
-    },
-    {
-      "name": "AWS Ops Works Resources",
-      "icon": "resource/AWSOpsWorksResources.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AWSOpsWorksResources.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AWSOpsWorksResources.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/resource/AWSOpsWorksResources.svg"
-        }
-      },
-      "categorys": ["Resource", "Management Governance"]
-    },
-    {
-      "name": "AWS Ops Works Stack2",
-      "icon": "resource/AWSOpsWorksStack2.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AWSOpsWorksStack2.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AWSOpsWorksStack2.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/resource/AWSOpsWorksStack2.svg"
         }
       },
       "categorys": ["Resource", "Management Governance"]
@@ -9084,7 +9140,7 @@
           "npm": "aws-icons/icons/resource/AWSApplicationDiscoveryServiceAWSAgentlessCollector.svg"
         }
       },
-      "categorys": ["Resource", "Migration Transfer"]
+      "categorys": ["Resource", "Migration Modernization"]
     },
     {
       "name": "AWS Application Discovery Service AWS Discovery Agent",
@@ -9098,7 +9154,7 @@
           "npm": "aws-icons/icons/resource/AWSApplicationDiscoveryServiceAWSDiscoveryAgent.svg"
         }
       },
-      "categorys": ["Resource", "Migration Transfer"]
+      "categorys": ["Resource", "Migration Modernization"]
     },
     {
       "name": "AWS Application Discovery Service Migration Evaluator Collector",
@@ -9112,7 +9168,7 @@
           "npm": "aws-icons/icons/resource/AWSApplicationDiscoveryServiceMigrationEvaluatorCollector.svg"
         }
       },
-      "categorys": ["Resource", "Migration Transfer"]
+      "categorys": ["Resource", "Migration Modernization"]
     },
     {
       "name": "AWS Datasync Agent",
@@ -9126,7 +9182,7 @@
           "npm": "aws-icons/icons/resource/AWSDatasyncAgent.svg"
         }
       },
-      "categorys": ["Resource", "Migration Transfer"]
+      "categorys": ["Resource", "Migration Modernization"]
     },
     {
       "name": "AWS Data Sync Discovery",
@@ -9140,7 +9196,7 @@
           "npm": "aws-icons/icons/resource/AWSDataSyncDiscovery.svg"
         }
       },
-      "categorys": ["Resource", "Migration Transfer"]
+      "categorys": ["Resource", "Migration Modernization"]
     },
     {
       "name": "AWS Mainframe Modernization Analyzer",
@@ -9154,7 +9210,7 @@
           "npm": "aws-icons/icons/resource/AWSMainframeModernizationAnalyzer.svg"
         }
       },
-      "categorys": ["Resource", "Migration Transfer"]
+      "categorys": ["Resource", "Migration Modernization"]
     },
     {
       "name": "AWS Mainframe Modernization Compiler",
@@ -9168,7 +9224,7 @@
           "npm": "aws-icons/icons/resource/AWSMainframeModernizationCompiler.svg"
         }
       },
-      "categorys": ["Resource", "Migration Transfer"]
+      "categorys": ["Resource", "Migration Modernization"]
     },
     {
       "name": "AWS Mainframe Modernization Converter",
@@ -9182,7 +9238,7 @@
           "npm": "aws-icons/icons/resource/AWSMainframeModernizationConverter.svg"
         }
       },
-      "categorys": ["Resource", "Migration Transfer"]
+      "categorys": ["Resource", "Migration Modernization"]
     },
     {
       "name": "AWS Mainframe Modernization Developer",
@@ -9196,7 +9252,7 @@
           "npm": "aws-icons/icons/resource/AWSMainframeModernizationDeveloper.svg"
         }
       },
-      "categorys": ["Resource", "Migration Transfer"]
+      "categorys": ["Resource", "Migration Modernization"]
     },
     {
       "name": "AWS Mainframe Modernization Runtime",
@@ -9210,7 +9266,7 @@
           "npm": "aws-icons/icons/resource/AWSMainframeModernizationRuntime.svg"
         }
       },
-      "categorys": ["Resource", "Migration Transfer"]
+      "categorys": ["Resource", "Migration Modernization"]
     },
     {
       "name": "AWS Migration Hub Refactor Spaces Applications",
@@ -9224,7 +9280,7 @@
           "npm": "aws-icons/icons/resource/AWSMigrationHubRefactorSpacesApplications.svg"
         }
       },
-      "categorys": ["Resource", "Migration Transfer"]
+      "categorys": ["Resource", "Migration Modernization"]
     },
     {
       "name": "AWS Migration Hub Refactor Spaces Environments",
@@ -9238,7 +9294,7 @@
           "npm": "aws-icons/icons/resource/AWSMigrationHubRefactorSpacesEnvironments.svg"
         }
       },
-      "categorys": ["Resource", "Migration Transfer"]
+      "categorys": ["Resource", "Migration Modernization"]
     },
     {
       "name": "AWS Migration Hub Refactor Spaces Services",
@@ -9252,7 +9308,7 @@
           "npm": "aws-icons/icons/resource/AWSMigrationHubRefactorSpacesServices.svg"
         }
       },
-      "categorys": ["Resource", "Migration Transfer"]
+      "categorys": ["Resource", "Migration Modernization"]
     },
     {
       "name": "AWS Transfer Family AWSA S2",
@@ -9266,7 +9322,7 @@
           "npm": "aws-icons/icons/resource/AWSTransferFamilyAWSAS2.svg"
         }
       },
-      "categorys": ["Resource", "Migration Transfer"]
+      "categorys": ["Resource", "Migration Modernization"]
     },
     {
       "name": "AWS Transfer Family AWSFTP",
@@ -9280,7 +9336,7 @@
           "npm": "aws-icons/icons/resource/AWSTransferFamilyAWSFTP.svg"
         }
       },
-      "categorys": ["Resource", "Migration Transfer"]
+      "categorys": ["Resource", "Migration Modernization"]
     },
     {
       "name": "AWS Transfer Family AWSFTPS",
@@ -9294,7 +9350,7 @@
           "npm": "aws-icons/icons/resource/AWSTransferFamilyAWSFTPS.svg"
         }
       },
-      "categorys": ["Resource", "Migration Transfer"]
+      "categorys": ["Resource", "Migration Modernization"]
     },
     {
       "name": "AWS Transfer Family AWSSFTP",
@@ -9308,7 +9364,21 @@
           "npm": "aws-icons/icons/resource/AWSTransferFamilyAWSSFTP.svg"
         }
       },
-      "categorys": ["Resource", "Migration Transfer"]
+      "categorys": ["Resource", "Migration Modernization"]
+    },
+    {
+      "name": "Amazon API Gateway Endpoint",
+      "icon": "resource/AmazonAPIGatewayEndpoint.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonAPIGatewayEndpoint.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonAPIGatewayEndpoint.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/resource/AmazonAPIGatewayEndpoint.svg"
+        }
+      },
+      "categorys": ["Resource", "Networking Content Delivery"]
     },
     {
       "name": "Amazon Cloud Front Download Distribution",
@@ -9432,20 +9502,6 @@
         },
         "NPM": {
           "npm": "aws-icons/icons/resource/AmazonRoute53ResolverQueryLogging.svg"
-        }
-      },
-      "categorys": ["Resource", "Networking Content Delivery"]
-    },
-    {
-      "name": "Amazon Route53Route53Application Recovery Controller",
-      "icon": "resource/AmazonRoute53Route53ApplicationRecoveryController.svg",
-      "importIcon": {
-        "CDN": {
-          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonRoute53Route53ApplicationRecoveryController.svg",
-          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonRoute53Route53ApplicationRecoveryController.svg"
-        },
-        "NPM": {
-          "npm": "aws-icons/icons/resource/AmazonRoute53Route53ApplicationRecoveryController.svg"
         }
       },
       "categorys": ["Resource", "Networking Content Delivery"]
@@ -10823,6 +10879,20 @@
       "categorys": ["Resource", "Storage"]
     },
     {
+      "name": "Amazon Simple Storage Service Directorybucket",
+      "icon": "resource/AmazonSimpleStorageServiceDirectorybucket.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonSimpleStorageServiceDirectorybucket.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonSimpleStorageServiceDirectorybucket.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/resource/AmazonSimpleStorageServiceDirectorybucket.svg"
+        }
+      },
+      "categorys": ["Resource", "Storage"]
+    },
+    {
       "name": "Amazon Simple Storage Service General Access Points",
       "icon": "resource/AmazonSimpleStorageServiceGeneralAccessPoints.svg",
       "importIcon": {
@@ -10888,6 +10958,20 @@
         },
         "NPM": {
           "npm": "aws-icons/icons/resource/AmazonSimpleStorageServiceS3BatchOperations.svg"
+        }
+      },
+      "categorys": ["Resource", "Storage"]
+    },
+    {
+      "name": "Amazon Simple Storage Service S3 Express One Zone",
+      "icon": "resource/AmazonSimpleStorageServiceS3ExpressOneZone.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonSimpleStorageServiceS3ExpressOneZone.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonSimpleStorageServiceS3ExpressOneZone.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/resource/AmazonSimpleStorageServiceS3ExpressOneZone.svg"
         }
       },
       "categorys": ["Resource", "Storage"]
@@ -11112,6 +11196,20 @@
         },
         "NPM": {
           "npm": "aws-icons/icons/resource/AmazonSimpleStorageServiceS3StorageLens.svg"
+        }
+      },
+      "categorys": ["Resource", "Storage"]
+    },
+    {
+      "name": "Amazon Simple Storage Service S3 Tables",
+      "icon": "resource/AmazonSimpleStorageServiceS3Tables.svg",
+      "importIcon": {
+        "CDN": {
+          "jsdelivr": "https://cdn.jsdelivr.net/npm/aws-icons@latest/icons/resource/AmazonSimpleStorageServiceS3Tables.svg",
+          "unpkg": "https://unpkg.com/aws-icons@latest/icons/resource/AmazonSimpleStorageServiceS3Tables.svg"
+        },
+        "NPM": {
+          "npm": "aws-icons/icons/resource/AmazonSimpleStorageServiceS3Tables.svg"
         }
       },
       "categorys": ["Resource", "Storage"]

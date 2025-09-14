@@ -1,5 +1,5 @@
-import fs from 'fs';
-import path from 'path';
+import fs from 'node:fs';
+import path from 'node:path';
 import { RecursiveDirectory, recursiveDirectory } from 'recursive-directory';
 
 type CDN = {
@@ -43,7 +43,7 @@ type Data = {
   let jsdelivr = '';
   let unpkg = '';
 
-  let prefix: string = '';
+  let prefix = '';
 
   for (let i = 0; i < files.length; i++) {
     const { fullpath, filename } = files[i];

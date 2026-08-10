@@ -1,6 +1,6 @@
 {
   "name": "@aws-icons/react-native",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "AWS Architecture Icons as typed React Native components built on react-native-svg (flat, high-contrast, modern).",
   "keywords": [
     "fluentui",

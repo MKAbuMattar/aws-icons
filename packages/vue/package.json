@@ -1,6 +1,6 @@
 {
   "name": "@aws-icons/vue",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "AWS Architecture Icons as tree-shakeable typed Vue 3 components (flat, high-contrast, modern).",
   "keywords": [
     "aws",

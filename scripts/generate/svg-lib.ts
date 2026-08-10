@@ -7,6 +7,7 @@ export const STYLES = [
   'architecture-service',
   'category',
   'resource',
+  'resource-dark',
 ] as const;
 export type Style = (typeof STYLES)[number];
 

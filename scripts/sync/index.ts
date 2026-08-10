@@ -28,6 +28,7 @@ const CATEGORY_DIRS: Record<string, string> = {
   'Category-Icons': 'category',
   'Resource-Icons': 'resource',
 };
+const DARK_CATEGORY = 'resource-dark';
 
 const discoverZipUrl = async (): Promise<string> => {
   if (process.env.SYNC_ZIP_URL) return process.env.SYNC_ZIP_URL;
@@ -83,6 +84,9 @@ const svgoConfig = (slug: string): Config => ({
 });
 
 const categoryOf = (relPath: string): string | undefined => {
+  if (relPath.includes('Resource-Icons') && /_48_Dark\.svg$/i.test(relPath)) {
+    return DARK_CATEGORY;
+  }
   for (const [marker, dir] of Object.entries(CATEGORY_DIRS)) {
     if (relPath.includes(marker)) return dir;
   }
@@ -92,6 +96,11 @@ const categoryOf = (relPath: string): string | undefined => {
 const keepFile = (relPath: string): boolean => {
   const base = path.basename(relPath);
   if (!base.endsWith('.svg')) return false;
+  // resource icons: most are single-theme _48.svg; some ship Light/Dark pairs.
+  // _48 + _48_Light -> resource, _48_Dark -> resource-dark
+  if (relPath.includes('Resource-Icons')) {
+    return /_48(_Light|_Dark)?\.svg$/i.test(base);
+  }
   if (/dark/i.test(relPath)) return false;
   // architecture-group icons only ship at 32px; everything else keeps the 48px set
   if (relPath.includes('Architecture-Group')) return /_32\.svg$/.test(base);
@@ -114,7 +123,7 @@ const main = async (): Promise<void> => {
     force: true,
   });
 
-  for (const dir of Object.values(CATEGORY_DIRS)) {
+  for (const dir of [...Object.values(CATEGORY_DIRS), DARK_CATEGORY]) {
     fs.rmSync(path.join(ASSETS, dir), {recursive: true, force: true});
     fs.mkdirSync(path.join(ASSETS, dir), {recursive: true});
   }

@@ -1,0 +1,61 @@
+{
+  "name": "@aws-icons/iconify",
+  "version": "4.0.0",
+  "description": "AWS Architecture Icons as Iconify JSON collections \u2014 works with unplugin-icons, the Tailwind Iconify plugin, and every Iconify component.",
+  "keywords": [
+    "fluentui",
+    "icon",
+    "fluentui-icon",
+    "icons",
+    "svg",
+    "iconify"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Mohammad Abu Mattar",
+    "email": "mohammad.khaled@outlook.com",
+    "url": "https://mkabumattar.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MKAbuMattar/aws-icons.git",
+    "directory": "packages/iconify"
+  },
+  "bugs": {
+    "url": "https://github.com/MKAbuMattar/aws-icons/issues"
+  },
+  "homepage": "https://aws-icons.mkabumattar.com/",
+  "type": "module",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json",
+    "./architecture-group.json": "./dist/architecture-group.json",
+    "./architecture-service.json": "./dist/architecture-service.json",
+    "./category.json": "./dist/category.json",
+    "./resource.json": "./dist/resource.json",
+    "./resource-dark.json": "./dist/resource-dark.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsx build.ts",
+    "test": "tsx test/smoke.ts"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.11",
+    "typescript": "^5.9.3"
+  }
+}

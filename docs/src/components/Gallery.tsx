@@ -6,6 +6,7 @@ const STYLES: IconCategory[] = [
   'architecture-service',
   'category',
   'resource',
+  'resource-dark',
 ];
 const BATCH = 240; // cells rendered per scroll batch — keeps the DOM light
 
@@ -82,6 +83,31 @@ const snippets = (
       id: 'htmx',
       label: 'htmx',
       code: `// server\nimport {awsIconHandler} from '@aws-icons/htmx';\napp.use(awsIconHandler());\n\n<!-- page -->\n<span hx-get="/aws-icons/${style}/${slug}" hx-trigger="load"></span>`,
+    },
+    {
+      id: 'react-native',
+      label: 'React Native',
+      code: `import {${name}} from '@aws-icons/react-native/${style}';\n\n<${name} width={32} height={32} />`,
+    },
+    {
+      id: 'qwik',
+      label: 'Qwik',
+      code: `import {${name}} from '@aws-icons/qwik/${style}';\n\n<${name} width={32} />`,
+    },
+    {
+      id: 'iconify',
+      label: 'Iconify',
+      code: `import {addCollection} from '@iconify/react';\nimport collection from '@aws-icons/iconify/${style}.json';\n\naddCollection(collection);\n\n<Icon icon="aws-icons-${style}:${slug}" />`,
+    },
+    {
+      id: 'sprite',
+      label: 'Sprite',
+      code: `<!-- copy @aws-icons/sprite/${style}.svg into your static assets -->\n<svg width="32" height="32">\n  <use href="/sprites/${style}.svg#${slug}" />\n</svg>`,
+    },
+    {
+      id: 'cdn',
+      label: 'CDN',
+      code: `<img\n  src="https://cdn.jsdelivr.net/npm/@aws-icons/svg@latest/icons/${style}/${slug}.svg"\n  width="32" height="32" alt="${slug}"\n/>`,
     },
   ];
 };

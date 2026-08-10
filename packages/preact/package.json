@@ -111,6 +111,16 @@
         "default": "./dist/resource/index.cjs"
       }
     },
+    "./resource-dark": {
+      "import": {
+        "types": "./dist/resource-dark/index.d.ts",
+        "default": "./dist/resource-dark/index.js"
+      },
+      "require": {
+        "types": "./dist/resource-dark/index.d.cts",
+        "default": "./dist/resource-dark/index.cjs"
+      }
+    },
     "./resource/*": {
       "import": {
         "types": "./dist/resource/icons/*.d.ts",
@@ -119,6 +129,16 @@
       "require": {
         "types": "./dist/resource/icons/*.d.cts",
         "default": "./dist/resource/icons/*.cjs"
+      }
+    },
+    "./resource-dark/*": {
+      "import": {
+        "types": "./dist/resource-dark/icons/*.d.ts",
+        "default": "./dist/resource-dark/icons/*.js"
+      },
+      "require": {
+        "types": "./dist/resource-dark/icons/*.d.cts",
+        "default": "./dist/resource-dark/icons/*.cjs"
       }
     },
     "./package.json": "./package.json"

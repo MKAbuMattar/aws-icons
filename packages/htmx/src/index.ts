@@ -30,6 +30,7 @@ const STYLES = new Set([
   'architecture-service',
   'category',
   'resource',
+  'resource-dark',
 ]);
 const SLUG = /^[a-z0-9-]+$/;
 

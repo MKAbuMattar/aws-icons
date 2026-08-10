@@ -19,6 +19,10 @@ packaged for every stack, with fully automated releases from the official AWS Ar
 | [`@aws-icons/web-components`](packages/web-components) | Framework-less `<aws-icon>` custom element |
 | [`@aws-icons/alpine`](packages/alpine) | Alpine.js directive + magic |
 | [`@aws-icons/htmx`](packages/htmx) | Server handler serving icon fragments for htmx |
+| [`@aws-icons/react-native`](packages/react-native) | React Native components on react-native-svg |
+| [`@aws-icons/qwik`](packages/qwik) | Typed Qwik components |
+| [`@aws-icons/iconify`](packages/iconify) | Iconify JSON collections (unplugin-icons, Tailwind) |
+| [`@aws-icons/sprite`](packages/sprite) | SVG symbol sprites for use-href sheets |
 
 ## Release channels
 

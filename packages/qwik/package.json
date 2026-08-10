@@ -1,0 +1,101 @@
+{
+  "name": "@aws-icons/qwik",
+  "version": "4.0.0",
+  "description": "AWS Architecture Icons as typed Qwik components (flat, high-contrast, modern). ESM only.",
+  "keywords": [
+    "fluentui",
+    "icon",
+    "fluentui-icon",
+    "icons",
+    "svg",
+    "qwik"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Mohammad Abu Mattar",
+    "email": "mohammad.khaled@outlook.com",
+    "url": "https://mkabumattar.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MKAbuMattar/aws-icons.git",
+    "directory": "packages/qwik"
+  },
+  "bugs": {
+    "url": "https://github.com/MKAbuMattar/aws-icons/issues"
+  },
+  "homepage": "https://aws-icons.mkabumattar.com/",
+  "type": "module",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "module": "./dist/core.js",
+  "types": "./dist/core.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/core.d.ts",
+      "default": "./dist/core.js"
+    },
+    "./architecture-group": {
+      "types": "./dist/architecture-group/index.d.ts",
+      "default": "./dist/architecture-group/index.js"
+    },
+    "./architecture-group/*": {
+      "types": "./dist/architecture-group/icons/*.d.ts",
+      "default": "./dist/architecture-group/icons/*.js"
+    },
+    "./architecture-service": {
+      "types": "./dist/architecture-service/index.d.ts",
+      "default": "./dist/architecture-service/index.js"
+    },
+    "./architecture-service/*": {
+      "types": "./dist/architecture-service/icons/*.d.ts",
+      "default": "./dist/architecture-service/icons/*.js"
+    },
+    "./category": {
+      "types": "./dist/category/index.d.ts",
+      "default": "./dist/category/index.js"
+    },
+    "./category/*": {
+      "types": "./dist/category/icons/*.d.ts",
+      "default": "./dist/category/icons/*.js"
+    },
+    "./resource": {
+      "types": "./dist/resource/index.d.ts",
+      "default": "./dist/resource/index.js"
+    },
+    "./resource/*": {
+      "types": "./dist/resource/icons/*.d.ts",
+      "default": "./dist/resource/icons/*.js"
+    },
+    "./resource-dark": {
+      "types": "./dist/resource-dark/index.d.ts",
+      "default": "./dist/resource-dark/index.js"
+    },
+    "./resource-dark/*": {
+      "types": "./dist/resource-dark/icons/*.d.ts",
+      "default": "./dist/resource-dark/icons/*.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/core.ts --format esm --dts --out-dir dist --external @builder.io/qwik && tsx build.ts",
+    "test": "tsx test/smoke.ts"
+  },
+  "peerDependencies": {
+    "@builder.io/qwik": ">=1.8"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@builder.io/qwik": "^1.20.0",
+    "tsup": "^8.5.0",
+    "tsx": "^4.23.11",
+    "typescript": "^5.9.3"
+  }
+}

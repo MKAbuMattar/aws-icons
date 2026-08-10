@@ -1,0 +1,70 @@
+{
+  "name": "@aws-icons/sprite",
+  "version": "4.0.0",
+  "description": "AWS Architecture Icons as SVG symbol sprites \u2014 one <use href> sheet per set, ideal for pages showing many icons.",
+  "keywords": [
+    "fluentui",
+    "icon",
+    "fluentui-icon",
+    "icons",
+    "svg",
+    "sprite",
+    "symbol"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Mohammad Abu Mattar",
+    "email": "mohammad.khaled@outlook.com",
+    "url": "https://mkabumattar.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MKAbuMattar/aws-icons.git",
+    "directory": "packages/sprite"
+  },
+  "bugs": {
+    "url": "https://github.com/MKAbuMattar/aws-icons/issues"
+  },
+  "homepage": "https://aws-icons.mkabumattar.com/",
+  "type": "module",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./package.json": "./package.json",
+    "./architecture-group.svg": "./dist/architecture-group.svg",
+    "./architecture-service.svg": "./dist/architecture-service.svg",
+    "./category.svg": "./dist/category.svg",
+    "./resource.svg": "./dist/resource.svg",
+    "./resource-dark.svg": "./dist/resource-dark.svg"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --out-dir dist && tsx build.ts",
+    "test": "tsx test/smoke.ts"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "tsx": "^4.23.11",
+    "typescript": "^5.9.3"
+  }
+}

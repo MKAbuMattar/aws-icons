@@ -65,9 +65,17 @@
       "types": "./dist/resource/index.d.ts",
       "default": "./dist/resource/index.js"
     },
+    "./resource-dark": {
+      "types": "./dist/resource-dark/index.d.ts",
+      "default": "./dist/resource-dark/index.js"
+    },
     "./resource/*": {
       "types": "./dist/resource/icons/*.d.ts",
       "default": "./dist/resource/icons/*.js"
+    },
+    "./resource-dark/*": {
+      "types": "./dist/resource-dark/icons/*.d.ts",
+      "default": "./dist/resource-dark/icons/*.js"
     },
     "./package.json": "./package.json"
   },

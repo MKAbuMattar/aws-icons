@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MKAbuMattar/aws-icons.git",
+    "url": "git+https://github.com/MKAbuMattar/aws-icons.git",
     "directory": "packages/vue"
   },
   "bugs": {
@@ -120,7 +120,8 @@
         "types": "./dist/resource/icons/*.d.cts",
         "default": "./dist/resource/icons/*.cjs"
       }
-    }
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist"
@@ -141,5 +142,8 @@
     "tsx": "^4.23.11",
     "typescript": "^5.9.3",
     "vue": "^3.5.0"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

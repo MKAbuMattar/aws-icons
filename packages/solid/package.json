@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MKAbuMattar/aws-icons.git",
+    "url": "git+https://github.com/MKAbuMattar/aws-icons.git",
     "directory": "packages/solid"
   },
   "bugs": {
@@ -68,7 +68,8 @@
     "./resource/*": {
       "types": "./dist/resource/icons/*.d.ts",
       "default": "./dist/resource/icons/*.js"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist"
@@ -90,5 +91,8 @@
     "solid-js": "^1.9.9",
     "tsx": "^4.23.11",
     "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

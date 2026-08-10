@@ -1,7 +1,7 @@
 {
   "name": "@aws-icons/htmx",
   "version": "4.0.0",
-  "description": "AWS Architecture Icons for htmx — a server handler and helper that serve icon SVG fragments (flat, high-contrast, modern).",
+  "description": "AWS Architecture Icons for htmx \u2014 a server handler and helper that serve icon SVG fragments (flat, high-contrast, modern).",
   "keywords": [
     "aws",
     "icon",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MKAbuMattar/aws-icons.git",
+    "url": "git+https://github.com/MKAbuMattar/aws-icons.git",
     "directory": "packages/htmx"
   },
   "bugs": {
@@ -40,7 +40,8 @@
         "types": "./dist/index.d.cts",
         "default": "./dist/index.cjs"
       }
-    }
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist"
@@ -59,5 +60,8 @@
     "tsup": "^8.5.0",
     "tsx": "^4.23.11",
     "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

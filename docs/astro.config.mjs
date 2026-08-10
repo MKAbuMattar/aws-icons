@@ -43,6 +43,7 @@ export default defineConfig({
           ],
         },
         {label: 'Icon Gallery', slug: 'gallery'},
+        {label: 'CDN', slug: 'cdn'},
       ],
     }),
     react(),

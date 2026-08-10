@@ -1,7 +1,7 @@
 {
   "name": "@aws-icons/alpine",
   "version": "4.0.0",
-  "description": "AWS Architecture Icons as an Alpine.js plugin — x-aws-icon directive and $awsIcon magic with tree-shakeable icon data (flat, high-contrast, modern).",
+  "description": "AWS Architecture Icons as an Alpine.js plugin \u2014 x-aws-icon directive and $awsIcon magic with tree-shakeable icon data (flat, high-contrast, modern).",
   "keywords": [
     "aws",
     "icon",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MKAbuMattar/aws-icons.git",
+    "url": "git+https://github.com/MKAbuMattar/aws-icons.git",
     "directory": "packages/alpine"
   },
   "bugs": {
@@ -66,7 +66,8 @@
     "./resource/*": {
       "types": "./dist/resource/icons/*.d.ts",
       "default": "./dist/resource/icons/*.js"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist"
@@ -82,5 +83,8 @@
     "tsup": "^8.5.0",
     "tsx": "^4.23.11",
     "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

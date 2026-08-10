@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MKAbuMattar/aws-icons.git",
+    "url": "git+https://github.com/MKAbuMattar/aws-icons.git",
     "directory": "packages/react"
   },
   "bugs": {
@@ -120,7 +120,8 @@
         "types": "./dist/resource/icons/*.d.cts",
         "default": "./dist/resource/icons/*.cjs"
       }
-    }
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist"
@@ -142,5 +143,8 @@
     "tsup": "^8.5.0",
     "tsx": "^4.23.11",
     "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

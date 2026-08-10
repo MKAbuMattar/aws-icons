@@ -1,6 +1,6 @@
 {
   "name": "@aws-icons/htmx",
-  "version": "3.3.0",
+  "version": "4.0.0",
   "description": "AWS Architecture Icons for htmx — a server handler and helper that serve icon SVG fragments (flat, high-contrast, modern).",
   "keywords": [
     "aws",

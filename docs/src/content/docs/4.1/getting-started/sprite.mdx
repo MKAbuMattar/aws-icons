@@ -1,0 +1,25 @@
+---
+title: Sprite
+description: SVG symbol sprites for use-href icon sheets.
+slug: 4.1/getting-started/sprite
+---
+
+[AWS Architecture Icons](https://github.com/microsoft/fluentui-icon) as SVG symbol sprites — one `<use href>` sheet per set, ideal for pages with many icons — 3,145 icons in 5 sets.
+
+## Install
+
+```sh
+pnpm add @aws-icons/sprite
+```
+
+## Usage
+
+```html
+<!-- copy dist/flat.svg into your static assets, then: -->
+<svg width="32" height="32"><use href="/sprites/flat.svg#rocket" /></svg>
+```
+
+```ts
+import {spriteHref} from "@aws-icons/sprite";
+spriteHref("/sprites/flat.svg", "rocket"); // "/sprites/flat.svg#rocket"
+```

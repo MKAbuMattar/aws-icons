@@ -1,0 +1,44 @@
+---
+title: Lit
+description: LitElement and template helpers for AWS Architecture Icons.
+slug: 4.0/getting-started/lit
+---
+
+[AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) for Lit — a
+`<aws-icon>` LitElement plus template helpers, with tree-shakeable icon
+data. 805 icons in `architecture-group`, `architecture-service`, `category`, and `resource` sets.
+
+## Install
+
+```sh
+pnpm add @aws-icons/lit
+```
+
+## Usage
+
+As an element:
+
+```js
+import {defineAwsIcon, register} from '@aws-icons/lit';
+import {AmazonEc2} from '@aws-icons/lit/architecture-service';
+
+register(AmazonEc2);
+defineAwsIcon();
+```
+
+```html
+<aws-icon name="amazon-ec2"></aws-icon>
+<aws-icon name="amazon-ec2" variant="resource" label="AmazonEc2"></aws-icon>
+```
+
+Inside your own templates:
+
+```js
+import {html} from 'lit';
+import {iconTemplate} from '@aws-icons/lit';
+import {AmazonEc2} from '@aws-icons/lit/architecture-service';
+
+html`<button>${iconTemplate(AmazonEc2, 'Launch')} Launch</button>`;
+```
+
+Only imported icons end up in your bundle. Without `label` the svg is `aria-hidden`.

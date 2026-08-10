@@ -1,0 +1,35 @@
+---
+title: Alpine.js
+description: Alpine.js directive and magic for AWS Architecture Icons.
+slug: 4.0/getting-started/alpine
+---
+
+[AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) for Alpine.js —
+an `x-aws-icon` directive and `$awsIcon` magic with tree-shakeable icon
+data. 805 icons in `architecture-group`, `architecture-service`, `category`, and `resource` sets.
+
+## Install
+
+```sh
+pnpm add @aws-icons/alpine
+```
+
+## Usage
+
+```js
+import Alpine from 'alpinejs';
+import awsIcon, {register} from '@aws-icons/alpine';
+import {AmazonEc2} from '@aws-icons/alpine/architecture-service';
+
+register(AmazonEc2);
+Alpine.plugin(awsIcon);
+Alpine.start();
+```
+
+```html
+<span x-aws-icon="'amazon-ec2'"></span>
+<span x-aws-icon="{name: 'amazon-ec2', style: 'resource', label: 'AmazonEc2'}"></span>
+<span x-data x-html="$awsIcon('amazon-ec2', 'architecture-service')"></span>
+```
+
+Only registered icons end up in your bundle. Without `label` the svg is `aria-hidden`.

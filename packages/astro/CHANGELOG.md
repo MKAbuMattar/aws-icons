@@ -1,5 +1,22 @@
 # @aws-icons/astro
 
+## 4.1.0
+
+### Minor Changes
+
+- 2e39f96: - `"./package.json"` added to every package's exports map.
+  - `engines.node >= 18` declared (publint clean).
+- 748da60: - **New `resource-dark` set** — the 47 resource icons AWS ships with explicit
+  dark-theme artwork, available in every package (`@aws-icons/react/resource-dark`, ...).
+  - **Four new packages**: Iconify JSON collections, SVG symbol sprites,
+    React Native components (react-native-svg), and Qwik components.
+
+### Patch Changes
+
+- Updated dependencies [2e39f96]
+- Updated dependencies [748da60]
+  - @aws-icons/svg@4.1.0
+
 ## 4.0.0
 
 ### Major Changes

@@ -1,7 +1,7 @@
 {
   "name": "@aws-icons/iconify",
-  "version": "4.0.0",
-  "description": "AWS Architecture Icons as Iconify JSON collections \u2014 works with unplugin-icons, the Tailwind Iconify plugin, and every Iconify component.",
+  "version": "4.1.0",
+  "description": "AWS Architecture Icons as Iconify JSON collections — works with unplugin-icons, the Tailwind Iconify plugin, and every Iconify component.",
   "keywords": [
     "fluentui",
     "icon",

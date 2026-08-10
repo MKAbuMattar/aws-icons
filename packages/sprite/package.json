@@ -1,7 +1,7 @@
 {
   "name": "@aws-icons/sprite",
-  "version": "4.0.0",
-  "description": "AWS Architecture Icons as SVG symbol sprites \u2014 one <use href> sheet per set, ideal for pages showing many icons.",
+  "version": "4.1.0",
+  "description": "AWS Architecture Icons as SVG symbol sprites — one <use href> sheet per set, ideal for pages showing many icons.",
   "keywords": [
     "fluentui",
     "icon",

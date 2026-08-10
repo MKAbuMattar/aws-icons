@@ -1,7 +1,7 @@
 # @aws-icons/svg
 
-[AWS Architecture Icons](https://github.com/microsoft/aws-icon) as optimized SVGs —
-3,145 icons in `flat`, `high-contrast`, and `modern` styles — with typed metadata.
+[AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) as optimized SVGs —
+805 icons in `architecture-group`, `architecture-service`, `category`, and `resource` sets — with typed metadata.
 
 Successor of the deprecated [`aws-icon`](https://www.npmjs.com/package/aws-icon) package.
 
@@ -17,14 +17,14 @@ pnpm add @aws-icons/svg
 import {metadata, getIcon, getIconPath} from '@aws-icons/svg';
 import type {IconSlug, IconCategory} from '@aws-icons/svg';
 
-getIcon('rocket');                 // {slug: 'rocket', name: 'Rocket', styles: [...]}
-getIconPath('rocket', 'flat');     // '@aws-icons/svg/icons/flat/rocket.svg'
+getIcon('amazon-ec2');                 // {slug: 'amazon-ec2', name: 'AmazonEc2', styles: [...]}
+getIconPath('amazon-ec2', 'architecture-service');     // '@aws-icons/svg/icons/architecture-service/amazon-ec2.svg'
 ```
 
 Import an SVG directly (bundler):
 
 ```ts
-import rocket from '@aws-icons/svg/icons/flat/rocket.svg';
+import amazon-ec2 from '@aws-icons/svg/icons/architecture-service/amazon-ec2.svg';
 ```
 
 Or grab the raw metadata: `import meta from '@aws-icons/svg/metadata.json'`.
@@ -32,4 +32,4 @@ Or grab the raw metadata: `import meta from '@aws-icons/svg/metadata.json'`.
 ## License
 
 [MIT](https://github.com/MKAbuMattar/aws-icons/blob/main/LICENSE).
-Icon assets © Microsoft, [MIT licensed](https://github.com/microsoft/aws-icons/blob/main/LICENSE).
+AWS Architecture Icons are © Amazon Web Services, Inc., provided under the [AWS icon terms](https://aws.amazon.com/architecture/icons/).

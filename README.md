@@ -1,13 +1,13 @@
 # aws-icon
 
-[AWS Architecture Icons](https://github.com/microsoft/aws-icon) — Microsoft's familiar,
-friendly, modern icon — packaged for every stack, with fully automated releases.
+[AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) — Microsoft's familiar,
+packaged for every stack, with fully automated releases from the official AWS Architecture Icons set.
 
 ## Packages
 
 | Package | Description |
 |---|---|
-| [`@aws-icons/svg`](packages/svg) | Optimized SVGs (flat, high-contrast, modern) + typed metadata |
+| [`@aws-icons/svg`](packages/svg) | Optimized SVGs (4 icon sets) + typed metadata |
 | [`@aws-icons/react`](packages/react) | Tree-shakeable typed React components |
 | [`@aws-icons/preact`](packages/preact) | Tree-shakeable typed Preact components |
 | [`@aws-icons/vue`](packages/vue) | Tree-shakeable typed Vue 3 components |
@@ -27,7 +27,7 @@ friendly, modern icon — packaged for every stack, with fully automated release
 - `canary` — snapshot of every `main` merge (`@aws-icons/react@canary`)
 
 New upstream icon land automatically: a weekly workflow syncs
-`microsoft/aws-icon`, opens a PR, and merging it rides the release train.
+the official AWS Architecture Icons package, opens a PR, and merging it rides the release train.
 No release step in this repo is manual.
 
 ## Development
@@ -39,10 +39,10 @@ pnpm build     # build all packages
 pnpm lint
 ```
 
-Previously: [`archived-aws-icon`](https://github.com/MKAbuMattar/archived-aws-icon),
-[`archived-react-aws-icon`](https://github.com/MKAbuMattar/archived-react-aws-icon),
-[`archived-public-aws-icon`](https://github.com/MKAbuMattar/archived-public-aws-icon).
-The old npm names `aws-icon` and `react-aws-icon` are deprecated in favor of the scope.
+Previously: [`archived-aws-icons`](https://github.com/MKAbuMattar/archived-aws-icons),
+[`archived-aws-react-icons`](https://github.com/MKAbuMattar/archived-aws-react-icons),
+[`archived-aws-icon-docs`](https://github.com/MKAbuMattar/archived-aws-icon-docs).
+The old npm names `aws-icons` and `aws-react-icons` are deprecated in favor of the scope.
 
-Icon assets are © Microsoft, [MIT licensed](https://github.com/microsoft/aws-icons/blob/main/LICENSE).
+AWS Architecture Icons are © Amazon Web Services, Inc., provided under the [AWS icon terms](https://aws.amazon.com/architecture/icons/).
 This repo and packages: [MIT](LICENSE).

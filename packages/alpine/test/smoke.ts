@@ -1,21 +1,18 @@
 import assert from 'node:assert/strict';
 // @ts-expect-error generated at build time
-import {Rocket} from '../dist/flat/index.js';
+import {AmazonEc2} from '../dist/architecture-service/index.js';
 // @ts-expect-error generated at build time
-import ModernRocket from '../dist/modern/icons/rocket.js';
+import ResourceInstance from '../dist/resource/icons/amazon-ec2-instance.js';
 import awsIcon, {iconHtml, register} from '../src/index';
 
-register(Rocket, ModernRocket);
+register(AmazonEc2, ResourceInstance);
 
-const plain = iconHtml('rocket');
+const plain = iconHtml('amazon-ec2');
 assert.ok(plain.startsWith('<svg'), 'renders an svg');
 assert.ok(plain.includes('aria-hidden="true"'), 'decorative by default');
 
-const labeled = iconHtml('rocket', 'modern', 'Rocket "1"');
-assert.ok(
-  labeled.includes('aria-label="Rocket &quot;1&quot;"'),
-  'label escaped',
-);
+const labeled = iconHtml('amazon-ec2-instance', 'resource', 'EC2 "1"');
+assert.ok(labeled.includes('aria-label="EC2 &quot;1&quot;"'), 'label escaped');
 assert.equal(iconHtml('does-not-exist' as never), '', 'unknown icon is empty');
 
 // plugin wiring with a fake Alpine

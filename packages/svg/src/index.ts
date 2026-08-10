@@ -1,7 +1,7 @@
 import metadataJson from '../metadata.json' with {type: 'json'};
-import type {IconSlug, IconCategory} from './icon.generated';
+import type {IconCategory, IconSlug} from './icon.generated';
 
-export type {IconSlug, IconCategory} from './icon.generated';
+export type {IconCategory, IconSlug} from './icon.generated';
 
 export type IconEntry = {
   slug: IconSlug;

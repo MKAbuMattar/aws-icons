@@ -1,22 +1,19 @@
 import assert from 'node:assert/strict';
 // @ts-expect-error generated at build time
-import {Rocket} from '../dist/flat/index.js';
+import {AmazonEc2} from '../dist/architecture-service/index.js';
 // @ts-expect-error generated at build time
-import ModernRocket from '../dist/modern/icons/rocket.js';
+import ResourceInstance from '../dist/resource/icons/amazon-ec2-instance.js';
 // lit's node build ships DOM shims, so this works without a browser
-import {iconSvg, AwsIconElement, register} from '../src/index';
+import {AwsIconElement, iconSvg, register} from '../src/index';
 
-register(Rocket, ModernRocket);
+register(AmazonEc2, ResourceInstance);
 
-const plain = iconSvg(Rocket);
+const plain = iconSvg(AmazonEc2);
 assert.ok(plain.startsWith('<svg'), 'renders an svg');
 assert.ok(plain.includes('aria-hidden="true"'), 'decorative by default');
 
-const labeled = iconSvg(ModernRocket, 'Rocket "1"');
-assert.ok(
-  labeled.includes('aria-label="Rocket &quot;1&quot;"'),
-  'label escaped',
-);
+const labeled = iconSvg(ResourceInstance, 'EC2 "1"');
+assert.ok(labeled.includes('aria-label="EC2 &quot;1&quot;"'), 'label escaped');
 
 assert.equal(typeof AwsIconElement, 'function', 'element class exports');
 assert.ok(

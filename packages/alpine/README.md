@@ -1,8 +1,8 @@
 # @aws-icons/alpine
 
-[AWS Architecture Icons](https://github.com/microsoft/aws-icon) for Alpine.js —
+[AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) for Alpine.js —
 an `x-aws-icon` directive and `$awsIcon` magic with tree-shakeable icon
-data. 3,145 icons in `flat`, `high-contrast`, and `modern` styles.
+data. 805 icons in `architecture-group`, `architecture-service`, `category`, and `resource` sets.
 
 ## Install
 
@@ -15,17 +15,17 @@ pnpm add @aws-icons/alpine
 ```js
 import Alpine from 'alpinejs';
 import awsIcon, {register} from '@aws-icons/alpine';
-import {Rocket} from '@aws-icons/alpine/flat';
+import {AmazonEc2} from '@aws-icons/alpine/architecture-service';
 
-register(Rocket);
+register(AmazonEc2);
 Alpine.plugin(awsIcon);
 Alpine.start();
 ```
 
 ```html
-<span x-aws-icon="'rocket'"></span>
-<span x-aws-icon="{name: 'rocket', style: 'modern', label: 'Rocket'}"></span>
-<span x-data x-html="$awsIcon('rocket', 'flat')"></span>
+<span x-aws-icon="'amazon-ec2'"></span>
+<span x-aws-icon="{name: 'amazon-ec2', style: 'resource', label: 'AmazonEc2'}"></span>
+<span x-data x-html="$awsIcon('amazon-ec2', 'architecture-service')"></span>
 ```
 
 Only registered icons end up in your bundle. Without `label` the svg is `aria-hidden`.
@@ -33,4 +33,4 @@ Only registered icons end up in your bundle. Without `label` the svg is `aria-hi
 ## License
 
 [MIT](https://github.com/MKAbuMattar/aws-icons/blob/main/LICENSE).
-Icon assets © Microsoft, [MIT licensed](https://github.com/microsoft/aws-icons/blob/main/LICENSE).
+AWS Architecture Icons are © Amazon Web Services, Inc., provided under the [AWS icon terms](https://aws.amazon.com/architecture/icons/).

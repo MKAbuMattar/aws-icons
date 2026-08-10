@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 import type {IncomingMessage, ServerResponse} from 'node:http';
 import {createRequire} from 'node:module';
-import type {IconSlug, IconCategory} from '@aws-icons/svg';
+import type {IconCategory, IconSlug} from '@aws-icons/svg';
 
 const resolve = createRequire(import.meta.url).resolve;
 
@@ -25,7 +25,12 @@ export const iconHtml = async (
   return svg.replace('<svg', `<svg${aria}`);
 };
 
-const STYLES = new Set(['architecture-group', 'architecture-service', 'category', 'resource']);
+const STYLES = new Set([
+  'architecture-group',
+  'architecture-service',
+  'category',
+  'resource',
+]);
 const SLUG = /^[a-z0-9-]+$/;
 
 /**

@@ -1,7 +1,7 @@
 # @aws-icons/vue
 
-[AWS Architecture Icons](https://github.com/microsoft/aws-icon) as tree-shakeable,
-typed Vue 3 components — 3,145 icons in `flat`, `high-contrast`, and `modern` styles.
+[AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) as tree-shakeable,
+typed Vue 3 components — 805 icons in `architecture-group`, `architecture-service`, `category`, and `resource` sets.
 Dual ESM + CJS.
 
 ## Install
@@ -14,20 +14,20 @@ pnpm add @aws-icons/vue
 
 ```vue
 <script setup>
-import {Rocket} from '@aws-icons/vue/flat';
-// or per-icon: import Rocket from '@aws-icons/vue/modern/rocket';
+import {AmazonEc2} from '@aws-icons/vue/architecture-service';
+// or per-icon: import AmazonEc2 from '@aws-icons/vue/resource/amazon-ec2-instance';
 </script>
 
 <template>
-  <Rocket width="32" />
-  <Rocket title="Rocket launch" />  <!-- accessible: role="img" + aria-label -->
+  <AmazonEc2 width="32" />
+  <AmazonEc2 title="Amazon EC2" />  <!-- accessible: role="img" + aria-label -->
 </template>
 ```
 
-Styles: `@aws-icons/vue/flat`, `/high-contrast`, `/modern`.
+Styles: `@aws-icons/vue/architecture-service`, `/architecture-group`, `/category`, `/resource`.
 Extra attributes land on the root `<svg>`. Without `title` the icon is `aria-hidden`.
 
 ## License
 
 [MIT](https://github.com/MKAbuMattar/aws-icons/blob/main/LICENSE).
-Icon assets © Microsoft, [MIT licensed](https://github.com/microsoft/aws-icons/blob/main/LICENSE).
+AWS Architecture Icons are © Amazon Web Services, Inc., provided under the [AWS icon terms](https://aws.amazon.com/architecture/icons/).

@@ -8,7 +8,16 @@ import path from 'node:path';
 
 const ROOT = path.resolve(import.meta.dirname, '../..');
 const ASSETS = path.join(ROOT, 'assets');
-const STYLES = ['architecture-group', 'architecture-service', 'category', 'resource'] as const;
+const STYLES = [
+  'architecture-group',
+  'architecture-service',
+  'category',
+  'resource',
+] as const;
+
+const names: Record<string, string> = JSON.parse(
+  fs.readFileSync(path.join(ASSETS, 'names.json'), 'utf8'),
+);
 
 const styleMap = new Map<string, string[]>();
 for (const style of STYLES) {
@@ -27,7 +36,7 @@ const titleCase = (slug: string): string =>
 
 const icons = [...styleMap.keys()].sort().map((slug) => ({
   slug,
-  name: titleCase(slug),
+  name: names[slug] ?? titleCase(slug),
   styles: styleMap.get(slug),
 }));
 

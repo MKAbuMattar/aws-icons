@@ -1,11 +1,11 @@
-# Weekly sync from microsoft/aws-icon. If new/changed icon land upstream,
-# this opens a PR with the regenerated assets plus a ready-made changeset —
-# merging the PR rides the normal release train. Zero manual steps.
-name: Sync upstream icon
+# Monthly sync from the official AWS Architecture Icons package. If new or
+# changed icons land upstream, this opens a PR with the regenerated assets plus
+# a ready-made changeset — merging the PR rides the normal release train.
+name: Sync upstream icons
 
 on:
   schedule:
-    - cron: '0 6 * * 1'
+    - cron: '0 6 1 * *'
   workflow_dispatch:
 
 permissions:
@@ -38,7 +38,7 @@ jobs:
           '@aws-icons/astro': minor
           ---
 
-          Sync icon assets from microsoft/aws-icon
+          Sync icon assets from the AWS Architecture Icons package
           EOF
           fi
 
@@ -47,10 +47,10 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           branch: sync/upstream
-          title: 'feat: sync upstream icon from microsoft/aws-icon'
-          commit-message: 'feat: sync upstream icon from microsoft/aws-icon'
+          title: 'feat: sync upstream icons from AWS Architecture Icons'
+          commit-message: 'feat: sync upstream icons from AWS Architecture Icons'
           body: |
-            Automated weekly sync from [microsoft/aws-icon](https://github.com/microsoft/aws-icon).
+            Automated monthly sync from the [official AWS Architecture Icons](https://aws.amazon.com/architecture/icons/).
 
             Review the `assets/` diff, then merge — the release pipeline takes it from there
             (canary on merge, `latest` via the Version Packages PR).

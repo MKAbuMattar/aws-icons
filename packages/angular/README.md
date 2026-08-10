@@ -1,8 +1,8 @@
 # @aws-icons/angular
 
-[AWS Architecture Icons](https://github.com/microsoft/aws-icon) for Angular — a
-standalone `awsIcon` directive with tree-shakeable icon data. 3,145 icons
-in `flat`, `high-contrast`, and `modern` styles. Angular 17+.
+[AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) for Angular — a
+standalone `awsIcon` directive with tree-shakeable icon data. 805 icons
+in `architecture-group`, `architecture-service`, `category`, and `resource` sets. Angular 17+.
 
 ## Install
 
@@ -15,16 +15,16 @@ pnpm add @aws-icons/angular
 ```ts
 import {Component} from '@angular/core';
 import {AwsIconDirective, register} from '@aws-icons/angular';
-import {Rocket} from '@aws-icons/angular/flat';
+import {AmazonEc2} from '@aws-icons/angular/architecture-service';
 
-register(Rocket);
+register(AmazonEc2);
 
 @Component({
   standalone: true,
   imports: [AwsIconDirective],
   template: `
-    <span awsIcon="rocket"></span>
-    <span awsIcon="rocket" iconStyle="modern" iconLabel="Rocket"></span>
+    <span awsIcon="amazon-ec2"></span>
+    <span awsIcon="amazon-ec2" iconStyle="resource" iconLabel="Amazon EC2"></span>
   `,
 })
 export class AppComponent {}
@@ -36,4 +36,4 @@ Only registered icons end up in your bundle. Without `iconLabel` the svg is
 ## License
 
 [MIT](https://github.com/MKAbuMattar/aws-icons/blob/main/LICENSE).
-Icon assets © Microsoft, [MIT licensed](https://github.com/microsoft/aws-icons/blob/main/LICENSE).
+AWS Architecture Icons are © Amazon Web Services, Inc., provided under the [AWS icon terms](https://aws.amazon.com/architecture/icons/).

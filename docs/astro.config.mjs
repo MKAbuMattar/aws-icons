@@ -13,7 +13,7 @@ export default defineConfig({
   site: 'https://aws-icons.mkabumattar.com',
   integrations: [
     starlight({
-      title: 'AWS Architecture Icons',
+      title: 'AWS Icons',
       description:
         'AWS Architecture Icons packaged for every stack — SVG, React, Astro.',
       social: [

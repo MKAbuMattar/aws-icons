@@ -1,7 +1,7 @@
 # @aws-icons/web-components
 
-[AWS Architecture Icons](https://github.com/microsoft/aws-icon) as a framework-less
-`<aws-icon>` custom element — 3,145 icons in `flat`, `high-contrast`, and
+[AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) as a framework-less
+`<aws-icon>` custom element — 805 icons in `flat`, `high-contrast`, and
 `modern` styles. Works in any page, any framework, no build required.
 
 ## Install
@@ -14,21 +14,21 @@ pnpm add @aws-icons/web-components
 
 ```js
 import {defineAwsIcon, register} from '@aws-icons/web-components';
-import {Rocket} from '@aws-icons/web-components/flat';
+import {AmazonEc2} from '@aws-icons/web-components/architecture-service';
 
 defineAwsIcon();   // defines <aws-icon>
-register(Rocket);      // makes it available by name
+register(AmazonEc2);      // makes it available by name
 ```
 
 ```html
-<aws-icon name="rocket"></aws-icon>
-<aws-icon name="rocket" variant="modern" label="Rocket"></aws-icon>
+<aws-icon name="amazon-ec2"></aws-icon>
+<aws-icon name="amazon-ec2" variant="resource" label="AmazonEc2"></aws-icon>
 ```
 
 Or skip the registry and set the icon directly:
 
 ```js
-document.querySelector('aws-icon').icon = Rocket;
+document.querySelector('aws-icon').icon = AmazonEc2;
 ```
 
 Only imported icons end up in your bundle. Without `label` the svg is `aria-hidden`.
@@ -36,4 +36,4 @@ Only imported icons end up in your bundle. Without `label` the svg is `aria-hidd
 ## License
 
 [MIT](https://github.com/MKAbuMattar/aws-icons/blob/main/LICENSE).
-Icon assets © Microsoft, [MIT licensed](https://github.com/microsoft/aws-icons/blob/main/LICENSE).
+AWS Architecture Icons are © Amazon Web Services, Inc., provided under the [AWS icon terms](https://aws.amazon.com/architecture/icons/).

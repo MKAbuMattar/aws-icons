@@ -1,8 +1,8 @@
 # @aws-icons/htmx
 
-[AWS Architecture Icons](https://github.com/microsoft/aws-icon) for htmx — a
+[AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) for htmx — a
 tiny server handler that serves icon SVG fragments for htmx to swap in.
-3,145 icons in `flat`, `high-contrast`, and `modern` styles.
+805 icons in `architecture-group`, `architecture-service`, `category`, and `resource` sets.
 
 ## Install
 
@@ -25,14 +25,14 @@ app.use(awsIconHandler());  // GET /aws-icons/:style/:slug?label=...
 Page:
 
 ```html
-<span hx-get="/aws-icons/flat/rocket" hx-trigger="load"></span>
-<span hx-get="/aws-icons/modern/party-popper?label=Party!" hx-trigger="load"></span>
+<span hx-get="/aws-icons/architecture-service/amazon-ec2" hx-trigger="load"></span>
+<span hx-get="/aws-icons/resource/aws-lambda?label=Lambda" hx-trigger="load"></span>
 ```
 
 Responses are sent with immutable cache headers. There's also a direct helper
-for template engines: `await iconHtml('rocket', 'flat', 'Rocket')`.
+for template engines: `await iconHtml('amazon-ec2', 'architecture-service', 'Amazon EC2')`.
 
 ## License
 
 [MIT](https://github.com/MKAbuMattar/aws-icons/blob/main/LICENSE).
-Icon assets © Microsoft, [MIT licensed](https://github.com/microsoft/aws-icons/blob/main/LICENSE).
+AWS Architecture Icons are © Amazon Web Services, Inc., provided under the [AWS icon terms](https://aws.amazon.com/architecture/icons/).

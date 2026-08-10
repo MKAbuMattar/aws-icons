@@ -7,5 +7,5 @@ lib/
 .DS_Store
 packages/*/icons/
 packages/*/metadata.json
-packages/*/src/emoji.generated.ts
-docs/public/emoji/
+packages/*/src/icon.generated.ts
+docs/public/icon/

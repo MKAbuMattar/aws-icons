@@ -1,8 +1,8 @@
 # @aws-icons/svelte
 
-[AWS Architecture Icons](https://github.com/microsoft/aws-icon) for Svelte 5 —
-tree-shakeable icon data plus a single `Icon` component. 3,145 icons in
-`flat`, `high-contrast`, and `modern` styles.
+[AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) for Svelte 5 —
+tree-shakeable icon data plus a single `Icon` component. 805 icons in
+`architecture-group`, `architecture-service`, `category`, and `resource` sets.
 
 ## Install
 
@@ -15,12 +15,12 @@ pnpm add @aws-icons/svelte
 ```svelte
 <script>
   import {Icon} from '@aws-icons/svelte';
-  import {Rocket} from '@aws-icons/svelte/flat';
-  // or per-icon: import Rocket from '@aws-icons/svelte/modern/rocket';
+  import {AmazonEc2} from '@aws-icons/svelte/architecture-service';
+  // or per-icon: import AmazonEc2 from '@aws-icons/svelte/resource/amazon-ec2-instance';
 </script>
 
-<Icon icon={Rocket} width="32" />
-<Icon icon={Rocket} title="Rocket launch" />  <!-- accessible label -->
+<Icon icon={AmazonEc2} width="32" />
+<Icon icon={AmazonEc2} title="Amazon EC2" />  <!-- accessible label -->
 ```
 
 Only the icons you import end up in your bundle. Extra attributes land on the
@@ -29,4 +29,4 @@ root `<svg>`. Without `title` the icon is `aria-hidden`.
 ## License
 
 [MIT](https://github.com/MKAbuMattar/aws-icons/blob/main/LICENSE).
-Icon assets © Microsoft, [MIT licensed](https://github.com/microsoft/aws-icons/blob/main/LICENSE).
+AWS Architecture Icons are © Amazon Web Services, Inc., provided under the [AWS icon terms](https://aws.amazon.com/architecture/icons/).

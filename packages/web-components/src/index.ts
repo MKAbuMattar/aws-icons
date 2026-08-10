@@ -1,6 +1,10 @@
 export type AwsIconData = {
   slug: string;
-  style: 'architecture-group' | 'architecture-service' | 'category' | 'resource';
+  style:
+    | 'architecture-group'
+    | 'architecture-service'
+    | 'category'
+    | 'resource';
   attrs: Record<string, string>;
   html: string;
 };

@@ -40,6 +40,4 @@ for (const style of STYLES) {
     `${indexJs.join('\n')}\n`,
   );
 }
-console.log(
-  `@aws-icons/web-components: generated ${total} icon data modules`,
-);
+console.log(`@aws-icons/web-components: generated ${total} icon data modules`);

@@ -1,8 +1,8 @@
 # @aws-icons/lit
 
-[AWS Architecture Icons](https://github.com/microsoft/aws-icon) for Lit — a
+[AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) for Lit — a
 `<aws-icon>` LitElement plus template helpers, with tree-shakeable icon
-data. 3,145 icons in `flat`, `high-contrast`, and `modern` styles.
+data. 805 icons in `architecture-group`, `architecture-service`, `category`, and `resource` sets.
 
 ## Install
 
@@ -16,15 +16,15 @@ As an element:
 
 ```js
 import {defineAwsIcon, register} from '@aws-icons/lit';
-import {Rocket} from '@aws-icons/lit/flat';
+import {AmazonEc2} from '@aws-icons/lit/architecture-service';
 
-register(Rocket);
+register(AmazonEc2);
 defineAwsIcon();
 ```
 
 ```html
-<aws-icon name="rocket"></aws-icon>
-<aws-icon name="rocket" variant="modern" label="Rocket"></aws-icon>
+<aws-icon name="amazon-ec2"></aws-icon>
+<aws-icon name="amazon-ec2" variant="resource" label="AmazonEc2"></aws-icon>
 ```
 
 Inside your own templates:
@@ -32,9 +32,9 @@ Inside your own templates:
 ```js
 import {html} from 'lit';
 import {iconTemplate} from '@aws-icons/lit';
-import {Rocket} from '@aws-icons/lit/flat';
+import {AmazonEc2} from '@aws-icons/lit/architecture-service';
 
-html`<button>${iconTemplate(Rocket, 'Launch')} Launch</button>`;
+html`<button>${iconTemplate(AmazonEc2, 'Launch')} Launch</button>`;
 ```
 
 Only imported icons end up in your bundle. Without `label` the svg is `aria-hidden`.
@@ -42,4 +42,4 @@ Only imported icons end up in your bundle. Without `label` the svg is `aria-hidd
 ## License
 
 [MIT](https://github.com/MKAbuMattar/aws-icons/blob/main/LICENSE).
-Icon assets © Microsoft, [MIT licensed](https://github.com/microsoft/aws-icons/blob/main/LICENSE).
+AWS Architecture Icons are © Amazon Web Services, Inc., provided under the [AWS icon terms](https://aws.amazon.com/architecture/icons/).

@@ -1,7 +1,12 @@
 import {type IconCategory, metadata} from '@aws-icons/svg';
 import {useEffect, useMemo, useRef, useState} from 'react';
 
-const STYLES: IconCategory[] = ['architecture-group', 'architecture-service', 'category', 'resource'];
+const STYLES: IconCategory[] = [
+  'architecture-group',
+  'architecture-service',
+  'category',
+  'resource',
+];
 const BATCH = 240; // cells rendered per scroll batch — keeps the DOM light
 
 const componentName = (slug: string): string => {
@@ -292,7 +297,7 @@ export default function Gallery({base}: {base: string}) {
       {icons.length === 0 ? (
         <p className="fe-empty">
           Nothing matches <code>{query}</code>. Try a simpler word, like
-          <code> cat</code> or <code>heart</code>.
+          <code> lambda</code> or <code>s3</code>.
         </p>
       ) : (
         <>

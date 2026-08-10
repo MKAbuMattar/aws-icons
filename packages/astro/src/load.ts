@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import {createRequire} from 'node:module';
-import type {IconSlug, IconCategory} from '@aws-icons/svg';
+import type {IconCategory, IconSlug} from '@aws-icons/svg';
 
 const resolve = createRequire(import.meta.url).resolve;
 

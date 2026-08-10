@@ -2,28 +2,25 @@
 import '@angular/compiler';
 import assert from 'node:assert/strict';
 // @ts-expect-error generated at build time
-import {Rocket} from '../dist/flat/index.js';
+import {AmazonEc2} from '../dist/architecture-service/index.js';
 // @ts-expect-error generated at build time
-import ModernRocket from '../dist/modern/icons/rocket.js';
+import ResourceInstance from '../dist/resource/icons/amazon-ec2-instance.js';
 // compiled FESM — partial-Ivy output importable in plain node
 // @ts-expect-error built by ng-packagr
 import {
-  iconHtml,
   AwsIconDirective,
+  iconHtml,
   register,
 } from '../lib/fesm2022/aws-icons-angular.mjs';
 
-register(Rocket, ModernRocket);
+register(AmazonEc2, ResourceInstance);
 
-const plain = iconHtml('rocket');
+const plain = iconHtml('amazon-ec2');
 assert.ok(plain.startsWith('<svg'), 'renders an svg');
 assert.ok(plain.includes('aria-hidden="true"'), 'decorative by default');
 
-const labeled = iconHtml('rocket', 'modern', 'Rocket "1"');
-assert.ok(
-  labeled.includes('aria-label="Rocket &quot;1&quot;"'),
-  'label escaped',
-);
+const labeled = iconHtml('amazon-ec2-instance', 'resource', 'EC2 "1"');
+assert.ok(labeled.includes('aria-label="EC2 &quot;1&quot;"'), 'label escaped');
 assert.equal(iconHtml('nope'), '', 'unknown icon is empty');
 
 assert.equal(typeof AwsIconDirective, 'function', 'directive exports');

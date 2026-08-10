@@ -19,7 +19,8 @@ const TMP = path.join(ROOT, '.tmp/upstream');
 const ASSETS = path.join(ROOT, 'assets');
 
 const ICONS_PAGE = 'https://aws.amazon.com/architecture/icons/';
-const ZIP_RE = /https:\/\/d1\.awsstatic\.com\/[^"'\s]*Icon-package[^"'\s]*\.zip/i;
+const ZIP_RE =
+  /https:\/\/d1\.awsstatic\.com\/[^"'\s]*Icon-package[^"'\s]*\.zip/i;
 
 const CATEGORY_DIRS: Record<string, string> = {
   'Architecture-Group': 'architecture-group',
@@ -32,9 +33,22 @@ const discoverZipUrl = async (): Promise<string> => {
   if (process.env.SYNC_ZIP_URL) return process.env.SYNC_ZIP_URL;
   const html = await (await fetch(ICONS_PAGE)).text();
   const match = ZIP_RE.exec(html);
-  if (!match) throw new Error(`No Icon-package zip link found on ${ICONS_PAGE}`);
+  if (!match)
+    throw new Error(`No Icon-package zip link found on ${ICONS_PAGE}`);
   return match[0];
 };
+
+/** Display name from the upstream filename, keeping AWS casing (Amazon EC2). */
+const displayName = (filename: string): string =>
+  filename
+    .replace(/\.svg$/i, '')
+    .replace(/^(Arch-Category_|Arch_|Res_|Arch-Group_)/i, '')
+    .replace(/_(16|32|48|64)(_(Light|Dark))?$/i, '')
+    .replace(/_(Light|Dark)$/i, '')
+    .replaceAll('-', ' ')
+    .replaceAll('_', ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
 
 const slugify = (filename: string): string =>
   filename
@@ -57,6 +71,7 @@ const slugify = (filename: string): string =>
 const svgoConfig = (slug: string): Config => ({
   plugins: [
     'preset-default',
+    'removeTitle',
     'convertStyleToAttrs',
     'cleanupIds',
     {
@@ -111,6 +126,7 @@ const main = async (): Promise<void> => {
 
   let written = 0;
   const seen = new Set<string>();
+  const names: Record<string, string> = {};
   for (const rel of files) {
     const cat = categoryOf(rel);
     if (!cat) continue;
@@ -122,12 +138,17 @@ const main = async (): Promise<void> => {
       continue;
     }
     seen.add(key);
+    names[slug] ??= displayName(path.basename(rel));
 
     const raw = fs.readFileSync(path.join(TMP, 'extracted', rel), 'utf8');
     const {data} = optimize(raw, svgoConfig(slug));
     fs.writeFileSync(path.join(ASSETS, cat, `${slug}.svg`), data);
     written++;
   }
+  fs.writeFileSync(
+    path.join(ASSETS, 'names.json'),
+    `${JSON.stringify(names, null, 2)}\n`,
+  );
   console.log(`Wrote ${written} optimized SVGs to assets/`);
   if (written < 800) {
     throw new Error(

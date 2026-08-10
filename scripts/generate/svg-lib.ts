@@ -2,7 +2,12 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-export const STYLES = ['architecture-group', 'architecture-service', 'category', 'resource'] as const;
+export const STYLES = [
+  'architecture-group',
+  'architecture-service',
+  'category',
+  'resource',
+] as const;
 export type Style = (typeof STYLES)[number];
 
 export const componentName = (slug: string): string => {

@@ -1,7 +1,7 @@
 {
   "name": "@aws-icons/root",
   "private": true,
-  "description": "AWS Architecture Icons as SVG, React, Astro & more — automated releases from microsoft/aws-icon",
+  "description": "AWS Architecture Icons as SVG, React, Astro & more — automated releases from the official AWS icon set",
   "keywords": [
     "aws",
     "icon",

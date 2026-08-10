@@ -3,13 +3,13 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {compile} from 'svelte/compiler';
 // @ts-expect-error generated at build time
-import {Rocket} from '../dist/flat/index.js';
+import {AmazonEc2} from '../dist/architecture-service/index.js';
 // @ts-expect-error generated at build time
-import ModernRocket from '../dist/modern/icons/rocket.js';
+import ResourceInstance from '../dist/resource/icons/amazon-ec2-instance.js';
 
-assert.ok(Rocket.html.includes('<path'), 'icon data has svg content');
-assert.equal(Rocket.attrs.viewBox, '0 0 32 32', 'viewBox preserved');
-assert.ok(ModernRocket.html.length > 0, 'per-icon import works');
+assert.ok(AmazonEc2.html.includes('<path'), 'icon data has svg content');
+assert.equal(AmazonEc2.attrs.viewBox, '0 0 64 64', 'viewBox preserved');
+assert.ok(ResourceInstance.html.length > 0, 'per-icon import works');
 
 const source = fs.readFileSync(
   path.resolve(import.meta.dirname, '../src/Icon.svelte'),

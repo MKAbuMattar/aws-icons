@@ -1,0 +1,19 @@
+{
+  "mode": "pre",
+  "tag": "beta",
+  "initialVersions": {
+    "@aws-icons/alpine": "3.3.0",
+    "@aws-icons/angular": "3.3.0",
+    "@aws-icons/astro": "3.3.0",
+    "@aws-icons/htmx": "3.3.0",
+    "@aws-icons/lit": "3.3.0",
+    "@aws-icons/preact": "3.3.0",
+    "@aws-icons/react": "3.3.0",
+    "@aws-icons/solid": "3.3.0",
+    "@aws-icons/svelte": "3.3.0",
+    "@aws-icons/svg": "3.3.0",
+    "@aws-icons/vue": "3.3.0",
+    "@aws-icons/web-components": "3.3.0"
+  },
+  "changesets": []
+}

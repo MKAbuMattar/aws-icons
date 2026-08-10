@@ -1,6 +1,6 @@
 {
   "name": "@aws-icons/react",
-  "version": "2.0.0",
+  "version": "3.3.0",
   "description": "AWS Architecture Icons as tree-shakeable typed React components (flat, high-contrast, modern). Successor of the react-aws-icon package.",
   "keywords": [
     "aws",

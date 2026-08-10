@@ -1,6 +1,6 @@
 {
   "name": "@aws-icons/web-components",
-  "version": "2.0.0",
+  "version": "3.3.0",
   "description": "AWS Architecture Icons as a framework-less <aws-icon> custom element with tree-shakeable icon data (flat, high-contrast, modern).",
   "keywords": [
     "aws",

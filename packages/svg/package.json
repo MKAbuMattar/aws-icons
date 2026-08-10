@@ -1,6 +1,6 @@
 {
   "name": "@aws-icons/svg",
-  "version": "2.0.0",
+  "version": "3.3.0",
   "description": "AWS Architecture Icons as optimized SVGs (flat, high-contrast, modern) with typed metadata. Successor of the aws-icon package.",
   "keywords": [
     "aws",

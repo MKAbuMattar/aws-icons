@@ -1,6 +1,6 @@
 {
   "name": "@aws-icons/svelte",
-  "version": "3.3.0",
+  "version": "4.0.0-beta.0",
   "description": "AWS Architecture Icons for Svelte 5 — tree-shakeable icon data plus a single Icon component (flat, high-contrast, modern).",
   "keywords": [
     "aws",

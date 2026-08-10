@@ -15,5 +15,7 @@
     "@aws-icons/vue": "3.3.0",
     "@aws-icons/web-components": "3.3.0"
   },
-  "changesets": []
+  "changesets": [
+    "monorepo-v4"
+  ]
 }

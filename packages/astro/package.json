@@ -1,0 +1,55 @@
+{
+  "name": "@aws-icons/astro",
+  "version": "2.0.0",
+  "description": "AWS Architecture Icons for Astro — SVG inlined at build time, zero client JS.",
+  "keywords": [
+    "aws",
+    "icon",
+    "aws-icon",
+    "icons",
+    "svg",
+    "astro",
+    "astro-component",
+    "withastro"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Mohammad Abu Mattar",
+    "email": "mohammad.khaled@outlook.com",
+    "url": "https://mkabumattar.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MKAbuMattar/aws-icons.git",
+    "directory": "packages/astro"
+  },
+  "bugs": {
+    "url": "https://github.com/MKAbuMattar/aws-icons/issues"
+  },
+  "homepage": "https://aws-icons.mkabumattar.com/",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": "./index.ts"
+  },
+  "files": [
+    "index.ts",
+    "src"
+  ],
+  "scripts": {
+    "test": "tsx test/smoke.ts"
+  },
+  "dependencies": {
+    "@aws-icons/svg": "workspace:^"
+  },
+  "peerDependencies": {
+    "astro": ">=4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.11",
+    "typescript": "^5.9.3"
+  }
+}

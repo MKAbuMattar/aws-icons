@@ -1,0 +1,33 @@
+---
+title: SVG
+description: Use AWS Architecture Icons as raw optimized SVG files with typed metadata.
+---
+
+Raw optimized SVGs + typed metadata. The foundation every other package builds on.
+
+```sh
+pnpm add @aws-icons/svg
+```
+
+## Import an SVG
+
+```ts
+// with a bundler (Vite, webpack, ...):
+import rocket from '@aws-icons/svg/icons/flat/rocket.svg';
+```
+
+Styles: `flat`, `high-contrast`, `modern`. Not every icon exists in
+`high-contrast` — check `styles` in the metadata.
+
+## Typed metadata
+
+```ts
+import {metadata, getIcon, getIconPath} from '@aws-icons/svg';
+import type {IconSlug, IconCategory} from '@aws-icons/svg';
+
+metadata.count;                    // 3145
+getIcon('rocket');                // {slug: 'rocket', name: 'Rocket', styles: ['flat', ...]}
+getIconPath('rocket', 'modern');  // '@aws-icons/svg/icons/modern/rocket.svg'
+```
+
+`IconSlug` is a union of all 3,145 slugs — typos fail at compile time.

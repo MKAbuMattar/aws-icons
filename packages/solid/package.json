@@ -1,0 +1,94 @@
+{
+  "name": "@aws-icons/solid",
+  "version": "2.0.0",
+  "description": "AWS Architecture Icons as tree-shakeable typed SolidJS components (flat, high-contrast, modern).",
+  "keywords": [
+    "aws",
+    "icon",
+    "aws-icon",
+    "icons",
+    "svg",
+    "solid",
+    "solidjs"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Mohammad Abu Mattar",
+    "email": "mohammad.khaled@outlook.com",
+    "url": "https://mkabumattar.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MKAbuMattar/aws-icons.git",
+    "directory": "packages/solid"
+  },
+  "bugs": {
+    "url": "https://github.com/MKAbuMattar/aws-icons/issues"
+  },
+  "homepage": "https://aws-icons.mkabumattar.com/",
+  "type": "module",
+  "sideEffects": false,
+  "module": "./dist/core.js",
+  "types": "./dist/core.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/core.d.ts",
+      "solid": "./dist/source/core.jsx",
+      "node": "./dist/core.ssr.js",
+      "default": "./dist/core.js"
+    },
+    "./architecture-group": {
+      "types": "./dist/architecture-group/index.d.ts",
+      "default": "./dist/architecture-group/index.js"
+    },
+    "./architecture-group/*": {
+      "types": "./dist/architecture-group/icons/*.d.ts",
+      "default": "./dist/architecture-group/icons/*.js"
+    },
+    "./architecture-service": {
+      "types": "./dist/architecture-service/index.d.ts",
+      "default": "./dist/architecture-service/index.js"
+    },
+    "./architecture-service/*": {
+      "types": "./dist/architecture-service/icons/*.d.ts",
+      "default": "./dist/architecture-service/icons/*.js"
+    },
+    "./category": {
+      "types": "./dist/category/index.d.ts",
+      "default": "./dist/category/index.js"
+    },
+    "./category/*": {
+      "types": "./dist/category/icons/*.d.ts",
+      "default": "./dist/category/icons/*.js"
+    },
+    "./resource": {
+      "types": "./dist/resource/index.d.ts",
+      "default": "./dist/resource/index.js"
+    },
+    "./resource/*": {
+      "types": "./dist/resource/icons/*.d.ts",
+      "default": "./dist/resource/icons/*.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsx build.ts",
+    "test": "tsx test/smoke.ts"
+  },
+  "peerDependencies": {
+    "solid-js": ">=1.8"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-typescript": "^7.28.0",
+    "babel-preset-solid": "^1.9.9",
+    "solid-js": "^1.9.9",
+    "tsx": "^4.23.11",
+    "typescript": "^5.9.3"
+  }
+}

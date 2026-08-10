@@ -1,0 +1,5648 @@
+{
+  "count": 805,
+  "styles": [
+    "architecture-group",
+    "architecture-service",
+    "category",
+    "resource"
+  ],
+  "icons": [
+    {
+      "slug": "alert",
+      "name": "Alert",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-api-gateway",
+      "name": "Amazon Api Gateway",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-api-gateway-endpoint",
+      "name": "Amazon Api Gateway Endpoint",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-app-flow",
+      "name": "Amazon App Flow",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-application-recovery-controller",
+      "name": "Amazon Application Recovery Controller",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-athena",
+      "name": "Amazon Athena",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-athena-data-source-connectors",
+      "name": "Amazon Athena Data Source Connectors",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-augmented-ai-a2-i",
+      "name": "Amazon Augmented Ai A2 I",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-aurora",
+      "name": "Amazon Aurora",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-aurora-amazon-aurora-instance-alternate",
+      "name": "Amazon Aurora Amazon Aurora Instance Alternate",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-aurora-amazon-rds-instance",
+      "name": "Amazon Aurora Amazon Rds Instance",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-aurora-amazon-rds-instance-aternate",
+      "name": "Amazon Aurora Amazon Rds Instance Aternate",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-aurora-instance",
+      "name": "Amazon Aurora Instance",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-aurora-maria-db-instance",
+      "name": "Amazon Aurora Maria Db Instance",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-aurora-maria-db-instance-alternate",
+      "name": "Amazon Aurora Maria Db Instance Alternate",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-aurora-my-sql-instance",
+      "name": "Amazon Aurora My Sql Instance",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-aurora-my-sql-instance-alternate",
+      "name": "Amazon Aurora My Sql Instance Alternate",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-aurora-oracle-instance",
+      "name": "Amazon Aurora Oracle Instance",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-aurora-oracle-instance-alternate",
+      "name": "Amazon Aurora Oracle Instance Alternate",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-aurora-piops-instance",
+      "name": "Amazon Aurora Piops Instance",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-aurora-postgre-sql-instance",
+      "name": "Amazon Aurora Postgre Sql Instance",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-aurora-postgre-sql-instance-alternate",
+      "name": "Amazon Aurora Postgre Sql Instance Alternate",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-aurora-sql-server-instance",
+      "name": "Amazon Aurora Sql Server Instance",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-aurora-sql-server-instance-alternate",
+      "name": "Amazon Aurora Sql Server Instance Alternate",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-aurora-trusted-language-extensions-for-postgre-sql",
+      "name": "Amazon Aurora Trusted Language Extensions For Postgre Sql",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-bedrock",
+      "name": "Amazon Bedrock",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-bedrock-agent-core",
+      "name": "Amazon Bedrock Agent Core",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-braket",
+      "name": "Amazon Braket",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-braket-chandelier",
+      "name": "Amazon Braket Chandelier",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-braket-chip",
+      "name": "Amazon Braket Chip",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-braket-embedded-simulator",
+      "name": "Amazon Braket Embedded Simulator",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-braket-managed-simulator",
+      "name": "Amazon Braket Managed Simulator",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-braket-noise-simulator",
+      "name": "Amazon Braket Noise Simulator",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-braket-qpu",
+      "name": "Amazon Braket Qpu",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-braket-simulator",
+      "name": "Amazon Braket Simulator",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-braket-simulator-1",
+      "name": "Amazon Braket Simulator 1",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-braket-simulator-2",
+      "name": "Amazon Braket Simulator 2",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-braket-simulator-3",
+      "name": "Amazon Braket Simulator 3",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-braket-simulator-4",
+      "name": "Amazon Braket Simulator 4",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-braket-state-vector",
+      "name": "Amazon Braket State Vector",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-braket-tensor-network",
+      "name": "Amazon Braket Tensor Network",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-chime",
+      "name": "Amazon Chime",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-chime-sdk",
+      "name": "Amazon Chime Sdk",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-cloud-directory",
+      "name": "Amazon Cloud Directory",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-cloud-front",
+      "name": "Amazon Cloud Front",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-cloud-front-download-distribution",
+      "name": "Amazon Cloud Front Download Distribution",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-cloud-front-edge-location",
+      "name": "Amazon Cloud Front Edge Location",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-cloud-front-functions",
+      "name": "Amazon Cloud Front Functions",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-cloud-front-streaming-distribution",
+      "name": "Amazon Cloud Front Streaming Distribution",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-cloud-search",
+      "name": "Amazon Cloud Search",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-cloud-search-search-documents",
+      "name": "Amazon Cloud Search Search Documents",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-cloud-watch",
+      "name": "Amazon Cloud Watch",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-cloud-watch-alarm",
+      "name": "Amazon Cloud Watch Alarm",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-cloud-watch-cross-account-observability",
+      "name": "Amazon Cloud Watch Cross Account Observability",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-cloud-watch-data-protection",
+      "name": "Amazon Cloud Watch Data Protection",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-cloud-watch-event-event-based",
+      "name": "Amazon Cloud Watch Event Event Based",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-cloud-watch-event-time-based",
+      "name": "Amazon Cloud Watch Event Time Based",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-cloud-watch-evidently",
+      "name": "Amazon Cloud Watch Evidently",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-cloud-watch-logs",
+      "name": "Amazon Cloud Watch Logs",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-cloud-watch-metrics-insights",
+      "name": "Amazon Cloud Watch Metrics Insights",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-cloud-watch-rule",
+      "name": "Amazon Cloud Watch Rule",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-cloud-watch-rum",
+      "name": "Amazon Cloud Watch Rum",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-cloud-watch-synthetics",
+      "name": "Amazon Cloud Watch Synthetics",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-code-catalyst",
+      "name": "Amazon Code Catalyst",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-code-guru",
+      "name": "Amazon Code Guru",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-code-whisperer",
+      "name": "Amazon Code Whisperer",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-cognito",
+      "name": "Amazon Cognito",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-comprehend",
+      "name": "Amazon Comprehend",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-comprehend-medical",
+      "name": "Amazon Comprehend Medical",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-connect",
+      "name": "Amazon Connect",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-corretto",
+      "name": "Amazon Corretto",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-data-firehose",
+      "name": "Amazon Data Firehose",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-data-zone",
+      "name": "Amazon Data Zone",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-data-zone-business-data-catalog",
+      "name": "Amazon Data Zone Business Data Catalog",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-data-zone-data-portal",
+      "name": "Amazon Data Zone Data Portal",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-data-zone-data-projects",
+      "name": "Amazon Data Zone Data Projects",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-dcv",
+      "name": "Amazon Dcv",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-detective",
+      "name": "Amazon Detective",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-dev-ops-guru",
+      "name": "Amazon Dev Ops Guru",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-dev-ops-guru-insights",
+      "name": "Amazon Dev Ops Guru Insights",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-document-db",
+      "name": "Amazon Document Db",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-document-db-elastic-clusters",
+      "name": "Amazon Document Db Elastic Clusters",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-dynamo-db",
+      "name": "Amazon Dynamo Db",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-dynamo-db-amazon-dynamo-db-accelerator",
+      "name": "Amazon Dynamo Db Amazon Dynamo Db Accelerator",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-dynamo-db-attribute",
+      "name": "Amazon Dynamo Db Attribute",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-dynamo-db-attributes",
+      "name": "Amazon Dynamo Db Attributes",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-dynamo-db-global-secondary-index",
+      "name": "Amazon Dynamo Db Global Secondary Index",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-dynamo-db-item",
+      "name": "Amazon Dynamo Db Item",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-dynamo-db-items",
+      "name": "Amazon Dynamo Db Items",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-dynamo-db-standard-access-table-class",
+      "name": "Amazon Dynamo Db Standard Access Table Class",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-dynamo-db-standard-infrequent-access-table-class",
+      "name": "Amazon Dynamo Db Standard Infrequent Access Table Class",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-dynamo-db-stream",
+      "name": "Amazon Dynamo Db Stream",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-dynamo-db-table",
+      "name": "Amazon Dynamo Db Table",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-ec2",
+      "name": "Amazon Ec2",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-ec2-ami",
+      "name": "Amazon Ec2 Ami",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-ec2-auto-scaling",
+      "name": "Amazon Ec2 Auto Scaling",
+      "styles": [
+        "architecture-service",
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-ec2-aws-microservice-extractor-for-net",
+      "name": "Amazon Ec2 Aws Microservice Extractor For Net",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-ec2-db-instance",
+      "name": "Amazon Ec2 Db Instance",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-ec2-elastic-ip-address",
+      "name": "Amazon Ec2 Elastic Ip Address",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-ec2-image-builder",
+      "name": "Amazon Ec2 Image Builder",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-ec2-instance",
+      "name": "Amazon Ec2 Instance",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-ec2-instance-with-cloud-watch",
+      "name": "Amazon Ec2 Instance With Cloud Watch",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-ec2-instances",
+      "name": "Amazon Ec2 Instances",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-ec2-rescue",
+      "name": "Amazon Ec2 Rescue",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-ec2-spot-instance",
+      "name": "Amazon Ec2 Spot Instance",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-ecs-anywhere",
+      "name": "Amazon Ecs Anywhere",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-efs",
+      "name": "Amazon Efs",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-eks-anywhere",
+      "name": "Amazon Eks Anywhere",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-eks-distro",
+      "name": "Amazon Eks Distro",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-elasti-cache",
+      "name": "Amazon Elasti Cache",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-elasti-cache-cache-node",
+      "name": "Amazon Elasti Cache Cache Node",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elasti-cache-elasti-cache-for-memcached",
+      "name": "Amazon Elasti Cache Elasti Cache For Memcached",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elasti-cache-elasti-cache-for-redis",
+      "name": "Amazon Elasti Cache Elasti Cache For Redis",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elasti-cache-elasti-cache-for-valkey",
+      "name": "Amazon Elasti Cache Elasti Cache For Valkey",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-block-store",
+      "name": "Amazon Elastic Block Store",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-block-store-amazon-data-lifecycle-manager",
+      "name": "Amazon Elastic Block Store Amazon Data Lifecycle Manager",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-block-store-multiple-volumes",
+      "name": "Amazon Elastic Block Store Multiple Volumes",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-block-store-snapshot",
+      "name": "Amazon Elastic Block Store Snapshot",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-block-store-volume",
+      "name": "Amazon Elastic Block Store Volume",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-block-store-volume-gp3",
+      "name": "Amazon Elastic Block Store Volume Gp3",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-container-registry",
+      "name": "Amazon Elastic Container Registry",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-container-registry-image",
+      "name": "Amazon Elastic Container Registry Image",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-container-registry-registry",
+      "name": "Amazon Elastic Container Registry Registry",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-container-service",
+      "name": "Amazon Elastic Container Service",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-container-service-container-1",
+      "name": "Amazon Elastic Container Service Container 1",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-container-service-container-2",
+      "name": "Amazon Elastic Container Service Container 2",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-container-service-container-3",
+      "name": "Amazon Elastic Container Service Container 3",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-container-service-copi-iot-cli",
+      "name": "Amazon Elastic Container Service Copi Iot Cli",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-container-service-ecs-service-connect",
+      "name": "Amazon Elastic Container Service Ecs Service Connect",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-container-service-service",
+      "name": "Amazon Elastic Container Service Service",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-container-service-task",
+      "name": "Amazon Elastic Container Service Task",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-file-system-efs-intelligent-tiering",
+      "name": "Amazon Elastic File System Efs Intelligent Tiering",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-file-system-efs-one-zone",
+      "name": "Amazon Elastic File System Efs One Zone",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-file-system-efs-one-zone-infrequent-access",
+      "name": "Amazon Elastic File System Efs One Zone Infrequent Access",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-file-system-efs-standard",
+      "name": "Amazon Elastic File System Efs Standard",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-file-system-efs-standard-infrequent-access",
+      "name": "Amazon Elastic File System Efs Standard Infrequent Access",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-file-system-elastic-throughput",
+      "name": "Amazon Elastic File System Elastic Throughput",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-file-system-file-system",
+      "name": "Amazon Elastic File System File System",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-inference",
+      "name": "Amazon Elastic Inference",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-kubernetes-service",
+      "name": "Amazon Elastic Kubernetes Service",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-kubernetes-service-eks-on-outposts",
+      "name": "Amazon Elastic Kubernetes Service Eks On Outposts",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-elastic-vmware-service",
+      "name": "Amazon Elastic Vmware Service",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-emr",
+      "name": "Amazon Emr",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-emr-cluster",
+      "name": "Amazon Emr Cluster",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-emr-emr-engine",
+      "name": "Amazon Emr Emr Engine",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-emr-hdfs-cluster",
+      "name": "Amazon Emr Hdfs Cluster",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-event-bridge",
+      "name": "Amazon Event Bridge",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-event-bridge-custom-event-bus",
+      "name": "Amazon Event Bridge Custom Event Bus",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-event-bridge-default-event-bus",
+      "name": "Amazon Event Bridge Default Event Bus",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-event-bridge-event",
+      "name": "Amazon Event Bridge Event",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-event-bridge-pipes",
+      "name": "Amazon Event Bridge Pipes",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-event-bridge-rule",
+      "name": "Amazon Event Bridge Rule",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-event-bridge-saas-partner-event",
+      "name": "Amazon Event Bridge Saas Partner Event",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-event-bridge-scheduler",
+      "name": "Amazon Event Bridge Scheduler",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-event-bridge-schema",
+      "name": "Amazon Event Bridge Schema",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-event-bridge-schema-registry",
+      "name": "Amazon Event Bridge Schema Registry",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-file-cache",
+      "name": "Amazon File Cache",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-file-cache-hybrid-nfs-linked-datasets",
+      "name": "Amazon File Cache Hybrid Nfs Linked Datasets",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-file-cache-on-premises-nfs-linked-datasets",
+      "name": "Amazon File Cache On Premises Nfs Linked Datasets",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-file-cache-s3-linked-datasets",
+      "name": "Amazon File Cache S3 Linked Datasets",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-fin-space",
+      "name": "Amazon Fin Space",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-forecast",
+      "name": "Amazon Forecast",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-fraud-detector",
+      "name": "Amazon Fraud Detector",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-fsx",
+      "name": "Amazon Fsx",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-fsx-for-lustre",
+      "name": "Amazon Fsx For Lustre",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-fsx-for-net-app-ontap",
+      "name": "Amazon Fsx For Net App Ontap",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-fsx-for-open-zfs",
+      "name": "Amazon Fsx For Open Zfs",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-fsx-for-wfs",
+      "name": "Amazon Fsx For Wfs",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-game-lift-servers",
+      "name": "Amazon Game Lift Servers",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-game-lift-streams",
+      "name": "Amazon Game Lift Streams",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-guard-duty",
+      "name": "Amazon Guard Duty",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-inspector",
+      "name": "Amazon Inspector",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-inspector-agent",
+      "name": "Amazon Inspector Agent",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-interactive-video-service",
+      "name": "Amazon Interactive Video Service",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-kendra",
+      "name": "Amazon Kendra",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-keyspaces",
+      "name": "Amazon Keyspaces",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-kinesis",
+      "name": "Amazon Kinesis",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-kinesis-data-streams",
+      "name": "Amazon Kinesis Data Streams",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-kinesis-video-streams",
+      "name": "Amazon Kinesis Video Streams",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-lex",
+      "name": "Amazon Lex",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-lightsail",
+      "name": "Amazon Lightsail",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-lightsail-for-research",
+      "name": "Amazon Lightsail For Research",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-location-service",
+      "name": "Amazon Location Service",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-location-service-geofence",
+      "name": "Amazon Location Service Geofence",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-location-service-map",
+      "name": "Amazon Location Service Map",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-location-service-place",
+      "name": "Amazon Location Service Place",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-location-service-routes",
+      "name": "Amazon Location Service Routes",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-location-service-track",
+      "name": "Amazon Location Service Track",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-lookout-for-equipment",
+      "name": "Amazon Lookout For Equipment",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-lookout-for-vision",
+      "name": "Amazon Lookout For Vision",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-macie",
+      "name": "Amazon Macie",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-managed-blockchain",
+      "name": "Amazon Managed Blockchain",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-managed-blockchain-blockchain",
+      "name": "Amazon Managed Blockchain Blockchain",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-managed-grafana",
+      "name": "Amazon Managed Grafana",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-managed-service-for-apache-flink",
+      "name": "Amazon Managed Service For Apache Flink",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-managed-service-for-prometheus",
+      "name": "Amazon Managed Service For Prometheus",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-managed-streaming-for-apache-kafka",
+      "name": "Amazon Managed Streaming For Apache Kafka",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-managed-workflows-for-apache-airflow",
+      "name": "Amazon Managed Workflows For Apache Airflow",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-memory-db",
+      "name": "Amazon Memory Db",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-monitron",
+      "name": "Amazon Monitron",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-mq",
+      "name": "Amazon Mq",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-mq-broker",
+      "name": "Amazon Mq Broker",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-msk-amazon-msk-connect",
+      "name": "Amazon Msk Amazon Msk Connect",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-neptune",
+      "name": "Amazon Neptune",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-nova",
+      "name": "Amazon Nova",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-open-search-service",
+      "name": "Amazon Open Search Service",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-open-search-service-cluster-administrator-node",
+      "name": "Amazon Open Search Service Cluster Administrator Node",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-open-search-service-data-node",
+      "name": "Amazon Open Search Service Data Node",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-open-search-service-index",
+      "name": "Amazon Open Search Service Index",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-open-search-service-observability",
+      "name": "Amazon Open Search Service Observability",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-open-search-service-open-search-dashboards",
+      "name": "Amazon Open Search Service Open Search Dashboards",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-open-search-service-open-search-ingestion",
+      "name": "Amazon Open Search Service Open Search Ingestion",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-open-search-service-traces",
+      "name": "Amazon Open Search Service Traces",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-open-search-service-ultra-warm-node",
+      "name": "Amazon Open Search Service Ultra Warm Node",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-personalize",
+      "name": "Amazon Personalize",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-pinpoint",
+      "name": "Amazon Pinpoint",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-pinpoint-apis",
+      "name": "Amazon Pinpoint Apis",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-pinpoint-journey",
+      "name": "Amazon Pinpoint Journey",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-polly",
+      "name": "Amazon Polly",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-q",
+      "name": "Amazon Q",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-quick",
+      "name": "Amazon Quick",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-rds",
+      "name": "Amazon Rds",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-rds-blue-green-deployments",
+      "name": "Amazon Rds Blue Green Deployments",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-rds-multi-az",
+      "name": "Amazon Rds Multi Az",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-rds-multi-az-db-cluster",
+      "name": "Amazon Rds Multi Az Db Cluster",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-rds-optimized-writes",
+      "name": "Amazon Rds Optimized Writes",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-rds-proxy-instance",
+      "name": "Amazon Rds Proxy Instance",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-rds-proxy-instance-alternate",
+      "name": "Amazon Rds Proxy Instance Alternate",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-rds-trusted-language-extensions-for-postgre-sql",
+      "name": "Amazon Rds Trusted Language Extensions For Postgre Sql",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-redshift",
+      "name": "Amazon Redshift",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-redshift-auto-copy",
+      "name": "Amazon Redshift Auto Copy",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-redshift-data-sharing-governance",
+      "name": "Amazon Redshift Data Sharing Governance",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-redshift-dense-compute-node",
+      "name": "Amazon Redshift Dense Compute Node",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-redshift-dense-storage-node",
+      "name": "Amazon Redshift Dense Storage Node",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-redshift-ml",
+      "name": "Amazon Redshift Ml",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-redshift-query-editor-v20",
+      "name": "Amazon Redshift Query Editor V20",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-redshift-ra3",
+      "name": "Amazon Redshift Ra3",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-redshift-streaming-ingestion",
+      "name": "Amazon Redshift Streaming Ingestion",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-rekognition",
+      "name": "Amazon Rekognition",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-rekognition-image",
+      "name": "Amazon Rekognition Image",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-rekognition-video",
+      "name": "Amazon Rekognition Video",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-route-53",
+      "name": "Amazon Route 53",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-route-53-hosted-zone",
+      "name": "Amazon Route 53 Hosted Zone",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-route-53-readiness-checks",
+      "name": "Amazon Route 53 Readiness Checks",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-route-53-resolver",
+      "name": "Amazon Route 53 Resolver",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-route-53-resolver-dns-firewall",
+      "name": "Amazon Route 53 Resolver Dns Firewall",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-route-53-resolver-query-logging",
+      "name": "Amazon Route 53 Resolver Query Logging",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-route-53-route-table",
+      "name": "Amazon Route 53 Route Table",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-route-53-routing-controls",
+      "name": "Amazon Route 53 Routing Controls",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-s3-on-outposts",
+      "name": "Amazon S3 On Outposts",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-sage-maker",
+      "name": "Amazon Sage Maker",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-sage-maker-ai",
+      "name": "Amazon Sage Maker Ai",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-sage-maker-ai-canvas",
+      "name": "Amazon Sage Maker Ai Canvas",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-sage-maker-ai-geospatial-ml",
+      "name": "Amazon Sage Maker Ai Geospatial Ml",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-sage-maker-ai-model",
+      "name": "Amazon Sage Maker Ai Model",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-sage-maker-ai-notebook",
+      "name": "Amazon Sage Maker Ai Notebook",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-sage-maker-ai-shadow-testing",
+      "name": "Amazon Sage Maker Ai Shadow Testing",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-sage-maker-ai-train",
+      "name": "Amazon Sage Maker Ai Train",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-sage-maker-ground-truth",
+      "name": "Amazon Sage Maker Ground Truth",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-sage-maker-studio-lab",
+      "name": "Amazon Sage Maker Studio Lab",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-security-lake",
+      "name": "Amazon Security Lake",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-simple-email-service",
+      "name": "Amazon Simple Email Service",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-simple-email-service-email",
+      "name": "Amazon Simple Email Service Email",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-notification-service",
+      "name": "Amazon Simple Notification Service",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-simple-notification-service-email-notification",
+      "name": "Amazon Simple Notification Service Email Notification",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-notification-service-http-notification",
+      "name": "Amazon Simple Notification Service Http Notification",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-notification-service-topic",
+      "name": "Amazon Simple Notification Service Topic",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-queue-service",
+      "name": "Amazon Simple Queue Service",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-simple-queue-service-message",
+      "name": "Amazon Simple Queue Service Message",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-queue-service-queue",
+      "name": "Amazon Simple Queue Service Queue",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service",
+      "name": "Amazon Simple Storage Service",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-bucket",
+      "name": "Amazon Simple Storage Service Bucket",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-bucket-with-objects",
+      "name": "Amazon Simple Storage Service Bucket With Objects",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-directory-bucket",
+      "name": "Amazon Simple Storage Service Directory Bucket",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-general-access-points",
+      "name": "Amazon Simple Storage Service General Access Points",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-glacier",
+      "name": "Amazon Simple Storage Service Glacier",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-glacier-archive",
+      "name": "Amazon Simple Storage Service Glacier Archive",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-glacier-vault",
+      "name": "Amazon Simple Storage Service Glacier Vault",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-object",
+      "name": "Amazon Simple Storage Service Object",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-s3-batch-operations",
+      "name": "Amazon Simple Storage Service S3 Batch Operations",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-s3-express-one-zone",
+      "name": "Amazon Simple Storage Service S3 Express One Zone",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-s3-files",
+      "name": "Amazon Simple Storage Service S3 Files",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-s3-glacier-deep-archive",
+      "name": "Amazon Simple Storage Service S3 Glacier Deep Archive",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-s3-glacier-flexible-retrieval",
+      "name": "Amazon Simple Storage Service S3 Glacier Flexible Retrieval",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-s3-glacier-instant-retrieval",
+      "name": "Amazon Simple Storage Service S3 Glacier Instant Retrieval",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-s3-intelligent-tiering",
+      "name": "Amazon Simple Storage Service S3 Intelligent Tiering",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-s3-multi-region-access-points",
+      "name": "Amazon Simple Storage Service S3 Multi Region Access Points",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-s3-object-lambda",
+      "name": "Amazon Simple Storage Service S3 Object Lambda",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-s3-object-lambda-access-points",
+      "name": "Amazon Simple Storage Service S3 Object Lambda Access Points",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-s3-object-lock",
+      "name": "Amazon Simple Storage Service S3 Object Lock",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-s3-on-outposts",
+      "name": "Amazon Simple Storage Service S3 On Outposts",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-s3-one-zone-ia",
+      "name": "Amazon Simple Storage Service S3 One Zone Ia",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-s3-replication",
+      "name": "Amazon Simple Storage Service S3 Replication",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-s3-replication-time-control",
+      "name": "Amazon Simple Storage Service S3 Replication Time Control",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-s3-select",
+      "name": "Amazon Simple Storage Service S3 Select",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-s3-standard",
+      "name": "Amazon Simple Storage Service S3 Standard",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-s3-standard-ia",
+      "name": "Amazon Simple Storage Service S3 Standard Ia",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-s3-storage-lens",
+      "name": "Amazon Simple Storage Service S3 Storage Lens",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-s3-tables",
+      "name": "Amazon Simple Storage Service S3 Tables",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-s3-vectors",
+      "name": "Amazon Simple Storage Service S3 Vectors",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-simple-storage-service-vpc-access-points",
+      "name": "Amazon Simple Storage Service Vpc Access Points",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-textract",
+      "name": "Amazon Textract",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-textract-analyze-lending",
+      "name": "Amazon Textract Analyze Lending",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-timestream",
+      "name": "Amazon Timestream",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-transcribe",
+      "name": "Amazon Transcribe",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-translate",
+      "name": "Amazon Translate",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-verified-permissions",
+      "name": "Amazon Verified Permissions",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-virtual-private-cloud",
+      "name": "Amazon Virtual Private Cloud",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-vpc-carrier-gateway",
+      "name": "Amazon Vpc Carrier Gateway",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-vpc-customer-gateway",
+      "name": "Amazon Vpc Customer Gateway",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-vpc-elastic-network-adapter",
+      "name": "Amazon Vpc Elastic Network Adapter",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-vpc-elastic-network-interface",
+      "name": "Amazon Vpc Elastic Network Interface",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-vpc-endpoints",
+      "name": "Amazon Vpc Endpoints",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-vpc-flow-logs",
+      "name": "Amazon Vpc Flow Logs",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-vpc-internet-gateway",
+      "name": "Amazon Vpc Internet Gateway",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-vpc-lattice",
+      "name": "Amazon Vpc Lattice",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-vpc-nat-gateway",
+      "name": "Amazon Vpc Nat Gateway",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-vpc-network-access-analyzer",
+      "name": "Amazon Vpc Network Access Analyzer",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-vpc-network-access-control-list",
+      "name": "Amazon Vpc Network Access Control List",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-vpc-peering-connection",
+      "name": "Amazon Vpc Peering Connection",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-vpc-reachability-analyzer",
+      "name": "Amazon Vpc Reachability Analyzer",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-vpc-router",
+      "name": "Amazon Vpc Router",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-vpc-traffic-mirroring",
+      "name": "Amazon Vpc Traffic Mirroring",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-vpc-virtual-private-cloud-vpc",
+      "name": "Amazon Vpc Virtual Private Cloud Vpc",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-vpc-vpn-connection",
+      "name": "Amazon Vpc Vpn Connection",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-vpc-vpn-gateway",
+      "name": "Amazon Vpc Vpn Gateway",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "amazon-work-docs",
+      "name": "Amazon Work Docs",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-work-docs-sdk",
+      "name": "Amazon Work Docs Sdk",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-work-mail",
+      "name": "Amazon Work Mail",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "amazon-work-spaces",
+      "name": "Amazon Work Spaces",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "analytics",
+      "name": "Analytics",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "apache-mxnet-on-aws",
+      "name": "Apache Mxnet On Aws",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "application-integration",
+      "name": "Application Integration",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "artificial-intelligence",
+      "name": "Artificial Intelligence",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "authenticated-user",
+      "name": "Authenticated User",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "auto-scaling-group",
+      "name": "Auto Scaling Group",
+      "styles": [
+        "architecture-group"
+      ]
+    },
+    {
+      "slug": "aws-account",
+      "name": "Aws Account",
+      "styles": [
+        "architecture-group"
+      ]
+    },
+    {
+      "slug": "aws-activate",
+      "name": "Aws Activate",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-amplify",
+      "name": "Aws Amplify",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-amplify-aws-amplify-studio",
+      "name": "Aws Amplify Aws Amplify Studio",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-app-config",
+      "name": "Aws App Config",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-app-fabric",
+      "name": "Aws App Fabric",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-app-mesh",
+      "name": "Aws App Mesh",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-app-mesh-mesh",
+      "name": "Aws App Mesh Mesh",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-app-mesh-virtual-gateway",
+      "name": "Aws App Mesh Virtual Gateway",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-app-mesh-virtual-node",
+      "name": "Aws App Mesh Virtual Node",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-app-mesh-virtual-router",
+      "name": "Aws App Mesh Virtual Router",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-app-mesh-virtual-service",
+      "name": "Aws App Mesh Virtual Service",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-app-runner",
+      "name": "Aws App Runner",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-app-studio",
+      "name": "Aws App Studio",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-app-sync",
+      "name": "Aws App Sync",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-application-auto-scaling",
+      "name": "Aws Application Auto Scaling",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-application-discovery-service",
+      "name": "Aws Application Discovery Service",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-application-discovery-service-aws-agentless-collector",
+      "name": "Aws Application Discovery Service Aws Agentless Collector",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-application-discovery-service-aws-discovery-agent",
+      "name": "Aws Application Discovery Service Aws Discovery Agent",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-application-discovery-service-migration-evaluator-collector",
+      "name": "Aws Application Discovery Service Migration Evaluator Collector",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-application-migration-service",
+      "name": "Aws Application Migration Service",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-artifact",
+      "name": "Aws Artifact",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-audit-manager",
+      "name": "Aws Audit Manager",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-auto-scaling",
+      "name": "Aws Auto Scaling",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-b2b-data-interchange",
+      "name": "Aws B2b Data Interchange",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-backint-agent",
+      "name": "Aws Backint Agent",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-backup",
+      "name": "Aws Backup",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-backup-audit-manager",
+      "name": "Aws Backup Audit Manager",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-backup-aws-backup-for-aws-cloud-formation",
+      "name": "Aws Backup Aws Backup For Aws Cloud Formation",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-backup-aws-backup-support-for-amazon-fsx-for-net-app-ontap",
+      "name": "Aws Backup Aws Backup Support For Amazon Fsx For Net App Ontap",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-backup-aws-backup-support-for-amazon-s3",
+      "name": "Aws Backup Aws Backup Support For Amazon S3",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-backup-aws-backup-support-for-vmware-workloads",
+      "name": "Aws Backup Aws Backup Support For Vmware Workloads",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-backup-backup-plan",
+      "name": "Aws Backup Backup Plan",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-backup-backup-restore",
+      "name": "Aws Backup Backup Restore",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-backup-backup-vault",
+      "name": "Aws Backup Backup Vault",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-backup-compliance-reporting",
+      "name": "Aws Backup Compliance Reporting",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-backup-compute",
+      "name": "Aws Backup Compute",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-backup-database",
+      "name": "Aws Backup Database",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-backup-gateway",
+      "name": "Aws Backup Gateway",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-backup-legal-hold",
+      "name": "Aws Backup Legal Hold",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-backup-recovery-point-objective",
+      "name": "Aws Backup Recovery Point Objective",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-backup-recovery-time-objective",
+      "name": "Aws Backup Recovery Time Objective",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-backup-storage",
+      "name": "Aws Backup Storage",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-backup-vault-lock",
+      "name": "Aws Backup Vault Lock",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-backup-virtual-machine",
+      "name": "Aws Backup Virtual Machine",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-backup-virtual-machine-monitor",
+      "name": "Aws Backup Virtual Machine Monitor",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-batch",
+      "name": "Aws Batch",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-billing-conductor",
+      "name": "Aws Billing Conductor",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-budgets",
+      "name": "Aws Budgets",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-certificate-manager",
+      "name": "Aws Certificate Manager",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-certificate-manager-certificate-authority",
+      "name": "Aws Certificate Manager Certificate Authority",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-chatbot",
+      "name": "Aws Chatbot",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-clean-rooms",
+      "name": "Aws Clean Rooms",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-client-vpn",
+      "name": "Aws Client Vpn",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-cloud",
+      "name": "Aws Cloud",
+      "styles": [
+        "architecture-group"
+      ]
+    },
+    {
+      "slug": "aws-cloud-control-api",
+      "name": "Aws Cloud Control Api",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-cloud-development-kit",
+      "name": "Aws Cloud Development Kit",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-cloud-digital-interface",
+      "name": "Aws Cloud Digital Interface",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-cloud-formation",
+      "name": "Aws Cloud Formation",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-cloud-formation-change-set",
+      "name": "Aws Cloud Formation Change Set",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-cloud-formation-stack",
+      "name": "Aws Cloud Formation Stack",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-cloud-formation-template",
+      "name": "Aws Cloud Formation Template",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-cloud-hsm",
+      "name": "Aws Cloud Hsm",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-cloud-logo",
+      "name": "Aws Cloud Logo",
+      "styles": [
+        "architecture-group"
+      ]
+    },
+    {
+      "slug": "aws-cloud-map",
+      "name": "Aws Cloud Map",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-cloud-map-namespace",
+      "name": "Aws Cloud Map Namespace",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-cloud-map-resource",
+      "name": "Aws Cloud Map Resource",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-cloud-map-service",
+      "name": "Aws Cloud Map Service",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-cloud-shell",
+      "name": "Aws Cloud Shell",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-cloud-trail",
+      "name": "Aws Cloud Trail",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-cloud-trail-cloud-trail-lake",
+      "name": "Aws Cloud Trail Cloud Trail Lake",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-cloud-wan",
+      "name": "Aws Cloud Wan",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-cloud-wan-core-network-edge",
+      "name": "Aws Cloud Wan Core Network Edge",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-cloud-wan-segment-network",
+      "name": "Aws Cloud Wan Segment Network",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-cloud-wan-transit-gateway-route-table-attachment",
+      "name": "Aws Cloud Wan Transit Gateway Route Table Attachment",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-cloud9",
+      "name": "Aws Cloud9",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-cloud9-cloud9",
+      "name": "Aws Cloud9 Cloud9",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-code-artifact",
+      "name": "Aws Code Artifact",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-code-build",
+      "name": "Aws Code Build",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-code-commit",
+      "name": "Aws Code Commit",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-code-deploy",
+      "name": "Aws Code Deploy",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-code-pipeline",
+      "name": "Aws Code Pipeline",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-command-line-interface",
+      "name": "Aws Command Line Interface",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-compute-optimizer",
+      "name": "Aws Compute Optimizer",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-config",
+      "name": "Aws Config",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-console-mobile-application",
+      "name": "Aws Console Mobile Application",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-control-tower",
+      "name": "Aws Control Tower",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-cost-and-usage-report",
+      "name": "Aws Cost And Usage Report",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-cost-explorer",
+      "name": "Aws Cost Explorer",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-data-exchange",
+      "name": "Aws Data Exchange",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-data-exchange-for-apis",
+      "name": "Aws Data Exchange For Apis",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-data-sync",
+      "name": "Aws Data Sync",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-data-sync-discovery",
+      "name": "Aws Data Sync Discovery",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-data-transfer-terminal",
+      "name": "Aws Data Transfer Terminal",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-database-migration-service",
+      "name": "Aws Database Migration Service",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-database-migration-service-database-migration-workflow-or-job",
+      "name": "Aws Database Migration Service Database Migration Workflow Or Job",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-datasync-agent",
+      "name": "Aws Datasync Agent",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-deadline-cloud",
+      "name": "Aws Deadline Cloud",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-deep-learning-amis",
+      "name": "Aws Deep Learning Amis",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-deep-learning-containers",
+      "name": "Aws Deep Learning Containers",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-deep-racer",
+      "name": "Aws Deep Racer",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-dev-ops-agent",
+      "name": "Aws Dev Ops Agent",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-device-farm",
+      "name": "Aws Device Farm",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-direct-connect",
+      "name": "Aws Direct Connect",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-direct-connect-gateway",
+      "name": "Aws Direct Connect Gateway",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-directory-service",
+      "name": "Aws Directory Service",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-directory-service-ad-connector",
+      "name": "Aws Directory Service Ad Connector",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-directory-service-aws-managed-microsoft-ad",
+      "name": "Aws Directory Service Aws Managed Microsoft Ad",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-directory-service-simple-ad",
+      "name": "Aws Directory Service Simple Ad",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-distro-for-open-telemetry",
+      "name": "Aws Distro For Open Telemetry",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-elastic-beanstalk",
+      "name": "Aws Elastic Beanstalk",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-elastic-beanstalk-application",
+      "name": "Aws Elastic Beanstalk Application",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-elastic-beanstalk-deployment",
+      "name": "Aws Elastic Beanstalk Deployment",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-elastic-disaster-recovery",
+      "name": "Aws Elastic Disaster Recovery",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-elemental-appliances-software",
+      "name": "Aws Elemental Appliances Software",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-elemental-conductor",
+      "name": "Aws Elemental Conductor",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-elemental-delta",
+      "name": "Aws Elemental Delta",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-elemental-inference",
+      "name": "Aws Elemental Inference",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-elemental-link",
+      "name": "Aws Elemental Link",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-elemental-live",
+      "name": "Aws Elemental Live",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-elemental-media-connect",
+      "name": "Aws Elemental Media Connect",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-elemental-media-connect-media-connect-gateway",
+      "name": "Aws Elemental Media Connect Media Connect Gateway",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-elemental-media-convert",
+      "name": "Aws Elemental Media Convert",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-elemental-media-live",
+      "name": "Aws Elemental Media Live",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-elemental-media-package",
+      "name": "Aws Elemental Media Package",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-elemental-media-store",
+      "name": "Aws Elemental Media Store",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-elemental-media-tailor",
+      "name": "Aws Elemental Media Tailor",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-elemental-server",
+      "name": "Aws Elemental Server",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-end-user-messaging",
+      "name": "Aws End User Messaging",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-entity-resolution",
+      "name": "Aws Entity Resolution",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-express-workflows",
+      "name": "Aws Express Workflows",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-fargate",
+      "name": "Aws Fargate",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-fault-injection-service",
+      "name": "Aws Fault Injection Service",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-fin-ops-agent",
+      "name": "Aws Fin Ops Agent",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-firewall-manager",
+      "name": "Aws Firewall Manager",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-global-accelerator",
+      "name": "Aws Global Accelerator",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-glue",
+      "name": "Aws Glue",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-glue-aws-glue-for-ray",
+      "name": "Aws Glue Aws Glue For Ray",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-glue-crawler",
+      "name": "Aws Glue Crawler",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-glue-data-brew",
+      "name": "Aws Glue Data Brew",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-glue-data-catalog",
+      "name": "Aws Glue Data Catalog",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-glue-data-quality",
+      "name": "Aws Glue Data Quality",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-ground-station",
+      "name": "Aws Ground Station",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-health-dashboard",
+      "name": "Aws Health Dashboard",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-health-imaging",
+      "name": "Aws Health Imaging",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-health-lake",
+      "name": "Aws Health Lake",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-health-omics",
+      "name": "Aws Health Omics",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-health-scribe",
+      "name": "Aws Health Scribe",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-iam-identity-center",
+      "name": "Aws Iam Identity Center",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-identity-access-management-add-on",
+      "name": "Aws Identity Access Management Add On",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-identity-access-management-aws-sts",
+      "name": "Aws Identity Access Management Aws Sts",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-identity-access-management-aws-sts-alternate",
+      "name": "Aws Identity Access Management Aws Sts Alternate",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-identity-access-management-data-encryption-key",
+      "name": "Aws Identity Access Management Data Encryption Key",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-identity-access-management-encrypted-data",
+      "name": "Aws Identity Access Management Encrypted Data",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-identity-access-management-iam-access-analyzer",
+      "name": "Aws Identity Access Management Iam Access Analyzer",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-identity-access-management-iam-roles-anywhere",
+      "name": "Aws Identity Access Management Iam Roles Anywhere",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-identity-access-management-long-term-security-credential",
+      "name": "Aws Identity Access Management Long Term Security Credential",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-identity-access-management-mfa-token",
+      "name": "Aws Identity Access Management Mfa Token",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-identity-access-management-permissions",
+      "name": "Aws Identity Access Management Permissions",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-identity-access-management-role",
+      "name": "Aws Identity Access Management Role",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-identity-access-management-temporary-security-credential",
+      "name": "Aws Identity Access Management Temporary Security Credential",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-identity-and-access-management",
+      "name": "Aws Identity And Access Management",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-infrastructure-composer",
+      "name": "Aws Infrastructure Composer",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-interconnect",
+      "name": "Aws Interconnect",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-iot-action",
+      "name": "Aws Iot Action",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-actuator",
+      "name": "Aws Iot Actuator",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-alexa-enabled-device",
+      "name": "Aws Iot Alexa Enabled Device",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-alexa-skill",
+      "name": "Aws Iot Alexa Skill",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-alexa-voice-service",
+      "name": "Aws Iot Alexa Voice Service",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-certificate",
+      "name": "Aws Iot Certificate",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-core",
+      "name": "Aws Iot Core",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-iot-core-device-advisor",
+      "name": "Aws Iot Core Device Advisor",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-core-device-location",
+      "name": "Aws Iot Core Device Location",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-desired-state",
+      "name": "Aws Iot Desired State",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-device-defender",
+      "name": "Aws Iot Device Defender",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-iot-device-defender-iot-device-jobs",
+      "name": "Aws Iot Device Defender Iot Device Jobs",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-device-gateway",
+      "name": "Aws Iot Device Gateway",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-device-management",
+      "name": "Aws Iot Device Management",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-iot-device-management-fleet-hub",
+      "name": "Aws Iot Device Management Fleet Hub",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-device-tester",
+      "name": "Aws Iot Device Tester",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-echo",
+      "name": "Aws Iot Echo",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-events",
+      "name": "Aws Iot Events",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-iot-express-link",
+      "name": "Aws Iot Express Link",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-iot-fire-tv",
+      "name": "Aws Iot Fire Tv",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-fire-tv-stick",
+      "name": "Aws Iot Fire Tv Stick",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-fleet-wise",
+      "name": "Aws Iot Fleet Wise",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-iot-greengrass",
+      "name": "Aws Iot Greengrass",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-iot-greengrass-artifact",
+      "name": "Aws Iot Greengrass Artifact",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-greengrass-component",
+      "name": "Aws Iot Greengrass Component",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-greengrass-component-machine-learning",
+      "name": "Aws Iot Greengrass Component Machine Learning",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-greengrass-component-nucleus",
+      "name": "Aws Iot Greengrass Component Nucleus",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-greengrass-component-private",
+      "name": "Aws Iot Greengrass Component Private",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-greengrass-component-public",
+      "name": "Aws Iot Greengrass Component Public",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-greengrass-connector",
+      "name": "Aws Iot Greengrass Connector",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-greengrass-deployment",
+      "name": "Aws Iot Greengrass Deployment",
+      "styles": [
+        "architecture-group"
+      ]
+    },
+    {
+      "slug": "aws-iot-greengrass-interprocess-communication",
+      "name": "Aws Iot Greengrass Interprocess Communication",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-greengrass-protocol",
+      "name": "Aws Iot Greengrass Protocol",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-greengrass-recipe",
+      "name": "Aws Iot Greengrass Recipe",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-greengrass-stream-manager",
+      "name": "Aws Iot Greengrass Stream Manager",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-hardware-board",
+      "name": "Aws Iot Hardware Board",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-http-protocol",
+      "name": "Aws Iot Http Protocol",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-http2-protocol",
+      "name": "Aws Iot Http2 Protocol",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-lambda-function",
+      "name": "Aws Iot Lambda Function",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-lo-ra-wan-protocol",
+      "name": "Aws Iot Lo Ra Wan Protocol",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-mqtt-protocol",
+      "name": "Aws Iot Mqtt Protocol",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-over-air-update",
+      "name": "Aws Iot Over Air Update",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-policy",
+      "name": "Aws Iot Policy",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-reported-state",
+      "name": "Aws Iot Reported State",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-rule",
+      "name": "Aws Iot Rule",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-sailboat",
+      "name": "Aws Iot Sailboat",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-sensor",
+      "name": "Aws Iot Sensor",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-servo",
+      "name": "Aws Iot Servo",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-shadow",
+      "name": "Aws Iot Shadow",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-simulator",
+      "name": "Aws Iot Simulator",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-site-wise",
+      "name": "Aws Iot Site Wise",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-iot-site-wise-asset",
+      "name": "Aws Iot Site Wise Asset",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-site-wise-asset-hierarchy",
+      "name": "Aws Iot Site Wise Asset Hierarchy",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-site-wise-asset-model",
+      "name": "Aws Iot Site Wise Asset Model",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-site-wise-asset-properties",
+      "name": "Aws Iot Site Wise Asset Properties",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-site-wise-data-streams",
+      "name": "Aws Iot Site Wise Data Streams",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-bank",
+      "name": "Aws Iot Thing Bank",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-bicycle",
+      "name": "Aws Iot Thing Bicycle",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-camera",
+      "name": "Aws Iot Thing Camera",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-car",
+      "name": "Aws Iot Thing Car",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-cart",
+      "name": "Aws Iot Thing Cart",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-coffee-pot",
+      "name": "Aws Iot Thing Coffee Pot",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-door-lock",
+      "name": "Aws Iot Thing Door Lock",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-factory",
+      "name": "Aws Iot Thing Factory",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-free-rtos-device",
+      "name": "Aws Iot Thing Free Rtos Device",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-generic",
+      "name": "Aws Iot Thing Generic",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-house",
+      "name": "Aws Iot Thing House",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-humidity-sensor",
+      "name": "Aws Iot Thing Humidity Sensor",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-industrial-pc",
+      "name": "Aws Iot Thing Industrial Pc",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-lightbulb",
+      "name": "Aws Iot Thing Lightbulb",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-medical-emergency",
+      "name": "Aws Iot Thing Medical Emergency",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-plc",
+      "name": "Aws Iot Thing Plc",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-police-emergency",
+      "name": "Aws Iot Thing Police Emergency",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-relay",
+      "name": "Aws Iot Thing Relay",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-stacklight",
+      "name": "Aws Iot Thing Stacklight",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-temperature-humidity-sensor",
+      "name": "Aws Iot Thing Temperature Humidity Sensor",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-temperature-sensor",
+      "name": "Aws Iot Thing Temperature Sensor",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-temperature-vibration-sensor",
+      "name": "Aws Iot Thing Temperature Vibration Sensor",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-thermostat",
+      "name": "Aws Iot Thing Thermostat",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-travel",
+      "name": "Aws Iot Thing Travel",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-utility",
+      "name": "Aws Iot Thing Utility",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-vibration-sensor",
+      "name": "Aws Iot Thing Vibration Sensor",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-thing-windfarm",
+      "name": "Aws Iot Thing Windfarm",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-topic",
+      "name": "Aws Iot Topic",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-iot-twin-maker",
+      "name": "Aws Iot Twin Maker",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-iq",
+      "name": "Aws Iq",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-key-management-service",
+      "name": "Aws Key Management Service",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-key-management-service-external-key-store",
+      "name": "Aws Key Management Service External Key Store",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-lake-formation",
+      "name": "Aws Lake Formation",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-lake-formation-data-lake",
+      "name": "Aws Lake Formation Data Lake",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-lambda",
+      "name": "Aws Lambda",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-lambda-lambda-function",
+      "name": "Aws Lambda Lambda Function",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-launch-wizard",
+      "name": "Aws Launch Wizard",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-license-manager",
+      "name": "Aws License Manager",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-license-manager-application-discovery",
+      "name": "Aws License Manager Application Discovery",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-license-manager-license-blending",
+      "name": "Aws License Manager License Blending",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-local-zones",
+      "name": "Aws Local Zones",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-mainframe-modernization",
+      "name": "Aws Mainframe Modernization",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-mainframe-modernization-analyzer",
+      "name": "Aws Mainframe Modernization Analyzer",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-mainframe-modernization-compiler",
+      "name": "Aws Mainframe Modernization Compiler",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-mainframe-modernization-converter",
+      "name": "Aws Mainframe Modernization Converter",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-mainframe-modernization-developer",
+      "name": "Aws Mainframe Modernization Developer",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-mainframe-modernization-runtime",
+      "name": "Aws Mainframe Modernization Runtime",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-managed-services",
+      "name": "Aws Managed Services",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-management-console",
+      "name": "Aws Management Console",
+      "styles": [
+        "architecture-service",
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-marketplace",
+      "name": "Aws Marketplace",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-migration-evaluator",
+      "name": "Aws Migration Evaluator",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-network-firewall",
+      "name": "Aws Network Firewall",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-network-firewall-endpoints",
+      "name": "Aws Network Firewall Endpoints",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-neuron",
+      "name": "Aws Neuron",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-nitro-enclaves",
+      "name": "Aws Nitro Enclaves",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-organizations",
+      "name": "Aws Organizations",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-organizations-account",
+      "name": "Aws Organizations Account",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-organizations-management-account",
+      "name": "Aws Organizations Management Account",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-organizations-organizational-unit",
+      "name": "Aws Organizations Organizational Unit",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-outposts-family",
+      "name": "Aws Outposts Family",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-outposts-rack",
+      "name": "Aws Outposts Rack",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-outposts-servers",
+      "name": "Aws Outposts Servers",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-panorama",
+      "name": "Aws Panorama",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-parallel-cluster",
+      "name": "Aws Parallel Cluster",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-parallel-computing-service",
+      "name": "Aws Parallel Computing Service",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-partner-central",
+      "name": "Aws Partner Central",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-payment-cryptography",
+      "name": "Aws Payment Cryptography",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-private-certificate-authority",
+      "name": "Aws Private Certificate Authority",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-private-link",
+      "name": "Aws Private Link",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-professional-services",
+      "name": "Aws Professional Services",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-proton",
+      "name": "Aws Proton",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-re-post",
+      "name": "Aws Re Post",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-re-post-private",
+      "name": "Aws Re Post Private",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-resilience-hub",
+      "name": "Aws Resilience Hub",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-resource-access-manager",
+      "name": "Aws Resource Access Manager",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-resource-explorer",
+      "name": "Aws Resource Explorer",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-rtb-fabric",
+      "name": "Aws Rtb Fabric",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-secrets-manager",
+      "name": "Aws Secrets Manager",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-security-agent",
+      "name": "Aws Security Agent",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-security-hub",
+      "name": "Aws Security Hub",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-security-hub-finding",
+      "name": "Aws Security Hub Finding",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-security-incident-response",
+      "name": "Aws Security Incident Response",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-serverless-application-repository",
+      "name": "Aws Serverless Application Repository",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-service-catalog",
+      "name": "Aws Service Catalog",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-service-management-connector",
+      "name": "Aws Service Management Connector",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-shield",
+      "name": "Aws Shield",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-shield-aws-shield-advanced",
+      "name": "Aws Shield Aws Shield Advanced",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-signer",
+      "name": "Aws Signer",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-sim-space-weaver",
+      "name": "Aws Sim Space Weaver",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-site-to-site-vpn",
+      "name": "Aws Site To Site Vpn",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-snowball",
+      "name": "Aws Snowball",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-snowball-edge",
+      "name": "Aws Snowball Edge",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-snowball-snowball-import-export",
+      "name": "Aws Snowball Snowball Import Export",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-step-functions",
+      "name": "Aws Step Functions",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-storage-gateway",
+      "name": "Aws Storage Gateway",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-storage-gateway-amazon-fsx-file-gateway",
+      "name": "Aws Storage Gateway Amazon Fsx File Gateway",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-storage-gateway-amazon-s3-file-gateway",
+      "name": "Aws Storage Gateway Amazon S3 File Gateway",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-storage-gateway-cached-volume",
+      "name": "Aws Storage Gateway Cached Volume",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-storage-gateway-file-gateway",
+      "name": "Aws Storage Gateway File Gateway",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-storage-gateway-noncached-volume",
+      "name": "Aws Storage Gateway Noncached Volume",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-storage-gateway-tape-gateway",
+      "name": "Aws Storage Gateway Tape Gateway",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-storage-gateway-virtual-tape-library",
+      "name": "Aws Storage Gateway Virtual Tape Library",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-storage-gateway-volume-gateway",
+      "name": "Aws Storage Gateway Volume Gateway",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-supply-chain",
+      "name": "Aws Supply Chain",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-support",
+      "name": "Aws Support",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-sustainability",
+      "name": "Aws Sustainability",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-systems-manager",
+      "name": "Aws Systems Manager",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-systems-manager-application-manager",
+      "name": "Aws Systems Manager Application Manager",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-systems-manager-automation",
+      "name": "Aws Systems Manager Automation",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-systems-manager-change-calendar",
+      "name": "Aws Systems Manager Change Calendar",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-systems-manager-change-manager",
+      "name": "Aws Systems Manager Change Manager",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-systems-manager-compliance",
+      "name": "Aws Systems Manager Compliance",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-systems-manager-distributor",
+      "name": "Aws Systems Manager Distributor",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-systems-manager-documents",
+      "name": "Aws Systems Manager Documents",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-systems-manager-incident-manager",
+      "name": "Aws Systems Manager Incident Manager",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-systems-manager-inventory",
+      "name": "Aws Systems Manager Inventory",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-systems-manager-maintenance-windows",
+      "name": "Aws Systems Manager Maintenance Windows",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-systems-manager-ops-center",
+      "name": "Aws Systems Manager Ops Center",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-systems-manager-parameter-store",
+      "name": "Aws Systems Manager Parameter Store",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-systems-manager-patch-manager",
+      "name": "Aws Systems Manager Patch Manager",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-systems-manager-run-command",
+      "name": "Aws Systems Manager Run Command",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-systems-manager-session-manager",
+      "name": "Aws Systems Manager Session Manager",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-systems-manager-state-manager",
+      "name": "Aws Systems Manager State Manager",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-telco-network-builder",
+      "name": "Aws Telco Network Builder",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-thinkbox-deadline",
+      "name": "Aws Thinkbox Deadline",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-thinkbox-frost",
+      "name": "Aws Thinkbox Frost",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-thinkbox-krakatoa",
+      "name": "Aws Thinkbox Krakatoa",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-thinkbox-stoke",
+      "name": "Aws Thinkbox Stoke",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-thinkbox-xmesh",
+      "name": "Aws Thinkbox Xmesh",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-tools-and-sdks",
+      "name": "Aws Tools And Sdks",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-training-certification",
+      "name": "Aws Training Certification",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-transfer-family",
+      "name": "Aws Transfer Family",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-transfer-family-aws-as2",
+      "name": "Aws Transfer Family Aws As2",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-transfer-family-aws-ftp",
+      "name": "Aws Transfer Family Aws Ftp",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-transfer-family-aws-ftps",
+      "name": "Aws Transfer Family Aws Ftps",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-transfer-family-aws-sftp",
+      "name": "Aws Transfer Family Aws Sftp",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-transform",
+      "name": "Aws Transform",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-transit-gateway",
+      "name": "Aws Transit Gateway",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-transit-gateway-attachment",
+      "name": "Aws Transit Gateway Attachment",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-trusted-advisor",
+      "name": "Aws Trusted Advisor",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-trusted-advisor-checklist",
+      "name": "Aws Trusted Advisor Checklist",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-trusted-advisor-checklist-cost",
+      "name": "Aws Trusted Advisor Checklist Cost",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-trusted-advisor-checklist-fault-tolerant",
+      "name": "Aws Trusted Advisor Checklist Fault Tolerant",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-trusted-advisor-checklist-performance",
+      "name": "Aws Trusted Advisor Checklist Performance",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-trusted-advisor-checklist-security",
+      "name": "Aws Trusted Advisor Checklist Security",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-user-notifications",
+      "name": "Aws User Notifications",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-verified-access",
+      "name": "Aws Verified Access",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-waf",
+      "name": "Aws Waf",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-waf-bad-bot",
+      "name": "Aws Waf Bad Bot",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-waf-bot",
+      "name": "Aws Waf Bot",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-waf-bot-control",
+      "name": "Aws Waf Bot Control",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-waf-filtering-rule",
+      "name": "Aws Waf Filtering Rule",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-waf-labels",
+      "name": "Aws Waf Labels",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-waf-managed-rule",
+      "name": "Aws Waf Managed Rule",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-waf-rule",
+      "name": "Aws Waf Rule",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "aws-wavelength",
+      "name": "Aws Wavelength",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-well-architected-tool",
+      "name": "Aws Well Architected Tool",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-wickr",
+      "name": "Aws Wickr",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "aws-x-ray",
+      "name": "Aws X Ray",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "blockchain",
+      "name": "Blockchain",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "bottlerocket",
+      "name": "Bottlerocket",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "business-applications",
+      "name": "Business Applications",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "camera",
+      "name": "Camera",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "chat",
+      "name": "Chat",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "client",
+      "name": "Client",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "cloud-financial-management",
+      "name": "Cloud Financial Management",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "cold-storage",
+      "name": "Cold Storage",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "compute",
+      "name": "Compute",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "containers",
+      "name": "Containers",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "corporate-data-center",
+      "name": "Corporate Data Center",
+      "styles": [
+        "architecture-group"
+      ]
+    },
+    {
+      "slug": "credentials",
+      "name": "Credentials",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "customer-enablement",
+      "name": "Customer Enablement",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "customer-experience",
+      "name": "Customer Experience",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "data-stream",
+      "name": "Data Stream",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "data-table",
+      "name": "Data Table",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "database",
+      "name": "Database",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "databases",
+      "name": "Databases",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "developer-tools",
+      "name": "Developer Tools",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "disk",
+      "name": "Disk",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "document",
+      "name": "Document",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "documents",
+      "name": "Documents",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "ec2-instance-contents",
+      "name": "Ec2 Instance Contents",
+      "styles": [
+        "architecture-group"
+      ]
+    },
+    {
+      "slug": "elastic-fabric-adapter",
+      "name": "Elastic Fabric Adapter",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "elastic-load-balancing",
+      "name": "Elastic Load Balancing",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "elastic-load-balancing-application-load-balancer",
+      "name": "Elastic Load Balancing Application Load Balancer",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "elastic-load-balancing-classic-load-balancer",
+      "name": "Elastic Load Balancing Classic Load Balancer",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "elastic-load-balancing-gateway-load-balancer",
+      "name": "Elastic Load Balancing Gateway Load Balancer",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "elastic-load-balancing-network-load-balancer",
+      "name": "Elastic Load Balancing Network Load Balancer",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "email",
+      "name": "Email",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "end-user-computing",
+      "name": "End User Computing",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "firewall",
+      "name": "Firewall",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "folder",
+      "name": "Folder",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "folders",
+      "name": "Folders",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "forums",
+      "name": "Forums",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "free-rtos",
+      "name": "Free Rtos",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "front-end-web-mobile",
+      "name": "Front End Web Mobile",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "games",
+      "name": "Games",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "gear",
+      "name": "Gear",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "generic-application",
+      "name": "Generic Application",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "git-repository",
+      "name": "Git Repository",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "globe",
+      "name": "Globe",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "internet",
+      "name": "Internet",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "internet-alt1",
+      "name": "Internet Alt1",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "internet-alt2",
+      "name": "Internet Alt2",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "internet-of-things",
+      "name": "Internet Of Things",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "json-script",
+      "name": "Json Script",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "logs",
+      "name": "Logs",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "magnifying-glass",
+      "name": "Magnifying Glass",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "management-tools",
+      "name": "Management Tools",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "media-services",
+      "name": "Media Services",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "metrics",
+      "name": "Metrics",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "migration-modernization",
+      "name": "Migration Modernization",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "mobile-client",
+      "name": "Mobile Client",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "multicloud-and-hybrid",
+      "name": "Multicloud And Hybrid",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "multimedia",
+      "name": "Multimedia",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "networking-content-delivery",
+      "name": "Networking Content Delivery",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "office-building",
+      "name": "Office Building",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "open-3d-engine",
+      "name": "Open 3d Engine",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "oracle-database-at-aws",
+      "name": "Oracle Database At Aws",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "private-subnet",
+      "name": "Private Subnet",
+      "styles": [
+        "architecture-group"
+      ]
+    },
+    {
+      "slug": "programming-language",
+      "name": "Programming Language",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "public-subnet",
+      "name": "Public Subnet",
+      "styles": [
+        "architecture-group"
+      ]
+    },
+    {
+      "slug": "py-torch-on-aws",
+      "name": "Py Torch On Aws",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "quantum-technologies",
+      "name": "Quantum Technologies",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "question",
+      "name": "Question",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "recover",
+      "name": "Recover",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "red-hat-open-shift-service-on-aws",
+      "name": "Red Hat Open Shift Service On Aws",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "region",
+      "name": "Region",
+      "styles": [
+        "architecture-group"
+      ]
+    },
+    {
+      "slug": "reserved-instance-reporting",
+      "name": "Reserved Instance Reporting",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "saml-token",
+      "name": "Saml Token",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "satellite",
+      "name": "Satellite",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "savings-plans",
+      "name": "Savings Plans",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "sdk",
+      "name": "Sdk",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "security-identity",
+      "name": "Security Identity",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "server",
+      "name": "Server",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "server-contents",
+      "name": "Server Contents",
+      "styles": [
+        "architecture-group"
+      ]
+    },
+    {
+      "slug": "serverless",
+      "name": "Serverless",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "servers",
+      "name": "Servers",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "shield",
+      "name": "Shield",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "source-code",
+      "name": "Source Code",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "spot-fleet",
+      "name": "Spot Fleet",
+      "styles": [
+        "architecture-group"
+      ]
+    },
+    {
+      "slug": "ssl-padlock",
+      "name": "Ssl Padlock",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "storage",
+      "name": "Storage",
+      "styles": [
+        "category"
+      ]
+    },
+    {
+      "slug": "tape-storage",
+      "name": "Tape Storage",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "tensor-flow-on-aws",
+      "name": "Tensor Flow On Aws",
+      "styles": [
+        "architecture-service"
+      ]
+    },
+    {
+      "slug": "toolkit",
+      "name": "Toolkit",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "user",
+      "name": "User",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "users",
+      "name": "Users",
+      "styles": [
+        "resource"
+      ]
+    },
+    {
+      "slug": "virtual-private-cloud-vpc",
+      "name": "Virtual Private Cloud Vpc",
+      "styles": [
+        "architecture-group"
+      ]
+    }
+  ]
+}

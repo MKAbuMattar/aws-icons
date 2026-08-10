@@ -1,0 +1,22 @@
+{
+  "name": "@aws-icons/docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "pnpm -F @aws-icons/svg -F @aws-icons/react build && node copy-assets.mjs && astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/react": "^6.0.2",
+    "@astrojs/starlight": "^0.41.7",
+    "@aws-icons/astro": "workspace:*",
+    "@aws-icons/react": "workspace:*",
+    "@aws-icons/svg": "workspace:*",
+    "astro": "^7.2.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "sharp": "^0.35.3",
+    "starlight-versions": "^0.9.1"
+  }
+}

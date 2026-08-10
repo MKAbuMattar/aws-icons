@@ -1,0 +1,24 @@
+---
+import type {IconSlug, IconCategory} from '@aws-icons/svg';
+import {loadIconSvg} from './load.js';
+
+interface Props {
+  /** Icon slug, e.g. "rocket" */
+  name: IconSlug;
+  /** Icon style — "flat" (default), "high-contrast", or "modern" */
+  variant?: IconCategory;
+  /** Accessible label; without it the icon is aria-hidden (decorative) */
+  title?: string;
+  [attr: string]: unknown;
+}
+
+const {name, variant = 'architecture-service', title, ...attrs} = Astro.props;
+
+const svg = await loadIconSvg(name, variant, {
+  role: 'img',
+  ...(title ? {'aria-label': title} : {'aria-hidden': 'true'}),
+  ...attrs,
+});
+---
+
+<Fragment set:html={svg} />

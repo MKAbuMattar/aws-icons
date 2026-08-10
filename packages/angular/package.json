@@ -1,0 +1,97 @@
+{
+  "name": "@aws-icons/angular",
+  "version": "2.0.0",
+  "description": "AWS Architecture Icons for Angular \u2014 a standalone awsIcon directive with tree-shakeable icon data (flat, high-contrast, modern).",
+  "keywords": [
+    "aws",
+    "icon",
+    "aws-icon",
+    "icons",
+    "svg",
+    "angular"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Mohammad Abu Mattar",
+    "email": "mohammad.khaled@outlook.com",
+    "url": "https://mkabumattar.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MKAbuMattar/aws-icons.git",
+    "directory": "packages/angular"
+  },
+  "bugs": {
+    "url": "https://github.com/MKAbuMattar/aws-icons/issues"
+  },
+  "homepage": "https://aws-icons.mkabumattar.com/",
+  "type": "module",
+  "sideEffects": false,
+  "module": "./lib/fesm2022/aws-icons-angular.mjs",
+  "types": "./lib/types/aws-icons-angular.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/aws-icons-angular.d.ts",
+      "default": "./lib/fesm2022/aws-icons-angular.mjs"
+    },
+    "./architecture-group": {
+      "types": "./dist/architecture-group/index.d.ts",
+      "default": "./dist/architecture-group/index.js"
+    },
+    "./architecture-group/*": {
+      "types": "./dist/architecture-group/icons/*.d.ts",
+      "default": "./dist/architecture-group/icons/*.js"
+    },
+    "./architecture-service": {
+      "types": "./dist/architecture-service/index.d.ts",
+      "default": "./dist/architecture-service/index.js"
+    },
+    "./architecture-service/*": {
+      "types": "./dist/architecture-service/icons/*.d.ts",
+      "default": "./dist/architecture-service/icons/*.js"
+    },
+    "./category": {
+      "types": "./dist/category/index.d.ts",
+      "default": "./dist/category/index.js"
+    },
+    "./category/*": {
+      "types": "./dist/category/icons/*.d.ts",
+      "default": "./dist/category/icons/*.js"
+    },
+    "./resource": {
+      "types": "./dist/resource/index.d.ts",
+      "default": "./dist/resource/index.js"
+    },
+    "./resource/*": {
+      "types": "./dist/resource/icons/*.d.ts",
+      "default": "./dist/resource/icons/*.js"
+    }
+  },
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "scripts": {
+    "build": "ng-packagr -p ng-package.json -c tsconfig.json && rm -f lib/package.json && tsx build-data.ts",
+    "test": "tsx test/smoke.ts"
+  },
+  "peerDependencies": {
+    "@angular/core": ">=17"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@angular/compiler": "^22.1.1",
+    "@angular/compiler-cli": "^22.1.1",
+    "@angular/core": "^22.1.1",
+    "ng-packagr": "^22.1.1",
+    "rxjs": "^7.8.2",
+    "tsx": "^4.23.11",
+    "typescript": "~6.0.3",
+    "zone.js": "^0.15.1"
+  },
+  "dependencies": {
+    "tslib": "^2.8.1"
+  }
+}

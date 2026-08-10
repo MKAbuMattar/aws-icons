@@ -1,0 +1,86 @@
+{
+  "name": "@aws-icons/alpine",
+  "version": "2.0.0",
+  "description": "AWS Architecture Icons as an Alpine.js plugin \u2014 x-aws-icon directive and $awsIcon magic with tree-shakeable icon data (flat, high-contrast, modern).",
+  "keywords": [
+    "aws",
+    "icon",
+    "aws-icon",
+    "icons",
+    "svg",
+    "alpine",
+    "alpinejs"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Mohammad Abu Mattar",
+    "email": "mohammad.khaled@outlook.com",
+    "url": "https://mkabumattar.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MKAbuMattar/aws-icons.git",
+    "directory": "packages/alpine"
+  },
+  "bugs": {
+    "url": "https://github.com/MKAbuMattar/aws-icons/issues"
+  },
+  "homepage": "https://aws-icons.mkabumattar.com/",
+  "type": "module",
+  "sideEffects": false,
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./architecture-group": {
+      "types": "./dist/architecture-group/index.d.ts",
+      "default": "./dist/architecture-group/index.js"
+    },
+    "./architecture-group/*": {
+      "types": "./dist/architecture-group/icons/*.d.ts",
+      "default": "./dist/architecture-group/icons/*.js"
+    },
+    "./architecture-service": {
+      "types": "./dist/architecture-service/index.d.ts",
+      "default": "./dist/architecture-service/index.js"
+    },
+    "./architecture-service/*": {
+      "types": "./dist/architecture-service/icons/*.d.ts",
+      "default": "./dist/architecture-service/icons/*.js"
+    },
+    "./category": {
+      "types": "./dist/category/index.d.ts",
+      "default": "./dist/category/index.js"
+    },
+    "./category/*": {
+      "types": "./dist/category/icons/*.d.ts",
+      "default": "./dist/category/icons/*.js"
+    },
+    "./resource": {
+      "types": "./dist/resource/index.d.ts",
+      "default": "./dist/resource/index.js"
+    },
+    "./resource/*": {
+      "types": "./dist/resource/icons/*.d.ts",
+      "default": "./dist/resource/icons/*.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --out-dir dist && tsx build.ts",
+    "test": "tsx test/smoke.ts"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "tsx": "^4.23.11",
+    "typescript": "^5.9.3"
+  }
+}

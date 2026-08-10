@@ -1,0 +1,29 @@
+---
+title: Astro
+description: Zero-JS AWS Architecture Icons for Astro — SVG inlined at build time.
+---
+
+The SVG is inlined into the HTML at build time — **zero client JavaScript**.
+
+```sh
+pnpm add @aws-icons/astro
+```
+
+## Usage
+
+```astro
+---
+import {Icon} from '@aws-icons/astro';
+---
+
+<Icon name="rocket" />
+<Icon name="rocket" variant="high-contrast" width="40" />
+<Icon name="party-popper" title="Celebration!" />
+```
+
+- `name` — typed slug (compile-time checked)
+- `variant` — `flat` (default) · `high-contrast` · `modern`
+- `title` — accessible label; omitted → `aria-hidden`
+- any other attribute lands on the root `<svg>`
+
+Need the raw string? `loadIconSvg(name, variant, attrs)` from the same package.

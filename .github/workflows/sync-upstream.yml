@@ -1,0 +1,57 @@
+# Weekly sync from microsoft/aws-icon. If new/changed icon land upstream,
+# this opens a PR with the regenerated assets plus a ready-made changeset —
+# merging the PR rides the normal release train. Zero manual steps.
+name: Sync upstream icon
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    name: Sync
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm sync
+
+      - name: Add changeset if assets changed
+        id: diff
+        run: |
+          if [ -n "$(git status --porcelain assets/)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            cat > .changeset/upstream-sync-${{ github.run_id }}.md <<'EOF'
+          ---
+          '@aws-icons/svg': minor
+          '@aws-icons/react': minor
+          '@aws-icons/astro': minor
+          ---
+
+          Sync icon assets from microsoft/aws-icon
+          EOF
+          fi
+
+      - name: Open PR
+        if: steps.diff.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: sync/upstream
+          title: 'feat: sync upstream icon from microsoft/aws-icon'
+          commit-message: 'feat: sync upstream icon from microsoft/aws-icon'
+          body: |
+            Automated weekly sync from [microsoft/aws-icon](https://github.com/microsoft/aws-icon).
+
+            Review the `assets/` diff, then merge — the release pipeline takes it from there
+            (canary on merge, `latest` via the Version Packages PR).
+          delete-branch: true

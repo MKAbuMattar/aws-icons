@@ -1,0 +1,31 @@
+name: Icon issue
+description: A specific icon is missing, misnamed, or renders wrong.
+title: "icon: "
+labels: ["icons"]
+body:
+  - type: input
+    id: slug
+    attributes:
+      label: Icon slug
+      description: The slug as used in imports (browse the gallery at https://aws-icons.mkabumattar.com).
+      placeholder: "e.g. amazon-ec2"
+    validations:
+      required: true
+  - type: dropdown
+    id: set
+    attributes:
+      label: Set
+      options:
+        - architecture-group
+        - architecture-service
+        - category
+        - resource
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong?
+      description: Missing entirely, wrong artwork, bad slug/name, broken rendering? Note that artwork comes from the official AWS Architecture Icons package — artwork changes must happen upstream; this repo can fix slugs, names, and processing.
+    validations:
+      required: true

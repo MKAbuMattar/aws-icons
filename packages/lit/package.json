@@ -1,6 +1,6 @@
 {
   "name": "@aws-icons/lit",
-  "version": "3.3.0",
+  "version": "4.0.0",
   "description": "AWS Architecture Icons for Lit — a <aws-icon> LitElement plus template helpers with tree-shakeable icon data (flat, high-contrast, modern).",
   "keywords": [
     "aws",

@@ -1,6 +1,6 @@
 {
   "name": "@aws-icons/astro",
-  "version": "3.3.0",
+  "version": "4.0.0",
   "description": "AWS Architecture Icons for Astro — SVG inlined at build time, zero client JS.",
   "keywords": [
     "aws",

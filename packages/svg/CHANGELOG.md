@@ -1,5 +1,12 @@
 # @aws-icons/svg
 
+## 4.1.1
+
+### Patch Changes
+
+- 2b5be78: Correct `exports` types conditions: CJS consumers now resolve `index.d.cts`
+  instead of ESM-flavored types (publint strict clean).
+
 ## 4.1.0
 
 ### Minor Changes

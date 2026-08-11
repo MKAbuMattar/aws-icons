@@ -1,7 +1,8 @@
-# aws-icon
+# aws-icons
 
-[AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) — Microsoft's familiar,
-packaged for every stack, with fully automated releases from the official AWS Architecture Icons set.
+[AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) — the official
+icon set for AWS architecture diagrams — packaged for every stack, with fully
+automated releases.
 
 ## Packages
 

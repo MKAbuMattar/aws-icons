@@ -4,6 +4,8 @@
 standalone `awsIcon` directive with tree-shakeable icon data. 805 icons
 in `architecture-group`, `architecture-service`, `category`, and `resource` sets. Angular 17+.
 
+**Docs:** https://aws-icons.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@aws-icons/angular) · **All packages:** [@aws-icons](https://www.npmjs.com/org/aws-icons)
+
 ## Install
 
 ```sh

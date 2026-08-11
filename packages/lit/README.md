@@ -4,6 +4,8 @@
 `<aws-icon>` LitElement plus template helpers, with tree-shakeable icon
 data. 805 icons in `architecture-group`, `architecture-service`, `category`, and `resource` sets.
 
+**Docs:** https://aws-icons.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@aws-icons/lit) · **All packages:** [@aws-icons](https://www.npmjs.com/org/aws-icons)
+
 ## Install
 
 ```sh

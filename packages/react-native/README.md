@@ -2,6 +2,8 @@
 
 [AWS Architecture Icons](https://github.com/microsoft/fluentui-icon) as typed React Native components built on react-native-svg — 3,145 icons in 5 sets.
 
+**Docs:** https://aws-icons.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@aws-icons/react-native) · **All packages:** [@aws-icons](https://www.npmjs.com/org/aws-icons)
+
 ## Install
 
 ```sh

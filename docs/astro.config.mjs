@@ -18,6 +18,11 @@ export default defineConfig({
         'AWS Architecture Icons packaged for every stack — SVG, React, Astro.',
       social: [
         {
+          icon: 'seti:npm',
+          label: 'npm',
+          href: 'https://www.npmjs.com/org/aws-icons',
+        },
+        {
           icon: 'github',
           label: 'GitHub',
           href: 'https://github.com/MKAbuMattar/aws-icons',

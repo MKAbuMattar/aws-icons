@@ -4,6 +4,8 @@
 `<aws-icon>` custom element — 805 icons in `flat`, `high-contrast`, and
 `modern` styles. Works in any page, any framework, no build required.
 
+**Docs:** https://aws-icons.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@aws-icons/web-components) · **All packages:** [@aws-icons](https://www.npmjs.com/org/aws-icons)
+
 ## Install
 
 ```sh

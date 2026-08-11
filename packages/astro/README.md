@@ -3,6 +3,8 @@
 [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) for Astro —
 the SVG is inlined at build time, so pages ship **zero client JS**.
 
+**Docs:** https://aws-icons.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@aws-icons/astro) · **All packages:** [@aws-icons](https://www.npmjs.com/org/aws-icons)
+
 ## Install
 
 ```sh

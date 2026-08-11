@@ -5,6 +5,8 @@
 
 Successor of the deprecated [`aws-icon`](https://www.npmjs.com/package/aws-icon) package.
 
+**Docs:** https://aws-icons.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@aws-icons/svg) · **All packages:** [@aws-icons](https://www.npmjs.com/org/aws-icons)
+
 ## Install
 
 ```sh

@@ -4,6 +4,8 @@
 typed SolidJS components — 805 icons in `architecture-group`, `architecture-service`, `category`, and `resource` sets.
 Ships DOM, SSR, and `solid`-condition JSX source builds.
 
+**Docs:** https://aws-icons.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@aws-icons/solid) · **All packages:** [@aws-icons](https://www.npmjs.com/org/aws-icons)
+
 ## Install
 
 ```sh

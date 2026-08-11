@@ -5,6 +5,8 @@ typed React components — 805 icons in `architecture-group`, `architecture-serv
 
 Successor of the deprecated [`react-aws-icon`](https://www.npmjs.com/package/react-aws-icon) package. Dual ESM + CJS.
 
+**Docs:** https://aws-icons.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@aws-icons/react) · **All packages:** [@aws-icons](https://www.npmjs.com/org/aws-icons)
+
 ## Install
 
 ```sh

@@ -4,6 +4,8 @@
 tiny server handler that serves icon SVG fragments for htmx to swap in.
 805 icons in `architecture-group`, `architecture-service`, `category`, and `resource` sets.
 
+**Docs:** https://aws-icons.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@aws-icons/htmx) · **All packages:** [@aws-icons](https://www.npmjs.com/org/aws-icons)
+
 ## Install
 
 ```sh

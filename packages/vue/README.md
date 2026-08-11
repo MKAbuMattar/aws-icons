@@ -4,6 +4,8 @@
 typed Vue 3 components — 805 icons in `architecture-group`, `architecture-service`, `category`, and `resource` sets.
 Dual ESM + CJS.
 
+**Docs:** https://aws-icons.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@aws-icons/vue) · **All packages:** [@aws-icons](https://www.npmjs.com/org/aws-icons)
+
 ## Install
 
 ```sh

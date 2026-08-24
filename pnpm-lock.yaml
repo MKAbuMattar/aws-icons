@@ -57,8 +57,8 @@ importers:
         specifier: ^0.35.3
         version: 0.35.3(@types/node@26.2.0)
       starlight-versions:
-        specifier: ^0.9.1
-        version: 0.9.1(@astrojs/starlight@0.41.7(@astrojs/markdown-remark@7.2.2)(astro@7.2.0(@astrojs/markdown-remark@7.2.2)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(less@4.8.1)(sass@1.102.0)(terser@5.49.2)(tsx@4.23.11)(yaml@2.9.0))(typescript@7.0.2))
+        specifier: ^0.10.0
+        version: 0.10.0(@astrojs/starlight@0.41.7(@astrojs/markdown-remark@7.2.2)(astro@7.2.0(@astrojs/markdown-remark@7.2.2)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(less@4.8.1)(sass@1.102.0)(terser@5.49.2)(tsx@4.23.11)(yaml@2.9.0))(typescript@7.0.2))
 
   packages/alpine:
     devDependencies:
@@ -4413,8 +4413,8 @@ packages:
     resolution: {integrity: sha512-WjlahMgHmCJpqzU8bIBy4qtsZdU9lRlcZE3Lvyej6t4tuOuv1vk57OW3MBrj6hXBFx/nNoC9MPMTcr5YA7NQbg==}
     engines: {node: '>=6'}
 
-  starlight-versions@0.9.1:
-    resolution: {integrity: sha512-wtYZhlcWcKsnyTO0BZoWXHzHUrNIvSr5ukEMLg3RFKesFEEcMepngn15Igw5pj8DBlkKMo7bBhF2fR0bfiXcpA==}
+  starlight-versions@0.10.0:
+    resolution: {integrity: sha512-1sWlH9/rM/CkCGNqzQy3F5CT2450l7/pOtccKq8D7J9JXi70JCDhuCiym2w2wHqlawdmugNgF6jrCP9HxX0hHA==}
     engines: {node: '>=22.12.0'}
     peerDependencies:
       '@astrojs/starlight': '>=0.39.0'
@@ -9624,7 +9624,7 @@ snapshots:
     dependencies:
       type-fest: 0.7.1
 
-  starlight-versions@0.9.1(@astrojs/starlight@0.41.7(@astrojs/markdown-remark@7.2.2)(astro@7.2.0(@astrojs/markdown-remark@7.2.2)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(less@4.8.1)(sass@1.102.0)(terser@5.49.2)(tsx@4.23.11)(yaml@2.9.0))(typescript@7.0.2)):
+  starlight-versions@0.10.0(@astrojs/starlight@0.41.7(@astrojs/markdown-remark@7.2.2)(astro@7.2.0(@astrojs/markdown-remark@7.2.2)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(less@4.8.1)(sass@1.102.0)(terser@5.49.2)(tsx@4.23.11)(yaml@2.9.0))(typescript@7.0.2)):
     dependencies:
       '@astrojs/starlight': 0.41.7(@astrojs/markdown-remark@7.2.2)(astro@7.2.0(@astrojs/markdown-remark@7.2.2)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(less@4.8.1)(sass@1.102.0)(terser@5.49.2)(tsx@4.23.11)(yaml@2.9.0))(typescript@7.0.2)
       '@pagefind/default-ui': 1.5.2

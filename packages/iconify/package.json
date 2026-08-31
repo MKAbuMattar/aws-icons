@@ -3,9 +3,9 @@
   "version": "4.1.0",
   "description": "AWS Architecture Icons as Iconify JSON collections — works with unplugin-icons, the Tailwind Iconify plugin, and every Iconify component.",
   "keywords": [
-    "fluentui",
+    "aws",
     "icon",
-    "fluentui-icon",
+    "aws-icon",
     "icons",
     "svg",
     "iconify"
@@ -55,7 +55,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "tsx": "^4.23.11",
+    "tsx": "^4.23.12",
     "typescript": "^5.9.3"
   }
 }

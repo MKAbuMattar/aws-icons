@@ -9,7 +9,7 @@ export type AwsIconComponent = (props?: AwsIconProps) => JSXOutput;
 
 /** Factory used by the generated icon modules — not meant for direct use. */
 export const createAwsIcon = (
-  name: string,
+  _name: string,
   attrs: Record<string, string>,
   html: string,
 ): AwsIconComponent => {

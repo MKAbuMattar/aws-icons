@@ -1,7 +1,7 @@
 {
   "name": "@aws-icons/web-components",
   "version": "4.1.0",
-  "description": "AWS Architecture Icons as a framework-less <aws-icon> custom element with tree-shakeable icon data (flat, high-contrast, modern).",
+  "description": "AWS Architecture Icons as a framework-less <aws-icon> custom element with tree-shakeable icon data (5 icon sets).",
   "keywords": [
     "aws",
     "icon",
@@ -88,9 +88,9 @@
     "access": "public"
   },
   "devDependencies": {
-    "happy-dom": "^20.0.11",
+    "happy-dom": "^20.11.6",
     "tsup": "^8.5.0",
-    "tsx": "^4.23.11",
+    "tsx": "^4.23.12",
     "typescript": "^5.9.3"
   },
   "engines": {

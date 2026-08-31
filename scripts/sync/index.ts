@@ -3,13 +3,14 @@
  *
  * The zip URL is dated and content-hashed, so it is discovered from the AWS
  * icons page on every run (override with SYNC_ZIP_URL). Keeps the 48px light
- * set across the four categories, optimizes every SVG with svgo, and rebuilds
- * assets/{architecture-group,architecture-service,category,resource}/.
+ * set across the four categories plus the dark resource variants, optimizes
+ * every SVG with svgo, and rebuilds
+ * assets/{architecture-group,architecture-service,category,resource,resource-dark}/.
  *
  * svgo ID prefixes are derived from the slug (deterministic), so re-running
  * sync only diffs icons that actually changed upstream.
  */
-import {execSync} from 'node:child_process';
+import {execFileSync} from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
 import {type Config, optimize} from 'svgo';
@@ -32,7 +33,9 @@ const DARK_CATEGORY = 'resource-dark';
 
 const discoverZipUrl = async (): Promise<string> => {
   if (process.env.SYNC_ZIP_URL) return process.env.SYNC_ZIP_URL;
-  const html = await (await fetch(ICONS_PAGE)).text();
+  const res = await fetch(ICONS_PAGE);
+  if (!res.ok) throw new Error(`fetching ${ICONS_PAGE} failed: ${res.status}`);
+  const html = await res.text();
   const match = ZIP_RE.exec(html);
   if (!match)
     throw new Error(`No Icon-package zip link found on ${ICONS_PAGE}`);
@@ -70,8 +73,12 @@ const slugify = (filename: string): string =>
     .toLowerCase();
 
 const svgoConfig = (slug: string): Config => ({
+  // removeScripts is not part of preset-default; these SVGs are injected raw
+  // into consumer pages (innerHTML, set:html, dangerouslySetInnerHTML), so a
+  // smuggled <script> would execute there
   plugins: [
     'preset-default',
+    'removeScripts',
     'removeTitle',
     'convertStyleToAttrs',
     'cleanupIds',
@@ -117,8 +124,9 @@ const main = async (): Promise<void> => {
   const res = await fetch(zipUrl);
   if (!res.ok) throw new Error(`download failed: ${res.status}`);
   fs.writeFileSync(zipPath, Buffer.from(await res.arrayBuffer()));
-  execSync(`unzip -q ${zipPath} -d ${TMP}/extracted`, {stdio: 'inherit'});
-  fs.rmSync(path.join(TMP, 'extracted/__MACOSX'), {
+  const extracted = path.join(TMP, 'extracted');
+  execFileSync('unzip', ['-q', zipPath, '-d', extracted], {stdio: 'inherit'});
+  fs.rmSync(path.join(extracted, '__MACOSX'), {
     recursive: true,
     force: true,
   });
@@ -129,7 +137,7 @@ const main = async (): Promise<void> => {
   }
 
   const files = fs
-    .readdirSync(path.join(TMP, 'extracted'), {recursive: true})
+    .readdirSync(extracted, {recursive: true})
     .map(String)
     .filter(keepFile);
 
@@ -149,7 +157,7 @@ const main = async (): Promise<void> => {
     seen.add(key);
     names[slug] ??= displayName(path.basename(rel));
 
-    const raw = fs.readFileSync(path.join(TMP, 'extracted', rel), 'utf8');
+    const raw = fs.readFileSync(path.join(extracted, rel), 'utf8');
     const {data} = optimize(raw, svgoConfig(slug));
     fs.writeFileSync(path.join(ASSETS, cat, `${slug}.svg`), data);
     written++;

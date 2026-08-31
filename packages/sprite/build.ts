@@ -11,8 +11,12 @@ const PKG = import.meta.dirname;
 const ASSETS = path.resolve(PKG, '../../assets');
 const DIST = path.join(PKG, 'dist');
 
-fs.rmSync(DIST, {recursive: true, force: true});
+// the build script runs tsup first and dist already holds the compiled core;
+// clear only the sprites so removed sets cannot linger as stale files
 fs.mkdirSync(DIST, {recursive: true});
+for (const file of fs.readdirSync(DIST)) {
+  if (file.endsWith('.svg')) fs.rmSync(path.join(DIST, file));
+}
 
 let total = 0;
 for (const style of STYLES) {

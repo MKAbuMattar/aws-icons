@@ -2,7 +2,7 @@
 
 [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) for Lit — a
 `<aws-icon>` LitElement plus template helpers, with tree-shakeable icon
-data. 805 icons in `architecture-group`, `architecture-service`, `category`, and `resource` sets.
+data. 805 icons in `architecture-group`, `architecture-service`, `category`, `resource`, and `resource-dark` sets.
 
 **Docs:** https://aws-icons.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@aws-icons/lit) · **All packages:** [@aws-icons](https://www.npmjs.com/org/aws-icons)
 

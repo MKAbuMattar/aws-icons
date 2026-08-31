@@ -1,7 +1,7 @@
 # @aws-icons/react
 
 [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) as tree-shakeable,
-typed React components — 805 icons in `architecture-group`, `architecture-service`, `category`, and `resource` sets.
+typed React components — 805 icons in `architecture-group`, `architecture-service`, `category`, `resource`, and `resource-dark` sets.
 
 Successor of the deprecated [`react-aws-icon`](https://www.npmjs.com/package/react-aws-icon) package. Dual ESM + CJS.
 
@@ -23,9 +23,9 @@ import {AmazonEc2} from '@aws-icons/react/architecture-service';
 <AmazonEc2 title="Amazon EC2" />          // accessible: role="img" + aria-label
 ```
 
-Styles: `@aws-icons/react/architecture-service`, `/architecture-group`, `/category`, `/resource`.
+Styles: `@aws-icons/react/architecture-service`, `/architecture-group`, `/category`, `/resource`, `/resource-dark`.
 Every component forwards its ref and accepts all `SVGProps<SVGSVGElement>`.
-Icon names are the PascalCased slug (`1st-place-medal` → `Icon1stPlaceMedal`).
+Icon names are the PascalCased slug (`amazon-ec2` → `AmazonEc2`).
 
 ## License
 

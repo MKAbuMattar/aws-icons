@@ -12,7 +12,8 @@ export type AwsIconData = {
     | 'architecture-group'
     | 'architecture-service'
     | 'category'
-    | 'resource';
+    | 'resource'
+    | 'resource-dark';
   attrs: Record<string, string>;
   html: string;
 };
@@ -46,8 +47,8 @@ export const iconHtml = (
  * Standalone directive rendering a registered icon into the host element.
  *
  * ```html
- * <span awsIcon="rocket"></span>
- * <span awsIcon="rocket" iconStyle="modern" iconLabel="Rocket"></span>
+ * <span awsIcon="amazon-ec2"></span>
+ * <span awsIcon="amazon-ec2" iconStyle="architecture-service" iconLabel="Amazon EC2"></span>
  * ```
  */
 @Directive({selector: '[awsIcon]', standalone: true})

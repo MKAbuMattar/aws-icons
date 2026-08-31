@@ -3,7 +3,7 @@ title: React Native
 description: Typed React Native components on react-native-svg.
 ---
 
-[AWS Architecture Icons](https://github.com/microsoft/fluentui-icon) as typed React Native components built on react-native-svg — 3,145 icons in 5 sets.
+[AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) as typed React Native components built on react-native-svg — 805 icons in 5 sets.
 
 ## Install
 
@@ -14,11 +14,15 @@ pnpm add @aws-icons/react-native
 ## Usage
 
 ```tsx
-import {Rocket} from "@aws-icons/react-native/flat";
+import {AmazonEc2} from '@aws-icons/react-native/architecture-service';
+// or per-icon (no barrel): import AmazonEc2 from '@aws-icons/react-native/resource/amazon-ec2-instance';
 
-<Rocket width={32} height={32} />
-<Rocket title="Rocket launch" />  // accessible label
+<AmazonEc2 width={32} height={32} />
+<AmazonEc2 title="Amazon EC2" />  // accessible label
 ```
 
+Sets: `@aws-icons/react-native/architecture-service`, `/architecture-group`, `/category`, `/resource`, `/resource-dark`.
 Requires the `react-native-svg` peer. Default size 24, override via props.
+Icon names are the PascalCased slug (`amazon-ec2` → `AmazonEc2`).
 
+AWS Architecture Icons are © Amazon Web Services, Inc., provided under the [AWS icon terms](https://aws.amazon.com/architecture/icons/).

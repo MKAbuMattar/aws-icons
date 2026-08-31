@@ -4,7 +4,8 @@ export type AwsIconData = {
     | 'architecture-group'
     | 'architecture-service'
     | 'category'
-    | 'resource';
+    | 'resource'
+    | 'resource-dark';
   attrs: Record<string, string>;
   html: string;
 };
@@ -42,17 +43,15 @@ type Expression =
  * Alpine plugin: `Alpine.plugin(awsIcon)`.
  *
  * ```html
- * <span x-aws-icon="'rocket'"></span>
- * <span x-aws-icon="{name: 'rocket', style: 'modern', label: 'Rocket'}"></span>
- * <span x-html="$awsIcon('rocket', 'flat')"></span>
+ * <span x-aws-icon="'amazon-ec2'"></span>
+ * <span x-aws-icon="{name: 'amazon-ec2', style: 'architecture-service', label: 'Amazon EC2'}"></span>
+ * <span x-html="$awsIcon('amazon-ec2', 'resource')"></span>
  * ```
  */
-// biome-ignore lint/suspicious/noExplicitAny: Alpine has no bundled types
 export default function awsIcon(Alpine: any): void {
   Alpine.magic('awsIcon', () => iconHtml);
   Alpine.directive(
     'aws-icon',
-    // biome-ignore lint/suspicious/noExplicitAny: Alpine directive signature
     (el: HTMLElement, {expression}: any, {evaluateLater, effect}: any) => {
       const getValue = evaluateLater(expression);
       effect(() =>

@@ -1,7 +1,7 @@
 /**
  * Generates one SVG symbol sprite per set: <symbol id="<slug>" viewBox=...>.
  * Copy the sprite into your static assets and reference icons with
- * <svg><use href="/sprites/flat.svg#rocket" /></svg>.
+ * <svg><use href="/sprites/architecture-service.svg#amazon-ec2" /></svg>.
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -11,6 +11,7 @@ const PKG = import.meta.dirname;
 const ASSETS = path.resolve(PKG, '../../assets');
 const DIST = path.join(PKG, 'dist');
 
+fs.rmSync(DIST, {recursive: true, force: true});
 fs.mkdirSync(DIST, {recursive: true});
 
 let total = 0;

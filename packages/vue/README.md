@@ -1,7 +1,7 @@
 # @aws-icons/vue
 
 [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) as tree-shakeable,
-typed Vue 3 components — 805 icons in `architecture-group`, `architecture-service`, `category`, and `resource` sets.
+typed Vue 3 components — 805 icons in `architecture-group`, `architecture-service`, `category`, `resource`, and `resource-dark` sets.
 Dual ESM + CJS.
 
 **Docs:** https://aws-icons.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@aws-icons/vue) · **All packages:** [@aws-icons](https://www.npmjs.com/org/aws-icons)
@@ -26,7 +26,7 @@ import {AmazonEc2} from '@aws-icons/vue/architecture-service';
 </template>
 ```
 
-Styles: `@aws-icons/vue/architecture-service`, `/architecture-group`, `/category`, `/resource`.
+Styles: `@aws-icons/vue/architecture-service`, `/architecture-group`, `/category`, `/resource`, `/resource-dark`.
 Extra attributes land on the root `<svg>`. Without `title` the icon is `aria-hidden`.
 
 ## License

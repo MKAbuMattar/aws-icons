@@ -2,7 +2,7 @@
 
 [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) for Alpine.js —
 an `x-aws-icon` directive and `$awsIcon` magic with tree-shakeable icon
-data. 805 icons in `architecture-group`, `architecture-service`, `category`, and `resource` sets.
+data. 805 icons in `architecture-group`, `architecture-service`, `category`, `resource`, and `resource-dark` sets.
 
 **Docs:** https://aws-icons.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@aws-icons/alpine) · **All packages:** [@aws-icons](https://www.npmjs.com/org/aws-icons)
 

@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 // @ts-expect-error generated at build time
 import {AmazonEc2} from '../dist/architecture-service/index.js';
 // @ts-expect-error generated at build time
-import ModernAmazonEc2 from '../dist/resource/icons/amazon-ec2-instance.js';
+import AmazonEc2Instance from '../dist/resource/icons/amazon-ec2-instance.js';
 
 const plain = AmazonEc2({}) as {type: unknown; props: Record<string, unknown>};
 assert.equal(plain.type, 'svg', 'renders an svg jsx node');
@@ -13,7 +13,7 @@ assert.ok(
   'body present',
 );
 
-const labeled = ModernAmazonEc2({title: 'AmazonEc2', class: 'x'}) as {
+const labeled = AmazonEc2Instance({title: 'AmazonEc2', class: 'x'}) as {
   props: Record<string, unknown>;
 };
 assert.equal(

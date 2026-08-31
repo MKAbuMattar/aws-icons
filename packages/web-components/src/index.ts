@@ -4,14 +4,15 @@ export type AwsIconData = {
     | 'architecture-group'
     | 'architecture-service'
     | 'category'
-    | 'resource';
+    | 'resource'
+    | 'resource-dark';
   attrs: Record<string, string>;
   html: string;
 };
 
 const registry = new Map<string, AwsIconData>();
 
-/** Makes an icon usable by name: `<aws-icon name="rocket" variant="flat">`. */
+/** Makes an icon usable by name: `<aws-icon name="amazon-ec2">`. */
 export const register = (...icons: AwsIconData[]): void => {
   for (const icon of icons) registry.set(`${icon.style}/${icon.slug}`, icon);
 };
@@ -35,12 +36,12 @@ const render = (el: HTMLElement, icon: AwsIconData | undefined): void => {
  * Defines the `<aws-icon>` custom element (browser only).
  *
  * ```html
- * <aws-icon name="rocket" variant="modern" label="Rocket"></aws-icon>
+ * <aws-icon name="amazon-ec2" variant="architecture-service" label="Amazon EC2"></aws-icon>
  * ```
  *
- * Icons resolve from the registry (`register(Rocket)`) or via the `icon`
- * property. `variant` defaults to `flat`; without `label` the svg is
- * aria-hidden.
+ * Icons resolve from the registry (`register(AmazonEc2)`) or via the `icon`
+ * property. `variant` defaults to `architecture-service`; without `label`
+ * the svg is aria-hidden.
  */
 export const defineAwsIcon = (tag = 'aws-icon'): void => {
   if (typeof HTMLElement === 'undefined') {

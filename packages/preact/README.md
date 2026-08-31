@@ -1,7 +1,7 @@
 # @aws-icons/preact
 
 [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) as tree-shakeable,
-typed Preact components — 805 icons in `architecture-group`, `architecture-service`, `category`, and `resource` sets.
+typed Preact components — 805 icons in `architecture-group`, `architecture-service`, `category`, `resource`, and `resource-dark` sets.
 Dual ESM + CJS. Preact 10+.
 
 **Docs:** https://aws-icons.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@aws-icons/preact) · **All packages:** [@aws-icons](https://www.npmjs.com/org/aws-icons)
@@ -22,7 +22,7 @@ import {AmazonEc2} from '@aws-icons/preact/architecture-service';
 <AmazonEc2 title="Amazon EC2" />  // accessible: role="img" + aria-label
 ```
 
-Styles: `@aws-icons/preact/architecture-service`, `/architecture-group`, `/category`, `/resource`.
+Styles: `@aws-icons/preact/architecture-service`, `/architecture-group`, `/category`, `/resource`, `/resource-dark`.
 Extra props land on the root `<svg>`. Without `title` the icon is `aria-hidden`.
 
 ## License

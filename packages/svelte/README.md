@@ -2,7 +2,7 @@
 
 [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) for Svelte 5 —
 tree-shakeable icon data plus a single `Icon` component. 805 icons in
-`architecture-group`, `architecture-service`, `category`, and `resource` sets.
+`architecture-group`, `architecture-service`, `category`, `resource`, and `resource-dark` sets.
 
 **Docs:** https://aws-icons.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@aws-icons/svelte) · **All packages:** [@aws-icons](https://www.npmjs.com/org/aws-icons)
 

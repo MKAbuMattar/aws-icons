@@ -5,16 +5,19 @@ import {spriteHref, spritePath} from '../src/index';
 
 const dist = path.resolve(import.meta.dirname, '../dist');
 
-const flat = fs.readFileSync(
+const sprite = fs.readFileSync(
   path.join(dist, 'architecture-service.svg'),
   'utf8',
 );
-assert.ok(flat.startsWith('<svg'), 'sprite is an svg');
+assert.ok(sprite.startsWith('<svg'), 'sprite is an svg');
 assert.ok(
-  flat.includes('<symbol id="amazon-ec2" viewBox="0 0 64 64">'),
-  'rocket symbol',
+  sprite.includes('<symbol id="amazon-ec2" viewBox="0 0 64 64">'),
+  'amazon-ec2 symbol',
 );
-assert.ok((flat.match(/<symbol /g) ?? []).length > 250, 'all symbols present');
+assert.ok(
+  (sprite.match(/<symbol /g) ?? []).length > 250,
+  'all symbols present',
+);
 
 assert.equal(
   spriteHref('/sprites/architecture-service.svg', 'amazon-ec2'),

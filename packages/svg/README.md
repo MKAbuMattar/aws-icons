@@ -1,7 +1,7 @@
 # @aws-icons/svg
 
 [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) as optimized SVGs —
-805 icons in `architecture-group`, `architecture-service`, `category`, and `resource` sets — with typed metadata.
+805 icons in `architecture-group`, `architecture-service`, `category`, `resource`, and `resource-dark` sets — with typed metadata.
 
 Successor of the deprecated [`aws-icon`](https://www.npmjs.com/package/aws-icon) package.
 
@@ -19,14 +19,14 @@ pnpm add @aws-icons/svg
 import {metadata, getIcon, getIconPath} from '@aws-icons/svg';
 import type {IconSlug, IconCategory} from '@aws-icons/svg';
 
-getIcon('amazon-ec2');                 // {slug: 'amazon-ec2', name: 'AmazonEc2', styles: [...]}
+getIcon('amazon-ec2');                 // {slug: 'amazon-ec2', name: 'Amazon EC2', styles: [...]}
 getIconPath('amazon-ec2', 'architecture-service');     // '@aws-icons/svg/icons/architecture-service/amazon-ec2.svg'
 ```
 
 Import an SVG directly (bundler):
 
 ```ts
-import amazon-ec2 from '@aws-icons/svg/icons/architecture-service/amazon-ec2.svg';
+import AmazonEc2 from '@aws-icons/svg/icons/architecture-service/amazon-ec2.svg';
 ```
 
 Or grab the raw metadata: `import meta from '@aws-icons/svg/metadata.json'`.

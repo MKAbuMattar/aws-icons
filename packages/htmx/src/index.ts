@@ -42,7 +42,7 @@ const SLUG = /^[a-z0-9-]+$/;
  * app.use(awsIconHandler());   // GET /aws-icons/:style/:slug?label=...
  * ```
  * ```html
- * <span hx-get="/aws-icons/flat/rocket" hx-trigger="load"></span>
+ * <span hx-get="/aws-icons/architecture-service/amazon-ec2" hx-trigger="load"></span>
  * ```
  */
 export const awsIconHandler = ({prefix = '/aws-icons'} = {}) => {

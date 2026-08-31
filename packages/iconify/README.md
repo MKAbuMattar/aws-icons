@@ -1,6 +1,6 @@
 # @aws-icons/iconify
 
-[AWS Architecture Icons](https://github.com/microsoft/fluentui-icon) as Iconify JSON collections — drop into unplugin-icons, the Tailwind Iconify plugin, or any Iconify component — 3,145 icons in 5 sets.
+[AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) as Iconify JSON collections — drop into unplugin-icons, the Tailwind Iconify plugin, or any Iconify component — 805 icons in `architecture-group`, `architecture-service`, `category`, `resource`, and `resource-dark` sets.
 
 **Docs:** https://aws-icons.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@aws-icons/iconify) · **All packages:** [@aws-icons](https://www.npmjs.com/org/aws-icons)
 
@@ -23,12 +23,14 @@ Icons({customCollections: ExternalPackageIconLoader("@aws-icons/iconify")});
 ```ts
 // or register manually with any Iconify component:
 import {addCollection} from "@iconify/react";
-import flat from "@aws-icons/iconify/flat.json";
-addCollection(flat);
-// <Icon icon="aws-icons-flat:rocket" />
+import service from "@aws-icons/iconify/architecture-service.json";
+addCollection(service);
+// <Icon icon="aws-icons-architecture-service:amazon-ec2" />
 ```
+
+One JSON collection per set: `./architecture-group.json`, `./architecture-service.json`, `./category.json`, `./resource.json`, `./resource-dark.json`. Collection prefixes follow `aws-icons-<set>`.
 
 ## License
 
 [MIT](https://github.com/MKAbuMattar/aws-icons/blob/main/LICENSE).
-Emoji assets © Microsoft, [MIT licensed](https://github.com/microsoft/fluentui-icon/blob/main/LICENSE).
+AWS Architecture Icons are © Amazon Web Services, Inc., provided under the [AWS icon terms](https://aws.amazon.com/architecture/icons/).

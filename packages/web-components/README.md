@@ -1,8 +1,7 @@
 # @aws-icons/web-components
 
 [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) as a framework-less
-`<aws-icon>` custom element — 805 icons in `flat`, `high-contrast`, and
-`modern` styles. Works in any page, any framework, no build required.
+`<aws-icon>` custom element — 805 icons in `architecture-group`, `architecture-service`, `category`, `resource`, and `resource-dark` sets. Works in any page, any framework, no build required.
 
 **Docs:** https://aws-icons.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@aws-icons/web-components) · **All packages:** [@aws-icons](https://www.npmjs.com/org/aws-icons)
 

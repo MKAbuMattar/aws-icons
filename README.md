@@ -10,7 +10,7 @@ automated releases.
 
 | Package | Description | npm |
 |---|---|---|
-| [`@aws-icons/svg`](packages/svg) | Optimized SVGs (4 icon sets) + typed metadata | [npm](https://www.npmjs.com/package/@aws-icons/svg) |
+| [`@aws-icons/svg`](packages/svg) | Optimized SVGs (5 icon sets) + typed metadata | [npm](https://www.npmjs.com/package/@aws-icons/svg) |
 | [`@aws-icons/react`](packages/react) | Tree-shakeable typed React components | [npm](https://www.npmjs.com/package/@aws-icons/react) |
 | [`@aws-icons/preact`](packages/preact) | Tree-shakeable typed Preact components | [npm](https://www.npmjs.com/package/@aws-icons/preact) |
 | [`@aws-icons/vue`](packages/vue) | Tree-shakeable typed Vue 3 components | [npm](https://www.npmjs.com/package/@aws-icons/vue) |
@@ -33,7 +33,7 @@ automated releases.
 - `beta` — pre-releases from the `next` branch (`x.y.z-beta.N`)
 - `canary` — snapshot of every `main` merge (`@aws-icons/react@canary`)
 
-New upstream icon land automatically: a weekly workflow syncs
+New upstream icon land automatically: a monthly workflow syncs
 the official AWS Architecture Icons package, opens a PR, and merging it rides the release train.
 No release step in this repo is manual.
 

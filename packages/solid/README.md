@@ -1,7 +1,7 @@
 # @aws-icons/solid
 
 [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) as tree-shakeable,
-typed SolidJS components — 805 icons in `architecture-group`, `architecture-service`, `category`, and `resource` sets.
+typed SolidJS components — 805 icons in `architecture-group`, `architecture-service`, `category`, `resource`, and `resource-dark` sets.
 Ships DOM, SSR, and `solid`-condition JSX source builds.
 
 **Docs:** https://aws-icons.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@aws-icons/solid) · **All packages:** [@aws-icons](https://www.npmjs.com/org/aws-icons)
@@ -22,7 +22,7 @@ import {AmazonEc2} from '@aws-icons/solid/architecture-service';
 <AmazonEc2 title="Amazon EC2" />  // accessible: role="img" + aria-label
 ```
 
-Styles: `@aws-icons/solid/architecture-service`, `/architecture-group`, `/category`, `/resource`.
+Styles: `@aws-icons/solid/architecture-service`, `/architecture-group`, `/category`, `/resource`, `/resource-dark`.
 Extra props land on the root `<svg>`. Without `title` the icon is `aria-hidden`.
 
 ## License

@@ -3,20 +3,17 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 // react-native-svg needs a native runtime, so this asserts the generated
-// output instead of rendering. The core compiles under tsc in CI.
+// output instead of rendering.
 const dist = path.resolve(import.meta.dirname, '../dist');
 
-const rocket = fs.readFileSync(
+const icon = fs.readFileSync(
   path.join(dist, 'architecture-service/icons/amazon-ec2.js'),
   'utf8',
 );
-assert.ok(
-  rocket.includes("createAwsIcon} from '../../core.js'"),
-  'imports core',
-);
-assert.ok(rocket.includes('createAwsIcon("AmazonEc2"'), 'named factory call');
-assert.ok(rocket.includes('<svg'), 'carries full svg xml');
-assert.ok(rocket.includes('export default AmazonEc2'), 'default export');
+assert.ok(icon.includes("createAwsIcon} from '../../core.js'"), 'imports core');
+assert.ok(icon.includes('createAwsIcon("AmazonEc2"'), 'named factory call');
+assert.ok(icon.includes('<svg'), 'carries full svg xml');
+assert.ok(icon.includes('export default AmazonEc2'), 'default export');
 
 const dts = fs.readFileSync(
   path.join(dist, 'architecture-service/icons/amazon-ec2.d.ts'),

@@ -1,7 +1,7 @@
-import {type FunctionComponent, h, type JSX} from 'preact';
+import {type FunctionComponent, h, type SVGAttributes} from 'preact';
 
 export type AwsIconProps = Omit<
-  JSX.SVGAttributes<SVGSVGElement>,
+  SVGAttributes<SVGSVGElement>,
   'dangerouslySetInnerHTML'
 > & {
   /** Accessible label. Without it the icon is aria-hidden (decorative). */

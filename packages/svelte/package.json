@@ -92,8 +92,8 @@
     "access": "public"
   },
   "devDependencies": {
-    "svelte": "^5.57.0",
-    "tsx": "^4.23.12",
+    "svelte": "^5.57.1",
+    "tsx": "^4.23.15",
     "typescript": "^5.9.3"
   },
   "engines": {

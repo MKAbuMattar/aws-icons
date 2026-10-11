@@ -1,0 +1,47 @@
+---
+title: Other frameworks
+description: Every stack is covered by one of the framework-agnostic packages.
+---
+
+No dedicated package for your stack? One of the framework-agnostic routes below
+covers it — pick by how your framework consumes UI.
+
+## Web components (Stencil, FAST, Ember, Aurelia, Marko, ...)
+
+Anything that renders standard custom elements works with
+[`@aws-icons/web-components`](./web-components/) — register your icons, define the
+element once, and use it in any template language:
+
+```html
+<aws-icon name="amazon-ec2" variant="architecture-service"></aws-icon>
+```
+
+## Server-driven HTML (htmx, Unpoly, Turbo, Datastar)
+
+The [`@aws-icons/htmx`](./htmx/) handler is not htmx-specific — it serves plain
+SVG fragments over HTTP, which all fragment-swapping libraries consume:
+
+```html
+<!-- htmx -->      <span hx-get="/aws-icons/architecture-service/amazon-ec2" hx-trigger="load"></span>
+<!-- Unpoly -->    <a up-target=".icon" href="/aws-icons/architecture-service/amazon-ec2">load</a>
+<!-- Datastar -->  <span data-on-load="@get('/aws-icons/architecture-service/amazon-ec2')"></span>
+```
+
+## Anything Iconify supports (and that is almost everything)
+
+[`@aws-icons/iconify`](./iconify/) plugs the icons into unplugin-icons, the
+Tailwind Iconify plugin, Iconify's web component, and every framework Iconify
+integrates with.
+
+## React-compatible libraries (Inferno, ...)
+
+[`@aws-icons/react`](./react/) works unchanged through compatibility layers such
+as `inferno-compat`.
+
+## Legacy stacks (Backbone, Knockout, jQuery, plain HTML)
+
+Use the [sprite sheets](./sprite/) or hotlink the [CDN](../cdn/):
+
+```html
+<svg width="32" height="32"><use href="/sprites/architecture-service.svg#amazon-ec2" /></svg>
+```

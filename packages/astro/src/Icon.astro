@@ -3,9 +3,9 @@ import type {IconCategory, IconSlug} from '@aws-icons/svg';
 import {loadIconSvg} from './load.js';
 
 interface Props {
-  /** Icon slug, e.g. "rocket" */
+  /** Icon slug, e.g. "amazon-ec2" */
   name: IconSlug;
-  /** Icon style — "flat" (default), "high-contrast", or "modern" */
+  /** Icon set — "architecture-service" (default), "architecture-group", "category", "resource", or "resource-dark" */
   variant?: IconCategory;
   /** Accessible label; without it the icon is aria-hidden (decorative) */
   title?: string;

@@ -1,7 +1,7 @@
 {
   "name": "@aws-icons/svelte",
-  "version": "4.0.0-beta.0",
-  "description": "AWS Architecture Icons for Svelte 5 — tree-shakeable icon data plus a single Icon component (flat, high-contrast, modern).",
+  "version": "4.1.0",
+  "description": "AWS Architecture Icons for Svelte 5 — tree-shakeable icon data plus a single Icon component (5 icon sets).",
   "keywords": [
     "aws",
     "icon",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MKAbuMattar/aws-icons.git",
+    "url": "git+https://github.com/MKAbuMattar/aws-icons.git",
     "directory": "packages/svelte"
   },
   "bugs": {
@@ -63,10 +63,19 @@
       "types": "./dist/resource/index.d.ts",
       "default": "./dist/resource/index.js"
     },
+    "./resource-dark": {
+      "types": "./dist/resource-dark/index.d.ts",
+      "default": "./dist/resource-dark/index.js"
+    },
     "./resource/*": {
       "types": "./dist/resource/icons/*.d.ts",
       "default": "./dist/resource/icons/*.js"
-    }
+    },
+    "./resource-dark/*": {
+      "types": "./dist/resource-dark/icons/*.d.ts",
+      "default": "./dist/resource-dark/icons/*.js"
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist",
@@ -83,8 +92,11 @@
     "access": "public"
   },
   "devDependencies": {
-    "svelte": "^5.0.0",
-    "tsx": "^4.23.11",
+    "svelte": "^5.57.1",
+    "tsx": "^4.23.15",
     "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

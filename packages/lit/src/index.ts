@@ -8,14 +8,15 @@ export type AwsIconData = {
     | 'architecture-group'
     | 'architecture-service'
     | 'category'
-    | 'resource';
+    | 'resource'
+    | 'resource-dark';
   attrs: Record<string, string>;
   html: string;
 };
 
 const registry = new Map<string, AwsIconData>();
 
-/** Makes icons usable by name: `<aws-icon name="rocket">`. */
+/** Makes icons usable by name: `<aws-icon name="amazon-ec2">`. */
 export const register = (...icons: AwsIconData[]): void => {
   for (const icon of icons) registry.set(`${icon.style}/${icon.slug}`, icon);
 };
@@ -32,7 +33,7 @@ export const iconSvg = (icon: AwsIconData, label?: string): string => {
   return `<svg${attrs} role="img"${aria}>${icon.html}</svg>`;
 };
 
-/** For use inside your own `html` templates: `${iconTemplate(Rocket)}`. */
+/** For use inside your own `html` templates: `${iconTemplate(AmazonEc2)}`. */
 export const iconTemplate = (
   icon: AwsIconData,
   label?: string,

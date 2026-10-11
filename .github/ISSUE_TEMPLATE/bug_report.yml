@@ -1,0 +1,45 @@
+name: Bug report
+description: Something in a @aws-icons/* package is wrong or broken.
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: package
+    attributes:
+      label: Package
+      options:
+        - @aws-icons/svg
+        - @aws-icons/react
+        - @aws-icons/preact
+        - @aws-icons/vue
+        - @aws-icons/solid
+        - @aws-icons/svelte
+        - @aws-icons/astro
+        - @aws-icons/angular
+        - @aws-icons/lit
+        - @aws-icons/web-components
+        - @aws-icons/alpine
+        - @aws-icons/htmx
+        - The docs site
+        - Other / repo tooling
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: "e.g. 4.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, what happened instead? Include the import statement and a minimal snippet.
+    validations:
+      required: true
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment
+      placeholder: "bundler + version, framework + version, node version"

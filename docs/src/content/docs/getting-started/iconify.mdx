@@ -1,0 +1,34 @@
+---
+title: Iconify
+description: AWS Architecture Icons as Iconify JSON collections.
+---
+
+[AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) as Iconify JSON collections — drop into unplugin-icons, the Tailwind Iconify plugin, or any Iconify component — 805 icons in 5 sets.
+
+## Install
+
+```sh
+pnpm add @aws-icons/iconify
+```
+
+## Usage
+
+```ts
+// unplugin-icons (vite.config.ts)
+import Icons from "unplugin-icons/vite";
+import {ExternalPackageIconLoader} from "unplugin-icons/loaders";
+
+Icons({customCollections: ExternalPackageIconLoader("@aws-icons/iconify")});
+```
+
+```ts
+// or register manually with any Iconify component:
+import {addCollection} from "@iconify/react";
+import service from "@aws-icons/iconify/architecture-service.json";
+addCollection(service);
+// <Icon icon="aws-icons-architecture-service:amazon-ec2" />
+```
+
+One JSON collection per set: `./architecture-group.json`, `./architecture-service.json`, `./category.json`, `./resource.json`, `./resource-dark.json`. Collection prefixes follow `aws-icons-<set>`.
+
+AWS Architecture Icons are © Amazon Web Services, Inc., provided under the [AWS icon terms](https://aws.amazon.com/architecture/icons/).

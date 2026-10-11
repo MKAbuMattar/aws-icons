@@ -2,20 +2,22 @@
   "mode": "pre",
   "tag": "beta",
   "initialVersions": {
-    "@aws-icons/alpine": "3.3.0",
-    "@aws-icons/angular": "3.3.0",
-    "@aws-icons/astro": "3.3.0",
-    "@aws-icons/htmx": "3.3.0",
-    "@aws-icons/lit": "3.3.0",
-    "@aws-icons/preact": "3.3.0",
-    "@aws-icons/react": "3.3.0",
-    "@aws-icons/solid": "3.3.0",
-    "@aws-icons/svelte": "3.3.0",
-    "@aws-icons/svg": "3.3.0",
-    "@aws-icons/vue": "3.3.0",
-    "@aws-icons/web-components": "3.3.0"
+    "@aws-icons/alpine": "4.1.0",
+    "@aws-icons/angular": "4.1.0",
+    "@aws-icons/astro": "4.1.0",
+    "@aws-icons/htmx": "4.1.0",
+    "@aws-icons/iconify": "4.1.0",
+    "@aws-icons/lit": "4.1.0",
+    "@aws-icons/preact": "4.1.0",
+    "@aws-icons/qwik": "4.1.0",
+    "@aws-icons/react": "4.1.0",
+    "@aws-icons/react-native": "4.1.0",
+    "@aws-icons/solid": "4.1.0",
+    "@aws-icons/sprite": "4.1.0",
+    "@aws-icons/svelte": "4.1.0",
+    "@aws-icons/svg": "4.1.1",
+    "@aws-icons/vue": "4.1.0",
+    "@aws-icons/web-components": "4.1.0"
   },
-  "changesets": [
-    "monorepo-v4"
-  ]
+  "changesets": []
 }

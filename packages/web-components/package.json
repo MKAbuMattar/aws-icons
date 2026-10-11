@@ -1,7 +1,7 @@
 {
   "name": "@aws-icons/web-components",
-  "version": "4.0.0-beta.0",
-  "description": "AWS Architecture Icons as a framework-less <aws-icon> custom element with tree-shakeable icon data (flat, high-contrast, modern).",
+  "version": "4.1.0",
+  "description": "AWS Architecture Icons as a framework-less <aws-icon> custom element with tree-shakeable icon data (5 icon sets).",
   "keywords": [
     "aws",
     "icon",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MKAbuMattar/aws-icons.git",
+    "url": "git+https://github.com/MKAbuMattar/aws-icons.git",
     "directory": "packages/web-components"
   },
   "bugs": {
@@ -63,10 +63,19 @@
       "types": "./dist/resource/index.d.ts",
       "default": "./dist/resource/index.js"
     },
+    "./resource-dark": {
+      "types": "./dist/resource-dark/index.d.ts",
+      "default": "./dist/resource-dark/index.js"
+    },
     "./resource/*": {
       "types": "./dist/resource/icons/*.d.ts",
       "default": "./dist/resource/icons/*.js"
-    }
+    },
+    "./resource-dark/*": {
+      "types": "./dist/resource-dark/icons/*.d.ts",
+      "default": "./dist/resource-dark/icons/*.js"
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist"
@@ -79,9 +88,12 @@
     "access": "public"
   },
   "devDependencies": {
-    "happy-dom": "^20.0.11",
+    "happy-dom": "^20.14.5",
     "tsup": "^8.5.0",
-    "tsx": "^4.23.11",
+    "tsx": "^4.23.15",
     "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "@aws-icons/angular",
-  "version": "4.0.0-beta.0",
-  "description": "AWS Architecture Icons for Angular — a standalone awsIcon directive with tree-shakeable icon data (flat, high-contrast, modern).",
+  "version": "4.1.0",
+  "description": "AWS Architecture Icons for Angular — a standalone awsIcon directive with tree-shakeable icon data (5 icon sets).",
   "keywords": [
     "aws",
     "icon",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MKAbuMattar/aws-icons.git",
+    "url": "git+https://github.com/MKAbuMattar/aws-icons.git",
     "directory": "packages/angular"
   },
   "bugs": {
@@ -62,10 +62,19 @@
       "types": "./dist/resource/index.d.ts",
       "default": "./dist/resource/index.js"
     },
+    "./resource-dark": {
+      "types": "./dist/resource-dark/index.d.ts",
+      "default": "./dist/resource-dark/index.js"
+    },
     "./resource/*": {
       "types": "./dist/resource/icons/*.d.ts",
       "default": "./dist/resource/icons/*.js"
-    }
+    },
+    "./resource-dark/*": {
+      "types": "./dist/resource-dark/icons/*.d.ts",
+      "default": "./dist/resource-dark/icons/*.js"
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "lib",
@@ -82,16 +91,19 @@
     "access": "public"
   },
   "devDependencies": {
-    "@angular/compiler": "^22.1.1",
-    "@angular/compiler-cli": "^22.1.1",
-    "@angular/core": "^22.1.1",
-    "ng-packagr": "^22.1.1",
+    "@angular/compiler": "^22.2.1",
+    "@angular/compiler-cli": "^22.2.1",
+    "@angular/core": "^22.2.1",
+    "ng-packagr": "^22.2.4",
     "rxjs": "^7.8.2",
-    "tsx": "^4.23.11",
+    "tsx": "^4.23.15",
     "typescript": "~6.0.3",
-    "zone.js": "^0.15.1"
+    "zone.js": "^0.16.3"
   },
   "dependencies": {
     "tslib": "^2.8.1"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

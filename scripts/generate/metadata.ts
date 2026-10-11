@@ -13,6 +13,7 @@ const STYLES = [
   'architecture-service',
   'category',
   'resource',
+  'resource-dark',
 ] as const;
 
 const names: Record<string, string> = JSON.parse(

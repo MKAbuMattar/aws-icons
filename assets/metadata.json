@@ -4,14 +4,16 @@
     "architecture-group",
     "architecture-service",
     "category",
-    "resource"
+    "resource",
+    "resource-dark"
   ],
   "icons": [
     {
       "slug": "alert",
       "name": "Alert",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
@@ -2350,7 +2352,8 @@
       "slug": "authenticated-user",
       "name": "Authenticated User",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
@@ -4241,7 +4244,8 @@
       "name": "AWS Management Console",
       "styles": [
         "architecture-service",
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
@@ -5039,21 +5043,24 @@
       "slug": "camera",
       "name": "Camera",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
       "slug": "chat",
       "name": "Chat",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
       "slug": "client",
       "name": "Client",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
@@ -5067,7 +5074,8 @@
       "slug": "cold-storage",
       "name": "Cold Storage",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
@@ -5095,7 +5103,8 @@
       "slug": "credentials",
       "name": "Credentials",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
@@ -5116,21 +5125,24 @@
       "slug": "data-stream",
       "name": "Data Stream",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
       "slug": "data-table",
       "name": "Data Table",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
       "slug": "database",
       "name": "Database",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
@@ -5151,21 +5163,24 @@
       "slug": "disk",
       "name": "Disk",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
       "slug": "document",
       "name": "Document",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
       "slug": "documents",
       "name": "Documents",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
@@ -5221,7 +5236,8 @@
       "slug": "email",
       "name": "Email",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
@@ -5235,28 +5251,32 @@
       "slug": "firewall",
       "name": "Firewall",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
       "slug": "folder",
       "name": "Folder",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
       "slug": "folders",
       "name": "Folders",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
       "slug": "forums",
       "name": "Forums",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
@@ -5284,49 +5304,56 @@
       "slug": "gear",
       "name": "Gear",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
       "slug": "generic-application",
       "name": "Generic Application",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
       "slug": "git-repository",
       "name": "Git Repository",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
       "slug": "globe",
       "name": "Globe",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
       "slug": "internet",
       "name": "Internet",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
       "slug": "internet-alt1",
       "name": "Internet alt1",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
       "slug": "internet-alt2",
       "name": "Internet alt2",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
@@ -5340,21 +5367,24 @@
       "slug": "json-script",
       "name": "JSON Script",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
       "slug": "logs",
       "name": "Logs",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
       "slug": "magnifying-glass",
       "name": "Magnifying Glass",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
@@ -5375,7 +5405,8 @@
       "slug": "metrics",
       "name": "Metrics",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
@@ -5389,7 +5420,8 @@
       "slug": "mobile-client",
       "name": "Mobile client",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
@@ -5403,7 +5435,8 @@
       "slug": "multimedia",
       "name": "Multimedia",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
@@ -5417,7 +5450,8 @@
       "slug": "office-building",
       "name": "Office building",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
@@ -5445,7 +5479,8 @@
       "slug": "programming-language",
       "name": "Programming Language",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
@@ -5473,14 +5508,16 @@
       "slug": "question",
       "name": "Question",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
       "slug": "recover",
       "name": "Recover",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
@@ -5508,7 +5545,8 @@
       "slug": "saml-token",
       "name": "SAML token",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
@@ -5529,7 +5567,8 @@
       "slug": "sdk",
       "name": "SDK",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
@@ -5543,7 +5582,8 @@
       "slug": "server",
       "name": "Server",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
@@ -5564,21 +5604,24 @@
       "slug": "servers",
       "name": "Servers",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
       "slug": "shield",
       "name": "Shield",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
       "slug": "source-code",
       "name": "Source Code",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
@@ -5592,7 +5635,8 @@
       "slug": "ssl-padlock",
       "name": "SSL padlock",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
@@ -5606,7 +5650,8 @@
       "slug": "tape-storage",
       "name": "Tape storage",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
@@ -5620,21 +5665,24 @@
       "slug": "toolkit",
       "name": "Toolkit",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
       "slug": "user",
       "name": "User",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {
       "slug": "users",
       "name": "Users",
       "styles": [
-        "resource"
+        "resource",
+        "resource-dark"
       ]
     },
     {

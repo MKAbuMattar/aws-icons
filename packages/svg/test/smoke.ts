@@ -10,6 +10,7 @@ assert.deepEqual(metadata.styles, [
   'architecture-service',
   'category',
   'resource',
+  'resource-dark',
 ]);
 
 assert.equal(getIcon('amazon-ec2')?.name, 'Amazon EC2');

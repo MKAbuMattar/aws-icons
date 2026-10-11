@@ -26,5 +26,6 @@ export const createAwsIcon = (
       />
     );
   };
+  (Component as {displayName?: string}).displayName = name;
   return Component;
 };

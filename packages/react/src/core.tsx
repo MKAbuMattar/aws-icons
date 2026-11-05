@@ -18,6 +18,7 @@ export const createAwsIcon = (
   attrs: Record<string, string>,
   html: string,
 ): AwsIconComponent => {
+  // biome-ignore lint/correctness/noComponentHookFactories: runs once per icon at module load, so the component identity is stable
   const Component = forwardRef<SVGSVGElement, AwsIconProps>(
     ({title, ...props}, ref) =>
       createElement('svg', {

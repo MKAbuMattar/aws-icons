@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@astrojs/react": "^7.1.0",
-    "@astrojs/starlight": "^0.42.6",
+    "@astrojs/starlight": "^0.42.10",
     "@aws-icons/astro": "workspace:*",
     "@aws-icons/react": "workspace:*",
     "@aws-icons/svg": "workspace:*",

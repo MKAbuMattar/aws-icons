@@ -158,7 +158,7 @@
   },
   "devDependencies": {
     "preact": "^11.2.0",
-    "preact-render-to-string": "^6.8.2",
+    "preact-render-to-string": "^6.8.3",
     "tsup": "^9.0.0",
     "tsx": "^4.23.15",
     "typescript": "^5.9.3"
